@@ -541,6 +541,7 @@
     <string name="set_icon_columns_in_drawer">Set the number of icon columns in the drawer</string>
     
     <string name="launcher_layout_related">Desktop Layout Related</string>
+    <string name="disable_assistant_button_below_launcher">Disable the voice assistant button below the desktop</string>
     <string name="custom_desktop_default_home_page">Custom desktop default home page</string>
     <string name="enable_docker_background">Enable Docker background display</string>
     <string name="force_enable_docker_background_blur">Force enable Docker background blur</string>

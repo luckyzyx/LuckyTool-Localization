@@ -476,6 +476,7 @@
     <string name="set_icon_columns_in_drawer">设置抽屉图标列数</string>
     <string name="launcher_layout_related">桌面布局相关</string>
     
+    <string name="disable_assistant_button_below_launcher">禁用桌面下方小布助手按钮</string>
     <string name="custom_desktop_default_home_page">自定义桌面默认主页</string>
     <string name="enable_docker_background">启用Docker背景显示</string>
     <string name="force_enable_docker_background_blur">强制启用Docker背景模糊</string>
