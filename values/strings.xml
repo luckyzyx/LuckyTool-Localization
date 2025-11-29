@@ -515,6 +515,7 @@
     <string name="disable_pagination_component_sliding">Disable pagination component sliding</string>
     
     <string name="RecentTaskListRelated">Recent task list related</string>
+    <string name="enable_recent_task_pin_capsule">Enable recent tasks to be pinned to capsule</string>
     <string name="force_enable_recent_task_memory_display">Force enable recent task memory display</string>
     <string name="disable_auto_switch_last_task">Disable automatic switching to the last task</string>
     <string name="enable_stacked_task_layout">Enable stacked task layout</string>
