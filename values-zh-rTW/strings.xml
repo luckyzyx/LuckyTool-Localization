@@ -907,6 +907,7 @@
     <string name="remove_always_allow_app_start_list">移除始终允许启动应用列表</string>
     <string name="auto_unlock_app_ecm_permission_restrict">自动解锁应用权限管理授权限制</string>
     <string name="force_enable_iphone_shared_support">强制启用iPhone互联</string>
+    <string name="remove_word_limit_for_saving_files">移除文件保存字数限制</string>
     <string name="skip_startup_page">跳过启动页</string>
     <string name="vip_download">下载原图</string>
     <!--AlphaBackupPro-->

@@ -1057,6 +1057,9 @@
     <!--OplusLinker-->
     <string name="force_enable_iphone_shared_support">Force enable iPhone shared support</string>
     
+    <!--OplusFileManager-->
+    <string name="remove_word_limit_for_saving_files">Remove the word limit for saving files</string>
+
     <!--Everyimage-->
     <string name="skip_startup_page">Skip startup page</string>
     <string name="vip_download">Download original</string>
