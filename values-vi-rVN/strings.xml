@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name" translatable="false">LuckyTool</string>								   
     <!-- Application -->
     <string name="xposeddescription">Module Xposed cho tiện ích mở rộng và tối ưu hóa ColorOS, miễn phí vĩnh viễn\nCấm chia sẻ, sao chép, ăn cắp và các mục đích sử dụng bất hợp pháp khác\nNhà phát triển: Yiqingming, luckyzyx</string>
+    <string name="sharedUserLabel" translatable="false">Nguời dùng LuckyTool</string>
     <!-- Nav Menu -->
     <string name="nav_function">Chức năng</string>
     <string name="nav_home">Trang chủ</string>
@@ -18,6 +20,7 @@
     <string name="follow_system">Theo hệ thống</string>
     <string name="dark_theme_off">Luôn tắt</string>
     <string name="dark_theme_on">Luôn bật</string>
+    <string name="dark_theme_follow_system" translatable="false">@string/follow_system</string>
     <string name="language">Ngôn ngữ</string>
     <string name="privacy_agreement">Thỏa thuận bảo mật</string>
     <string name="auto_check_update">Tự động kiểm tra cập nhật</string>
@@ -25,7 +28,8 @@
     <string name="enable_biometric_unlock_verification">Bật xác minh mở khóa bằng sinh trắc học</string>
     <string name="tile_auto_start">Cho phép các ô tích hợp tự động bắt đầu</string>
     <string name="tile_auto_start_summary">Chức năng ô đã bật sẽ tự động được kích hoạt sau khi màn hình được mở khóa\nNếu kích hoạt không thành công, vui lòng khởi động lại phạm vi và kiểm tra quyền Root</string>
-    <string name="read_agreement">Bạn cần đọc và đồng ý với các nội dung sau trước khi có thể sử dụng mô-đun này</string>
+	
+    <string name="read_agreement">Bạn cần đọc và đồng ý với các nội dung sau trước khi có thể sử dụng mô-đun này</string>							 
     <string name="clear_all_data">Xóa tất cả dữ liệu</string>
     <string name="clear_all_data_summary">Xóa tất cả dữ liệu chức năng trong mô-đun</string>
     <string name="clear_all_data_message">Đảm bảo rằng bạn muốn xóa tất cả dữ liệu chức năng của mô-đun và bạn cần đặt lại chức năng sau khi xóa?</string>
@@ -57,8 +61,11 @@
     <string name="donate">Ủng hộ</string>
     <string name="donate_message">Hãy chắc chắn ghi chú tên gọi hoặc ID của bạn khi quyên góp</string>
     <string name="donate_summary">Đóng góp của bạn sẽ là động lực để chúng tôi cập nhật mô-đun</string>
+	<string name="qq" translatable="false">QQ</string>									 
     <string name="wechat">WeChat</string>
     <string name="alipay">AliPay</string>
+	<string name="patreon" translatable="false">Patreon</string>
+    <string name="paypal" translatable="false">PayPal</string>
     <string name="donation_list">Danh sách ủng hộ</string>
     <string name="feedback_download">Phản hồi và tải</string>
     <string name="feedback_download_summary">Kênh TG, Nhóm, Repositories, v. v.</string>
@@ -110,6 +117,8 @@
     <string name="version">Phiên bản</string>
     <!--Android-->
     <string name="remove_gms_usage_restrictions">Xóa bỏ hạn chế sử dụng GMS</string>
+	<string name="custom_remote_provisioning_hostname">Tuỳ chỉnh tên máy chủ cung cấp từ xa</string>
+    <string name="custom_remote_provisioning_hostname_summary">Đặt máy chủ proxy được sử dụng để lấy chứng chỉ xác thực</string>
     <string name="replace_system_root_state_detection">Thay thế phát hiện trạng thái root của hệ thống</string>
     <string name="allow_untrusted_touch">Cho phép chạm không đáng tin cậy</string>
     <string name="allow_untrusted_touch_summary">Giải quyết vấn đề một số cửa sổ hoặc trang bị chặn không thể chạm vào</string>
@@ -164,6 +173,11 @@
     <string name="statusbar_clock_custom_format">Định dạng đồng hồ</string>
     <string name="statusbar_clock_custom_fontsize">Kích thước phông chữ đồng hồ</string>
     <string name="statusbar_clock_custom_minimum_width">Chiều rộng tối thiểu của đồng hồ</string>
+	<string name="statusbar_clock_custom_padding">Tuỳ chỉnh khoảng cách đồng hồ</string>
+    <string name="statusbar_clock_custom_top_padding">Khoảng cách đồng hồ trên</string>
+    <string name="statusbar_clock_custom_bottom_padding">Khoảng cách đồng hồ dưới</string>
+    <string name="statusbar_clock_custom_left_padding">Khoảng cách đồng hồ trái</string>
+    <string name="statusbar_clock_custom_right_padding">Khoảng cách đồng hồ phải</string>
     <string name="statusbar_clock_if_zero_summary">Nếu 0, tùy chọn này sẽ không được sửa đổi</string>
     <!-- StatusBarNetWorkSpeed -->
     <string name="StatusBarNetWorkSpeed">Tốc độ mạng</string>
@@ -237,6 +251,7 @@
     <!--StatusBarControlCenter-->
     <string name="StatusBarControlCenter">Trung tâm điều khiển</string>
     <string name="ControlCenter_Clock_Related">Đồng hồ trung tâm điều khiển</string>
+	<string name="remove_control_center_clock_view">Remove the control center clock</string>
     <string name="control_center_clock_show_second">Đồng hồ trung tâm điều khiển hiển thị giây</string>
     <string name="statusbar_control_center_clock_colon_style">Đồng hồ trung tâm điều khiển kiểu dấu hai chấm</string>
     <string name="fix_clock_colon_style">Sửa đồng hồ kiểu dấu hai chấm</string>
@@ -244,6 +259,9 @@
     <string name="statusbar_control_center_clock_red_one_mode">Trung tâm điều khiển màu đỏ một chế độ</string>
     <string name="remove_control_center_clock_red_one">Xóa số một đỏ ở đồng hồ trung tâm điều khiển</string>
     <string name="remove_control_center_date_comma">Xóa dấu phẩy ngày của trung tâm điều khiển</string>
+	<string name="statusbar_control_center_date_show_lunar" translatable="false">Trung tâm điều khiển hiển thị lịch âm.</string>
+    <string name="statusbar_control_center_date_disable_text_scroll" translatable="false">Tắt tính năng cuộn văn bản ngày theo chiều dọc</string>
+    <string name="statusbar_control_center_date_set_display_mode_horizontal" translatable="false">Đặt chế độ hiển thị ngày theo chiều ngang</string>
     <string name="fix_control_center_date_display">Sửa lỗi hiển thị ngày của trung tâm điều khiển</string>
     <string name="fix_control_center_date_display_suammry">Sửa lỗi không hiển thị ngày hoàn toàn</string>
     <string name="ControlCenterNotificationCenter">Trung tâm điều khiển Trung tâm thông báo</string>
@@ -277,6 +295,7 @@
     <string name="enable_nfc_delay_shutdown">Bật độ trễ tắt NFC</string>
     <string name="custom_nfc_delay_shutdown_time">Tùy chỉnh độ trễ tắt NFC</string>
     <string name="force_display_of_ringing_status_toggle_tiles">Buộc hiển thị ô chuyển đổi trạng thái đổ chuông</string>
+	<string name="force_display_of_device_controls_tiles">Buộc hiển thị ô điều khiển thiết bị</string>
     <string name="SpecialTiles">Ô đặc biệt</string>
     <string name="classic_control_center_mode_only">Chỉ chế độ trung tâm điều khiển cổ điển</string>
     <string name="separate_control_center_mode_only">Chỉ chế độ chia trung tâm điều khiển</string>
@@ -682,6 +701,10 @@
     <string name="remove_dpi_restart_recovery_summary">Sau khi bật tính năng này và khởi động lại phạm vi, hãy mở trang tùy chọn nhà phát triển và đặt chiều rộng tối thiểu</string>
     <string name="settings_other_preference">Các tuỳ chọn khác</string>
     <string name="remove_top_account_display">Xóa hiển thị tài khoản hàng đầu</string>
+	<string name="disable_cn_special_edition_setting" translatable="false">Tắt cài đặt phiên bản cụ thể của CN</string>
+    <string name="fix_default_app_jump_problem" translatable="false">Đã khắc phục sự cố chuyển hướng ứng dụng mặc định.</string>
+    <string name="fix_default_app_jump_problem_summary" translatable="false">Sau khi sửa chữa, bạn sẽ được chuyển hướng đến trang ứng dụng mặc định chính xác của bộ điều khiển cấp quyền.</string>
+    <string name="force_display_auto_launch_jump_option" translatable="false">Buộc hiển thị tùy chọn nhảy tự động khởi động</string>												  
     <string name="remove_settings_bottom_laboratory">Xóa phòng thí nghiệm phía dưới cài đặt</string>
     <string name="force_display_bottom_google_settings">Buộc hiển thị Google ở cuối cài đặt</string>
     <!--WirelessSettings-->
@@ -700,8 +723,12 @@
     <string name="enable_hasselblad_watermark_style">Kích hoạt kiểu hình mờ Hasselblad</string>
     <string name="custom_model_watermark">Hình mờ máy tùy chỉnh</string>
     <string name="enable_ai_master_watermark">Kích hoạt hình mờ bậc thầy AI</string>
-    <string name="enable_hassel_watermark">Kích hoạt hình mờ Hasselblad</string>
+    <string name="enable_hassel_watermark">Kích hoạt hình mờ Hasselblad</string>				
     <string name="enable_privacy_watermark">Bật hình mờ về quyền riêng tư</string>
+	<string name="enable_spring_festival_watermark" translatable="false">Hình mờ Lễ hội mùa xuân mới được kích hoạt</string>
+    <string name="enable_spring_festival_watermark_summary" translatable="false">Điều kiện tiên quyết: Album ảnh phải hỗ trợ hình mờ Tết Nguyên đán.</string>
+    <string name="enable_national_day_watermark" translatable="false">Đã bật hình mờ Ngày Quốc khánh</string>
+    <string name="enable_national_day_watermark_summary" translatable="false">Điều kiện tiên quyết: Album ảnh phải hỗ trợ hình mờ Ngày Quốc khánh.</string>																							 
     <string name="CameraFilter">Bộ lọc</string>
     <string name="remove_filter_model_limit">Xóa các hạn chế của bộ lọc thiết bị</string>
     <string name="camera_universal_filter_settings">Cài đặt bộ lọc phổ quát</string>
@@ -779,7 +806,7 @@
     <string name="remove_screenshot_privacy_limit">Xóa giới hạn quyền riêng tư của ảnh chụp màn hình</string>
     <string name="remove_screenshot_privacy_limit_summary">Xóa các hạn chế về quyền riêng tư không thể bị chặn. Vô hiệu hóa FLAG_SECURE nếu điều này không có hiệu lực</string>
     <string name="disable_flag_secure">Vô hiệu hóa FLAG_SECURE</string>
-    <string name="disable_flag_secure_summary">Giải quyết hầu hết các ứng dụng không thể chụp, chia sẻ màn hình hoặc giới hạn ghi, thêm các trường ứng dụng tương ứng+</string>
+    <string name="disable_flag_secure_summary">Giải quyết hầu hết các ứng dụng không thể chụp, chia sẻ màn hình hoặc ghi lại giới hạn\nYêu cầu LSPosed 1.8.6 trở lên</string>
     <string name="remove_page_limit_for_long_screenshots">Xóa giới hạn số trang cho ảnh chụp màn hình dài</string>
     <string name="remove_page_limit_for_long_screenshots_summary">Chỉ hỗ trợ một số trường hợp, vui lòng tự kiểm tra các tình huống cụ thể</string>
     <string name="enable_png_save_format">Bật định dạng lưu PNG</string>
@@ -787,8 +814,8 @@
     <string name="remove_ota_notify_install_success">Xóa thông báo cài đặt OTA thành công</string>
     <string name="remove_ota_auto_download_dialog">Xóa hộp thoại tải xuống tự động OTA</string>
     <!--OplusOta-->
-    <string name="get_ota_verify_result">Changed partition</string>
-    <string name="get_ota_verify_result_summary">To perform incremental updates, restore the following partitions to the official image\n[%1$s]</string>
+    <string name="get_ota_verify_result">Đã đổi phân vùng</string>
+    <string name="get_ota_verify_result_summary">Để thực hiện các bản cập nhật gia tăng, hãy khôi phục các phân vùng sau vào bản dựng chính thức\n[%1$s]</string>
     <string name="unlock_local_upgrade">Mở khóa nâng cấp cục bộ</string>
     <string name="unlock_local_upgrade_summary">Sau khi nhấp vào, các thao tác liên quan sẽ được thực hiện tự động, hãy kiên nhẫn chờ trong vài giây</string>
     <string name="remove_ota_local_update_verity">Xóa xác minh cập nhật OTA cục bộ</string>
@@ -827,6 +854,8 @@
     <string name="replace_side_slider_icon_on_right">Thay thế biểu tượng trượt bên phải</string>
     <!--OplusMMS-->
     <string name="remove_verification_code_floating_window">Xóa cửa sổ nổi mã xác minh</string>
+	<string name="remove_mms_bottom_input_box_menu">Xóa menu hộp nhập liệu ở phía dưới</string>
+    <string name="remove_mms_card_marketing_button">Xóa nút tiếp thị ở cuối thẻ</string>
     <!--OplusPhone-->
     <string name="force_display_five_g_switch">Buộc hiển thị công tắc 5G</string>
     <string name="force_display_preferred_network_type">Buộc hiển thị loại mạng ưa thích</string>
@@ -843,6 +872,7 @@
     <string name="force_enable_ai_speechassist_call">Bắt buộc kích hoạt cuộc gọi qua AI</string>
     <string name="remove_app_recommend_card">Xóa thẻ đề xuất ứng dụng</string>
     <string name="remove_searchbox_uninstalled_app_suggestions">Gỡ bỏ gợi ý ứng dụng đã gỡ cài đặt</string>
+	<string name="searchbox_default_search_local_tab">Tìm kiếm Tab cục bộ theo mặc định</string>
     <!--OplusMarket-->
     <string name="remove_market_splash_page_app_recommend">Xóa đề xuất ứng dụng khỏi trang khởi chạy cửa hàng</string>
     <string name="remove_market_update_download_page_app_recommend">Xóa đề xuất ứng dụng khỏi trang tải xuống bản cập nhật cửa hàng</string>
@@ -861,7 +891,8 @@
     <string name="unlock_transfer_dock">Mở khóa di chuyển thanh dock</string>
     <string name="unlock_recent_files">Mở khóa các tập tin gần đây</string>
     <string name="unlock_fluid_cloud">Bỏ chặn đám mây</string>
-    <string name="enable_run_in_background">Bật chạy ở chế độ nền</string>
+	<string name="enable_run_in_background">Bật chạy ở chế độ nền</string>
+	<string name="enable_run_in_background_summary">Bạn có thể cần phải cài đặt phiên bản cũ hơn của thanh bên thông minh</string>
     <string name="enable_game_ai_play">Bật hỗ trợ trò chơi AI</string>
     <!--OplusSoundRecorder-->
     <string name="enable_record_calls_on_third_party_apps">Bật ghi âm cuộc gọi cho các ứng dụng của bên thứ ba</string>
@@ -876,6 +907,20 @@
     <string name="remove_health_root_check_dialog">Xóa hộp thoại phát hiện root</string>
     <!--OplusNfc-->
     <string name="scan_nfc_tag_auto_click">Quét thẻ NFC để tự động nhấp vào nút</string>
+	<!--OplusOShare-->
+    <string name="remove_oshare_close_countdown">Xóa đếm ngược đóng oshare</string>
+    
+    <!--OplusPermissionController-->
+    <string name="remove_storage_permission_exception_dialog">Xoá hộp thoại nhắc quyền lưu trữ ngoại lệ</string>
+    
+    <!--OplusSecuritypPermission-->
+    <string name="app_start_dialog_use_old_version">Sử dụng phiên bản cũ của hộp thoại bắt đầu ứng dụng</string>
+    <string name="enable_always_allow_app_start_dialog">Bật hộp thoại luôn cho phép khởi động ứng dụng</string>
+    <string name="remove_always_allow_app_start_list">Xóa danh sách các ứng dụng luôn được phép khởi chạy</string>
+    <string name="auto_unlock_app_ecm_permission_restrict">Tự động mở khóa ứng dụng quản lý quyền hạn hạn chế ủy quyền</string>
+    
+    <!--OplusLinker-->
+    <string name="force_enable_iphone_shared_support">Buộc bật hỗ trợ chia sẻ iPhone</string>
     <!--Everyimage-->
     <string name="skip_startup_page">Bỏ qua trang khởi động</string>
     <string name="vip_download">Tải xuống bản gốc</string>
@@ -934,6 +979,8 @@
     <string name="device_guid">GUID thiết bị</string>
     <string name="oplusota_copy_tip">Nhấn và giữ ô nhập để sao chép riêng lẻ</string>
     <string name="oplusota_copyall">Sao chép tất cả</string>
+	<string name="authorized" translatable="false">Nghiêm cấm việc đăng lại, sao lại, bán, chia sẻ hoặc chuyển hướng truy cập. Chúng tôi khuyến khích việc dạy mọi người cách câu cá, chứ không phải tặng cá cho họ.</string>
+	
     <!--Donate-->
     <string name="donate_tv_title">Hỗ trợ người phát triển</string>
     <string name="donate_tv__summary">Nhấp hoặc nhấn và giữ để quyên góp cho nhà phát triển nhằm hỗ trợ các bản cập nhật trong tương lai</string>
