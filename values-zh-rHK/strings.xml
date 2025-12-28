@@ -130,9 +130,11 @@
     <string name="authcreak_summary">关闭安装应用时的签名验证, 可以安装被篡改的应用</string>
     <string name="digestCreak">禁用APK签名验证</string>
     <string name="digestCreak_summary">允许直接覆盖安装同包名不同签名的应用</string>
+    <string name="exactSigCheck_summary">禁用多个 APK 之间的唯一签名匹配，从而允许安装应用时每个分包 APK 使用不同签名。仅在确有必要时再启用此项功能</string>
     <string name="UsePreSig">安装时始终使用已装APP的签名</string>
     <string name="UsePreSig_summary">不是一般的!危险! 仅在绝对需要时启用</string>
     <string name="usepresig_warn">!! 所有安装包可以覆盖已安装的App! \n安装未知的安装包时请务必小心</string>
+    <string name="bypassBlock_summary">绕过某些设备如 Nothing Phone 上的黑名单</string>
     <string name="shared_user_title">绕过共享用户签名验证</string>
     <string name="shared_user_summary">允许安装与其共享用户签名不同的 App(<b>需要同时打开“禁用APK签名验证”</b>)</string>
     <string name="disable_verification_agent_title">禁用安装包验证代理</string>
@@ -661,6 +663,7 @@
     <string name="enable_screen_color_temperature_rgb_palette_summary">可能会被DC功能覆盖</string>
     <string name="enable_smart_switching_screen_resolutions">启用智能切换屏幕分辨率</string>
     <string name="force_enable_reduce_white_point_value">强制启用降低白点值</string>
+    <string name="force_enable_motion_sickness_anti_dizzy">强制启用晕动舒缓显示</string>
     <string name="settings_application">应用</string>
     <string name="unlock_default_desktop_limit">解锁默认桌面限制</string>
     <string name="force_display_process_management">强制显示进程管理</string>
@@ -1138,4 +1141,6 @@
     <string name="add_repeat">重复添加</string>
     <string name="import_">导入</string>
     <string name="remove_word_limit_for_compress_files">移除压缩文件字数限制</string>
+    <string name="exactSigCheck">禁用唯一签名匹配</string>
+    <string name="bypassBlock">绕过黑名单</string>
 </resources>
