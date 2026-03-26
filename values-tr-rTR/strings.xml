@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">LuckyTool</string>
+    <!-- Application -->
+    <string name="xposeddescription">ColorOS için gelişmiş optimizasyon sağlayan Xposed modülü, sonsuza dek ücretsiz.\nPaylaşmak, kopyalamak, çalmak ve satmak başta olmak üzere yasadışı kullanımlar yasaktır.\nGeliştirici: luckyzyx</string>
+    <string name="sharedUserLabel" translatable="false">LuckyTool user</string>
+    <!-- Nav Menu -->
+    <string name="nav_function">İşlevler</string>
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_other">Diğer</string>
+    <string name="nav_log">Günlükler (Log)</string>
+    <string name="nav_setting">Ayarlar</string>
+    <string name="fragment_source">Kaynak Kod</string>
+    <!-- Settings -->
+    <string name="theme_title">Tema</string>
+    <string name="theme_title_summary">Sayfa otomatik olarak yenilenecek</string>
+    <string name="use_dynamic_color">Dinamik Renkler</string>
+    <string name="use_dynamic_color_summary">Dinamik renkleri kullan</string>
+    <string name="dark_theme">Karanlık Tema</string>
+    <string name="follow_system">Sistemi İzle</string>
+    <string name="dark_theme_off">Her zaman kapalı</string>
+    <string name="dark_theme_on">Her zaman açık</string>
+    <string name="dark_theme_follow_system" translatable="false">@string/follow_system</string>
+    <string name="language">Dil</string>
+    <string name="privacy_agreement">Gizlilik Sözleşmesi</string>
+    <string name="auto_check_update">Güncellemeleri otomatik kontrol et</string>
+    <string name="auto_check_update_summary">Modül ana sayfası açıldığında güncellemeleri otomatik olarak kontrol et</string>
+    <string name="enable_biometric_unlock_verification">Biyometrik kilit açma doğrulamasını etkinleştir</string>
+    <string name="tile_auto_start">Dahili hızlı ayarların (tiles) otomatik başlamasına izin ver</string>
+    <string name="tile_auto_start_summary">Etkinleştirilen hızlı ayar (tile) özellikleri ekran kilidi açıldıktan sonra otomatik olarak tetiklenir.\nEğer tetikleme başarısız olursa, lütfen kapsamı yeniden başlatın ve Root izinlerini kontrol edin.</string>
+    
+    <string name="read_agreement">Bu modülü kullanabilmek için aşağıdaki içeriği okuyup kabul etmeniz gerekmektedir</string>
+    <string name="clear_all_data">Tüm verileri temizle</string>
+    <string name="clear_all_data_summary">Modüldeki tüm işlev verilerini temizle</string>
+    <string name="clear_all_data_message">Modülün tüm işlev verilerini temizlemek istediğinizden emin misiniz? Temizleme işleminden sonra işlevleri yeniden ayarlamanız gerekecektir.</string>
+    <!-- Other Settings -->
+    <string name="other_settings">Diğer ayarlar</string>
+    <string name="enable_module_print_logs">Modül yazdırma günlüklerini etkinleştir</string>
+    <string name="enable_module_print_logs_summary">Bu işlev sadece modül uygulamasının (App) kendi çalışma günlüklerini yazdırmak için kullanılır.\nBu anahtar kapatıldığında günlük dosyaları elde edilir.</string>
+    <string name="switch_autostart_function_caller">Otomatik başlatma işlevi çağırıcısını değiştir</string>
+    <string name="switch_autostart_function_caller_summary">1. Modül çağırma yöntemi, modül ekranını yeniden açarak otomatik başlatma işlevini tetikler. Bu yöntem ekran kilidi açıldığında birkaç saniyeliğine ekrana dokunulamamasına neden olabilir.\n2. System UI çağırma yöntemi, System UI süreci üzerinden otomatik başlatmayı tetikler. System UI işlemine Root izni vermek gerekir, aksi takdirde otomatik başlatma tetiklenemez.</string>
+    <string name="switch_autostart_function_caller_module">Modül çağrısı</string>
+    <string name="switch_autostart_function_caller_systemui">SystemUI çağrısı</string>
+    <string name="hide_function_page_icon">İşlev sayfası simgesini gizle</string>
+    <string name="hide_desktop_module_icon">Masaüstü modül simgesini gizle</string>
+    <string name="hide_desktop_module_icon_summary">Özelliği zorla uygulamak için LSPosed üzerinden masaüstü ikon gizleme devre dışı bırakılmalıdır</string>
+    
+    <!--BackupRestoreClear-->
+    <string name="backup_restore_clear">Yedekle/Geri Yükle/Temizle</string>
+    <string name="get_log_cat_log">LogCat günlüğünü al</string>
+    <string name="backup_data">Verileri Yedekle</string>
+    <string name="restore_data">Verileri Geri Yükle</string>
+    <string name="data_backup_complete">Veri yedeklemesi tamamlandı!</string>
+    <string name="data_backup_error">Veri yedekleme hatası!</string>
+    <string name="data_restore_complete">Veri geri yükleme tamamlandı!</string>
+    <string name="data_backup_data_version">Yedeklenen veri sürümü</string>
+    <string name="data_current_system_version">Mevcut sistem sürümü</string>
+    <string name="data_restore_version_tips">Farklı sürümler arasında veri geri yüklemek, bazı işlevlerin anormal çalışmasına neden olabilir. Modül işlev verilerinin yeniden yapılandırılması önerilir.</string>
+    
+    <!-- About -->
+    <string name="about_title">Hakkında</string>
+    <string name="about_author">Yazar</string>
+    <string name="donate">Bağışlarla destek ol</string>
+    <string name="donate_message">Bağış yaparken lütfen takma adınızı veya kimliğinizi not ettiğinizden emin olun</string>
+    <string name="donate_summary">Yapacağınız bağış, modül güncellemelerinin itici gücü olacaktır</string>
+    <string name="qq" translatable="false">QQ</string>
+    <string name="wechat">WeChat</string>
+    <string name="alipay">AliPay</string>
+    <string name="patreon" translatable="false">Patreon</string>
+    <string name="paypal" translatable="false">PayPal</string>
+    <string name="donation_list">Bağış Listesi</string>
+    <string name="feedback_download">Geri Bildirim ve İndirme</string>
+    <string name="feedback_download_summary">TG Kanalları, Gruplar, Depolar (Repositories) vb.</string>
+    <string name="coolmarket">Coolapk Ana Sayfası</string>
+    <string name="module_doc">Modül Dökümanları</string>
+    <string name="qq_chat_group">QQ Sohbet Grubu</string>
+    <string name="qq_channel">QQ Kanalı</string>
+    <string name="telegram_channel">Telegram Kanalı</string>
+    <string name="telegram_group">Telegram Grubu</string>
+    <string name="lsposed_repo">LSPosed Deposu</string>
+    <string name="github_repo">Github Deposu</string>
+    <string name="open_source">Açık Kaynak</string>
+    <string name="open_source_summary">Açık kaynak listesini görüntülemek için tıklayın</string>
+    <string name="participate_translation">Modül çevirilerine katılın</string>
+    <string name="participate_translation_summary">Çevirinize katkıda bulunmak için Github\'a gidin</string>
+    
+    <!-- check lsposed -->
+    <string name="system_not_support">Mevcut sistem desteklenmiyor!</string>
+    <string name="unsupported_xposed">Modülün etkinleştirilmediği tespit edildi.\nLütfen etkinleştirme için LSPosed altyapısını kullanın!</string>
+    <string name="unsupported_os">Desteklenmeyen sistem</string>
+    <string name="unsupported_os_summary">Bu modül yalnızca ColorOS 12 ve üzeri sistemleri desteklediğinden, lütfen gerekli güvenlik önlemlerini aldığınızdan emin olun!</string>
+    <string name="no_root">Root izni yok</string>
+    <string name="no_root_summary">Root izni tespit edilmedi, bazı işlevler kullanılamayacaktır!</string>
+    
+    <!-- Menu -->
+    <string name="menu_reboot">Yeniden başlatma menüsü</string>
+    <string name="menu_search">Arama menüsü</string>
+    <string name="menu_settings">Ayar menüsü</string>
+    <string name="restart_scope">Kapsam içi süreçleri yeniden başlat</string>
+    <string name="re_optimize_dex">Dex\'i yeniden optimize et</string>
+    <string name="need_restart_scope">Kapsamın yeniden başlatılması gerekiyor</string>
+    <string name="need_restart_system">Sistemin yeniden başlatılması gerekiyor</string>
+    <string name="restart_scope_message">Sistem framework hariç tüm kapsam içi süreçleri yeniden başlatmak istediğinizden emin misiniz?\nModül düzgün çalışmıyorsa bunu kullanın!\nİlgili tüm kapsamların (scope) işaretlendiğinden emin olun!</string>
+    <string name="re_optimize_dex_message">Tüm kapsam içi (scope) Dex dosayalarını yeniden optimize et?</string>
+    <string name="re_optimize_dex_completed">Optimizasyon tamamlandı, kapsamı veya sistemi yeniden başlatmanız önerilir</string>
+    <string name="re_optimize_dex_failed">Optimizasyon başarısız</string>
+    <string name="re_optimize_dex_optimizing">Optimize ediliyor</string>
+    <string name="re_optimize_dex_faile_message">Aşağıdaki uygulamalarda optimizasyon başarısız oldu:\n%1$s\nYeniden optimize edilsin mi?</string>
+    <string name="optimize_dex_after_system_update">Sistem güncellemesinden sonra Dex mutlaka optimize edilmelidir</string>
+    <string name="optimize_only_this_page_scope">Yalnızca bu sayfanın kapsamını optimize et</string>
+    <string name="restart_only_this_page_scope">Yalnızca bu sayfanın kapsamını yeniden başlat</string>
+    <string name="reboot">Sistemi Yeniden Başlat</string>
+    <string name="fast_reboot">Hızlı yeniden başlat (Fast Reboot)</string>
+    <string name="menu_versioninfo">Sürüm Bilgisi</string>
+    <string name="scope_version_info">Kapsam sürüm bilgisi</string>
+    <string name="show_system_app">Sistem uygulamalarını (APP) göster</string>
+    
+    <!--Xposed-->
+    <string name="Android">Sistem İle İlgili</string>
+    <string name="app_label">Uygulama Adı</string>
+    <string name="package_name">Paket Adı</string>
+    <string name="version">Sürüm</string>
+    
+    <!--Android-->
+    <string name="remove_gms_usage_restrictions">GMS kullanım kısıtlamalarını kaldır</string>
+    <string name="custom_remote_provisioning_hostname">Özel uzaktan hazırlama (provisioning) ana makine adı</string>
+    <string name="custom_remote_provisioning_hostname_summary">Onay (attestation) sertifikalarını almak için kullanılan proxy ana makinesini ayarlayın</string>
+    <string name="replace_system_root_state_detection">Sistem Root durumu algılamasını değiştir</string>
+    <string name="allow_untrusted_touch">Güvenilmeyen dokunmalara izin ver</string>
+    <string name="allow_untrusted_touch_summary">Bazı pencerelerin veya sayfaların engellenerek dokunulamaz hale gelmesi sorununu çözer</string>
+    <string name="customized_gaussian_blur_effect_level">Özelleştirilmiş gauss bulanıklığı efekt seviyesi</string>
+    <string name="disable_temperature_control_listener">Sıcaklık kontrolü dinleyicisini devre dışı bırak</string>
+    <string name="set_ltpo_refresh_rate_mode">LTPO yenileme hızı modunu ayarla</string>
+    <string name="enable_full_brightness_refresh_rate_minimum_one">Tam parlaklık yenileme hızını minimum 1 olarak etkinleştir</string>
+    <string name="enable_full_brightness_refresh_rate_minimum_one_summary">Bazı modeller Oyun Asistanı ile çakışarak ekran titreşimine neden olabilir.</string>
+    <string name="disable_long_press_home_key_start_speech_asssist">Sesli asistanı başlatmak için HOME (Ana Sayfa) tuşuna uzun basmayı devre dışı bırak</string>
+    
+    <!-- CorePatch -->
+    <string name="ColorOSCorePatchTip">ColorOS orijinal yükleyicisini (Package Installer) kullanabilmek için diğer işlevlerin de açılması gerekmektedir:\nİşlev Listesi -> Uygulama İle İlgili -> Uygulama Yüklemeyle İlgili</string>
+    <string name="corepatch">Çekirdek Yaması (Core Patch)</string>
+    <string name="corepatch_summary">Yükleme sınırlarını kaldırır, Android %1$s sürümünü destekler</string>
+    <string name="downgr">Uygulamaları eski sürüme düşürmeye izin ver</string>
+    <string name="downgr_summary">Yeni sürümleri kurulu olsa bile, uygulamaların eski sürümlerle üstüne yazılmasına izin verir.</string>
+    <string name="authcreak">Paket yöneticisi imza doğrulamasını devre dışı bırak</string>
+    <string name="authcreak_summary">Uygulama yüklenirken oluşan imza denetimini kaldırır ve yüklemeye izin verir.</string>
+    <string name="digestCreak">APK İmza doğrulamasını devre dışı bırak</string>
+    <string name="digestCreak_summary">Önceden yüklenmiş uygulamaların üzerine farklı imzalara sahip paketlerin yazılmasına izin verir.</string>
+    <string name="exactSigCheck">Tam imza eşleşmesini devre dışı bırak</string>
+    <string name="exactSigCheck_summary">Apk bölümleri arası tam imza eşleştirmesini devre dışı bırakarak her apk bölümünün farklı bir imza ile yüklenmesine izin verir.\nYalnızca gerçekten gerektiğinde etkinleştirin!</string>
+    <string name="UsePreSig">Yükleme sırasında her zaman önceden imzalanmış uygulamayı (APP) kullan</string>
+    <string name="UsePreSig_summary">Bu normal bir durum değildir, tehlikeli olabilir! Sadece kesinlikle gerektiğinde etkinleştirin.</string>
+    <string name="usepresig_warn">!!! Yüklü uygulamaların üzerine tüm paketlerin yazılmasına yol açabilir !!\nBilinmeyen paketlerin yüklenmesine olanak tanır.</string>
+    <string name="bypassBlock">Engelleri atla (Bypass block)</string>
+    <string name="bypassBlock_summary">Nothing Phone gibi bazı cihazlardaki engelleme listelerini (blocklist) atlar</string>
+    <string name="shared_user_title">Paylaşılan kullanıcı (shared user) doğrulamasını atla</string>
+    <string name="shared_user_summary">Paylaşılan kullanıcısından farklı bir imzaya sahip olan uygulamanın yüklenmesine izin ver (<b>\'İmzaları karşılaştırmayı devre dışı bırak\' seçeneği de etkinleştirilmelidir</b>)</string>
+    <string name="disable_verification_agent_title">Paket Doğrulama Aracısını Devre Dışı Bırak</string>
+    <string name="disable_verification_agent_summary">Örn. Google Play Koruması (Play Protect)</string>
+    
+    <!--Status Bar-->
+    <string name="StatusBar">Durum Çubuğu İle İlgili</string>
+    <string name="StatusbarEvents">Durum Çubuğu Olayları</string>
+    <string name="statusbar_double_click_lock_screen">Ekranı kilitlemek için durum çubuğuna çift tıkla</string>
+    <string name="vibrate_when_opening_the_statusbar">Durum çubuğu açılırken titret</string>
+    <string name="set_click_statusbar_scroll_to_top_mode">En üste kaydırmak için durum çubuğuna tıklama modunu ayarla</string>
+    <string name="set_click_statusbar_scroll_to_top_mode_remove_white_list">Beyaz liste (whitelist) sınırlamasını kaldır</string>
+    
+    <!--StatusBarClock-->
+    <string name="StatusBarClock">Durum Çubuğu Saati</string>
+    <string name="statusbar_clock_mode">Durum çubuğu saat modu</string>
+    <string name="statusbar_clock_show_year">Yılı göster</string>
+    <string name="statusbar_clock_show_month">Ayı göster</string>
+    <string name="statusbar_clock_show_day">Günü (tarih) göster</string>
+    <string name="statusbar_clock_show_week">Haftayı göster</string>
+    <string name="statusbar_clock_show_period">Periyodu (ÖÖ/ÖS) göster</string>
+    <string name="statusbar_clock_show_double_hour">Çift Haneli Saat Gösterimi</string>
+    <string name="statusbar_clock_show_second">Saniyeyi göster</string>
+    <string name="statusbar_clock_hide_spaces">Boşlukları gizle</string>
+    <string name="statusbar_clock_text_alignment">Saat Metnini Hizalama</string>
+    <string name="statusbar_clock_left_align">Sola Hizala</string>
+    <string name="statusbar_clock_center_align">Ortaya Hizala</string>
+    <string name="statusbar_clock_right_align">Sağa Hizala</string>
+    <string name="statusbar_clock_show_doublerow">Çift satırlı gösterim</string>
+    <string name="statusbar_clock_singlerow_fontsize">Tek satır yazı tipi boyutu</string>
+    <string name="statusbar_clock_doublerow_fontsize">Çift satır yazı tipi boyutu</string>
+    <string name="statusbar_clock_custom_format">Saat biçimi</string>
+    <string name="statusbar_clock_custom_fontsize">Saat yazı tipi boyutu</string>
+    <string name="statusbar_clock_custom_minimum_width">Saatin minimum genişliği</string>
+    <string name="statusbar_clock_custom_padding">Saatin özel kenar boşluğu (padding)</string>
+    <string name="statusbar_clock_custom_top_padding">Saatin üst kenar boşluğu</string>
+    <string name="statusbar_clock_custom_bottom_padding">Saatin alt kenar boşluğu</string>
+    <string name="statusbar_clock_custom_left_padding">Saatin sol kenar boşluğu</string>
+    <string name="statusbar_clock_custom_right_padding">Saatin sağ kenar boşluğu</string>
+    <string name="statusbar_clock_if_zero_summary">Değer 0 ise bu seçenek değiştirilmeyecektir</string>
+    
+    <!-- StatusBarNetWorkSpeed -->
+    <string name="StatusBarNetWorkSpeed">Durum Çubuğu Ağ Hızı</string>
+    <string name="set_network_speed">Durum çubuğu yenileme hızını 1 saniye olarak ayarla</string>
+    <string name="enable_double_row_network_speed">Çift Satırlı Ağ Hızını Etkinleştir</string>
+    <string name="set_network_speed_font_size">Ağ Hızı Yazı Tipi Boyutunu Ayarla</string>
+    <string name="set_network_speed_padding_bottom">Ağ Hızı Alt Kenar Boşluğunu Ayarla</string>
+    <string name="statusbar_network_layout">Durum çubuğu ağ hızı düzeni</string>
+    <string name="statusbar_network_no_second">Saniye başına ekranını kaldır (/s)</string>
+    <string name="statusbar_network_no_unit">Ağ hızı birimini kaldır</string>
+    <string name="statusbar_network_no_space">Ağ hızı boşluklarını kaldır</string>
+    <string name="set_network_speed_double_row_spacing">Ağ hızı çift satır aralığını ayarla</string>
+    
+    <!--StatusBarNotify-->
+    <string name="StatusBarNotice">Durum Çubuğu Bildirimleri</string>
+    <string name="StatusBarNotice_summary">Durum çubuğu bildirimi ile ilgili</string>
+    <string name="RemoveStatusBarNotifications">Durum çubuğu bildirimlerini kaldır</string>
+    <string name="remove_statusbar_devmode">Durum çubuğu geliştirici seçeneği bildirimlerini kaldır</string>
+    <string name="remove_charging_completed">Şarj tamamlandı bildirimini kaldır</string>
+    <string name="remove_statusbar_top_notification">Durum çubuğu üst düzey uygulama bildirimlerini kaldır</string>
+    <string name="remove_statusbar_top_notification_summary">Durum çubuğunda çıkan \"Bu uygulama diğer uygulamaların üzerinde görüntüleniyor\" uyarısını kaldır</string>
+    <string name="remove_vpn_active_notification">Aktif VPN bildirimini kaldır</string>
+    <string name="remove_vpn_active_notification_summary">Durum çubuğundaki VPN aktif ibaresini kaldırır</string>
+    <string name="remove_flashlight_open_notification">Açık el feneri bildirimini kaldır</string>
+    <string name="remove_app_high_battery_consumption_warning">Uygulamanın yüksek pil tüketimi uyarısını kaldır</string>
+    <string name="remove_app_high_battery_consumption_warning_summary">Uygulamanın pil tüketiminin anormal olduğu ve hemen optimize edilmesi gerektiği yönündeki uyarıyı kaldırır</string>
+    <string name="remove_high_performance_mode_notifications">Yüksek performans modu bildirimlerini kaldır</string>
+    <string name="remove_do_not_disturb_mode_notification">Rahatsız Etmeyin modu bildirimini kaldır</string>
+    <string name="remove_hotspot_power_consumption_notification">Kişisel erişim noktası (Hotspot) güç tüketimi bildirimini kaldır</string>
+    <string name="remove_hotspot_power_consumption_notification_summary">Kişisel erişim noktasının uzun süre açık kalması güç tüketimini ve ısınmayı artırır uyarısını yok sayar</string>
+    <string name="remove_smart_rapid_charging_notification">“Akıllı Hızlı Şarj (Smart rapid charging)” bildirimini kaldır</string>
+    <string name="remove_notifications_for_mute_notifications">Sessize alınan bildirimler için bildirimleri kaldır</string>
+    <string name="remove_gt_mode_notification">GT modu bildirimini kaldır</string>
+    
+    <string name="allow_long_press_notification_modifiable">Uzun basılan bildirimlerin değiştirilebilir olmasına izin ver</string>
+    <string name="remove_notification_manager_limit">Bildirim yöneticisi sınırını kaldır</string>
+    <string name="disable_high_volume_warning_notifications">Yüksek ses düzeyi uyarısı bildirimlerini devre dışı bırak</string>
+    <string name="remove_notification_pin_number_limit">Sabitlenen bildirimlerin sayısı üzerindeki sınırı kaldır</string>
+    <string name="enable_keep_notification_when_app_stop">Uygulama durduğunda bildirimleri saklamayı etkinleştir</string>
+    <string name="enable_global_notification_simple_banner_mode">Genel bildirimler için basit uyarı modunu etkinleştir</string>
+    
+    <string name="remove_small_window_reply_whitelist">Küçük pencere üzerinden yanıtlama beyaz liste (whitelist) sınırlamasını kaldır</string>
+    <string name="set_small_window_reply_blacklist">Küçük pencere kısıtlaması kara listesini (blacklist) ayarla</string>
+    <string name="set_small_window_reply_blacklist_message">Kara listeye eklenmesi gereken paketin adını doldurun</string>
+    <string name="custom_music_fluid_cloud_whitelist">Özel Akışkan Bulut (Fluid Cloud) Müzik uygulamarını belirleyin</string>
+    <string name="disable_music_fluid_cloud_display">Fluid Cloud Müzik görünümünü devre dışı bırak</string>
+    <string name="set_custom_music_fluid_cloud_whitelist">Fluid Cloud Müzik beyaz listesi oluşturun</string>
+    <string name="disable_media_music_fluid_cloud_blacklist">Dahili medya Fluid Cloud Müzik için kara listeyi (blacklist) devre dışı bırak</string>
+    <string name="force_enable_media_music_fluid_cloud_ripple">Müzik çalarken Fluid Cloud dalgalanma efektini zorla etkinleştir</string>
+    
+    <!--StatusBarIcon-->
+    <string name="StatusBarIcon">Durum Çubuğu Simgesi</string>
+    <string name="StatusBarIcon_summary">Durum çubuğu simgeleriyle ilgili ayarlar</string>
+    <string name="StatusBarWIFIIcon">WIFI Simgesi</string>
+    <string name="remove_wifi_data_inout">WiFi veri giriş/çıkış göstergesini kaldır</string>
+    <string name="force_display_wifi_standard">WIFI sinyal standartlarının zorla görüntülenmesi</string>
+    
+    <string name="StatusBarMobileDataIcon">Mobil Veri Simgesi</string>
+    <string name="remove_mobile_data_icon">Mobil veri simgesini kaldır</string>
+    <string name="remove_mobile_data_inout">Mobil veri giriş/çıkış simgesini kaldır</string>
+    <string name="remove_mobile_data_type">Mobil Veri türünü (Ağ türü) kaldır</string>
+    <string name="hide_non_network_card_icon">Ağa bağlı olmayan SIM kart simgelerini gizle</string>
+    <string name="hide_inactive_signal_labels_gen2x2">Kullanılmayan sinyal etiketi (Gen2x2) gösterimini gizle</string>
+    <string name="hide_nosim_noservice">SIM kart yok ve Servis yok simgelerini gizle</string>
+    
+    <string name="StatusBarBluetoothIcon">Bluetooth Simgesi</string>
+    <string name="hide_icon_when_bluetooth_not_connected">Bağlı değilken Bluetooth simgesini gizle</string>
+    
+    <string name="StatusBarOtherIcon">Diğer Simgeler</string>
+    <string name="remove_high_performance_mode_icon">Yüksek performans modu simgesini kaldır</string>
+    <string name="remove_statusbar_securepayment_icon">Durum çubuğu ödeme güvenliği simgelerini kaldır</string>
+    <string name="remove_green_dot_privacy_prompt">Kullanımda olan yeşil nokta (kamera/mikrofon bildirimleri) gizlilik uyarısını kaldır</string>
+    <string name="remove_system_prompt_icon">Sistem uyarı simgelerini kaldır</string>
+    <string name="remove_system_prompt_icon_summary">Arama modu, TV yansıtma, ekran kaydı ve erişim noktası uyarısı simgelerini kaldırır</string>
+    <string name="custom_fluid_cloud_icon_background_transparency">Fluid Cloud simgesinin arka plan şeffaflığını özelleştir</string>
+    
+    <string name="StatusBarSmallIconStatus">Durum Çubuğu Küçük Simge Durumu</string>
+    <string name="status_bar_icon_vertical_center">Durum çubuğu simgesini dikey olarak ortala</string>
+    
+    <!--StatusBarControlCenter-->
+    <string name="StatusBarControlCenter">Durum Çubuğu Kontrol Merkezi</string>
+    
+    <string name="ControlCenter_Clock_Related">Kontrol Merkezi Saat Ayarları</string>
+    <string name="remove_control_center_clock_view">Kontrol merkezi saatini kaldır</string>
+    <string name="control_center_clock_show_second">Kontrol merkezi saatinde saniyeyi göster</string>
+    <string name="statusbar_control_center_clock_colon_style">Kontrol Merkezi saatindeki iki nokta ( : ) stilini ayarla</string>
+    <string name="fix_clock_colon_style">Saatin iki nokta ( : ) stilini düzelt</string>
+    <string name="fix_clock_colon_style_summary">Etkinleştirildiğinde normal iki noktaya döner, kapatıldığında ise resmi değiştirilmiş iki nokta stili kullanılır</string>
+    <string name="statusbar_control_center_clock_red_one_mode">Kontrol merkezi kırmızı 1 rakamı modu</string>
+    <string name="remove_control_center_clock_red_one">Kontrol merkesi saatindeki kırmızı 1 rakamını kaldır</string>
+    <string name="remove_control_center_date_comma">Kontrol merkezi tarih virgülünü kaldır</string>
+    <string name="statusbar_control_center_date_show_lunar" translatable="false">Kontrol merkezi aytakvimini göster</string>
+    <string name="statusbar_control_center_date_disable_text_scroll" translatable="false">Dikey ekran tarihi kaydırmayı kapat</string>
+    <string name="statusbar_control_center_date_set_display_mode_horizontal" translatable="false">Yatay ekran tarih görünüm modunu ayarla</string>
+    <string name="fix_control_center_date_display">Kontrol merkezi tarih görünümünü düzelt</string>
+    <string name="fix_control_center_date_display_suammry">Tarihin tam olarak görüntülenememesi sorununu çözer</string>
+    
+    <string name="ControlCenterNotificationCenter">Kontrol Merkezi Bildirim Merkezi</string>
+    <string name="enable_notification_align_both_sides">Bildirimlerin her iki tarafa hizalanmasını etkinleştir</string>
+    <string name="remove_notification_cleanup_button">Bildirim temizleme butonunu kaldır</string>
+    <string name="enable_notification_importance_classification">Bildirim önem sınıflandırmasını etkinleştir</string>
+    <string name="custom_notification_background_transparency">Bidirim arkaplanı şeffaflığını özelleştir</string>
+    <string name="enable_notification_background_blur_effect">Bildirim arka planı bulanıklık efektini etkinleştir</string>
+    
+    <string name="ControlCenter_Silder_Related">Kontrol Merkezi Kaydırma Çubuğu</string>
+    <string name="custom_control_center_silder_transparency">Kontrol merkezi kaydırma çubuklarının şeffaflığını özelleştir</string>
+    
+    <string name="ControlCenter_UI_Related">Kontrol Merkezi UI Ayarları</string>
+    <string name="set_media_player_display_mode">Medya oynatıcı görüntüleme modunu ayarla</string>
+    <string name="set_media_player_display_mode_hide_when_no_meida_player">Hiçbir medya oynatılmadığında gizle</string>
+    <string name="force_enable_media_toggle_button">Medya değiştirme geçiş butonunu zorla etkinleştir</string>
+    <string name="set_control_center_volume_seekbar_mode">Kontrol merkezi ses kontrol çubuğu modunu ayarla</string>
+    <string name="remove_control_center_edit_button">Kontrol merkezi düzenle butonunu kaldır</string>
+    <string name="remove_control_center_more_button">Kontrol merkezi daha fazla butonunu kaldır</string>
+    <string name="set_auto_brightness_button_mode">Otomatik parlaklık butonu modunu ayarla</string>
+    <string name="remove_control_center_user_switcher">Kontrol merkezindeki kullanıcı değiştiriciyi kaldır</string>
+    <string name="remove_control_center_mydevice">Kontrol merkezindeki \'Cihazım\' ikonunu kaldır</string>
+    <string name="restore_page_layout_row_count_for_edit_tiles">Hızlı ayarları düzenleme menüsü için sayfa düzenindeki satır sayısını geri yükle</string>
+    <string name="remove_control_center_tile_count_limit">Kontrol Merkezi hızlı ayarlar (tiles) limiti sayısını kaldır</string>
+    <string name="set_control_center_search_button_mode">Kontrol Merkezi arama butonu modunu ayarla</string>
+    <string name="remove_control_center_networkwarn">Kontrol merkezinin altındaki güvenlik uyarısı mesajını kaldır</string>
+    <string name="remove_control_center_networkwarn_dialog">İletişim kutusunu (uyarı diyaloğunu) kaldır</string>
+    <string name="remove_control_center_networkwarn_dialog_and_text">Güvenlik uyarısı mesajını ve iletişim kutularını kaldır</string>
+    <string name="remove_control_center_networkwarn_summary">VPN\'e bağlandıktan sonra veya bir CA sertifikası kurduktan sonra Kontrol Merkezi\'nin alt kısmında görünen ağınızın izlenebileceğini gösteren uyarı metni ve iletişim kutusunu kaldırır</string>
+    <string name="custom_control_center_background_transparency">Kontrol merkezi arka plan şeffaflığını özelleştir</string>
+    
+    <!--StatusBar Tiles-->
+    <string name="StatusBarTiles">Hızlı Ayarlar (StatusBar Tiles)</string>
+    <string name="enable_nfc_delay_shutdown">NFC gecikmeli kapanmayı etkinleştir</string>
+    <string name="custom_nfc_delay_shutdown_time">Özel NFC kapanma gecikmesi</string>
+    <string name="force_display_of_ringing_status_toggle_tiles">Zil durumu geçiş hızlı ayarını zorla görüntüle</string>
+    <string name="force_display_of_device_controls_tiles">Cihaz denetleyicisi hızlı ayarını zorla görüntüle</string>
+    
+    <string name="SpecialTiles">Özel Hızlı Ayarlar (Special Tiles)</string>
+    <string name="classic_control_center_mode_only">Yalnızca Klasik Kontrol Merkezi Modu</string>
+    <string name="separate_control_center_mode_only">Yalnızca Ayrı Kontrol Merkezi Modu</string>
+    <string name="SpecialTiles_summary">Yalnızca Klasik Kontrol Merkezi Modu</string>
+    <string name="auto_expand_tile_rows_horizontal">Yatay konumda hızlı ayar satır sayısını otomatik olarak genişlet</string>
+    <string name="auto_expand_tile_rows_horizontal_summary">Medya oynatıcı gizlendiğinde, yatay modda iki sıra hızlı ayarlar görüntülenir</string>
+    <string name="auto_expand_tile_rows_horizontal_summary_2">Aşağıdaki hızlı ayar fonksiyonunun (tile) etkinleştirilmesi gerekir</string>
+    <string name="control_center_custom_gaps_for_special_tile">Özel hızlı ayarlar için yatay ekran boşluklarını ayarla</string>
+    <string name="control_center_custom_gaps_for_special_tile_summary">Bazı modellerde hızlı ayarların otomatik genişletilmesinin açılması, parlaklık çubuğunun ekranın dışında görüntülenmesine neden olabilir. Bu durumda bu özelliğin etkinleştirilmesi gerekir</string>
+    <string name="control_center_special_tile_top_gap">Özel hızlı ayarlar için üst boşluğu ayarla</string>
+    <string name="control_center_special_tile_bottom_gap">Özel hızlı ayarlar için alt boşluğu ayarla</string>
+    <string name="decrease_horizontal_brightness_bar_top_gap">Yatay parlaklık çubuğunun üst boşluğunu azalt</string>
+    
+    <string name="TileLongClickEvent">Hızlı Ayarlar Uzun Basma Eylemi</string>
+    <string name="restore_some_tile_long_press_event">Bazı hızlı ayarların uzun basma eylemlerini geri yükle</string>
+    <string name="restore_some_tile_long_press_event_summary">WiFi, Bluetooth, kişisel erişim noktası ve diğer hızlı ayarlara uzun basıldığında ilgili sayfayı açacak şekilde geri yükle</string>
+    <string name="long_press_wifi_tile_open_the_page">Sayfayı açmak için WIFI hızlı ayarına uzun bas</string>
+    <string name="long_press_mobile_data_tile_open_the_page">Sayfayı açmak için Mobil Veri hızlı ayarına uzun bas</string>
+    <string name="long_press_wifi_hotspot_tile_open_the_page">Sayfayı açmak için WiFi Hotspot hızlı ayarına uzun bas</string>
+    <string name="long_press_bluetooth_tile_open_the_page">Sayfayı açmak için Bluetooth hızlı ayarına uzun bas</string>
+    <string name="long_press_screenshot_tile_open_the_page">Sayfayı açmak için Ekran Görüntüsü hızlı ayarına uzun bas</string>
+    <string name="long_press_dnd_tile_open_the_page">Sayfayı açmak için Rahatsız Etmeyin (DND) hızlı ayarına uzun bas</string>
+    
+    <string name="TileStyleRelated">Hızlı Ayarlar Stiliyle İlgili</string>
+    <string name="custom_tile_background_transparency">Hızlı ayarlar (tile) arka plan şeffaflığını özelleştir</string>
+    
+    <string name="TileLayoutRelated">Hızlı Ayarlar Düzeni İle İlgili</string>
+    <string name="fix_tile_align_both_sides">Hızlı ayarları her iki yana hizalama düzeltmesi</string>
+    <string name="fix_tile_align_both_sides_summary">Hızlı ayarlar genişletilmediği durumda her iki taraftaki hizalama taşmalarını düzeltir</string>
+    <string name="control_center_tile_enable">Kontrol merkezi hızlı ayarlar (tile) özelliği genel anahtarı</string>
+    <string name="tile_unexpanded_columns_vertical">Genişletilmemiş hızlı ayar sütunları (dikey)</string>
+    <string name="tile_unexpanded_columns_horizontal">Genişletilmemiş hızlı ayar sütunları (yatay)</string>
+    <string name="tile_expanded_columns_vertical">Genişletilmiş hızlı ayar sütunları (dikey)</string>
+    <string name="tile_expanded_columns_horizontal">Genişletilmiş hızlı ayar sütunları (yatay)</string>
+    <string name="tile_expanded_rows_vertical">Hızlı ayar satırlarını genişlet (dikey)</string>
+    <string name="tile_columns_horizontal_c13">Hızlı Ayar Sütunları (yatay)</string>
+    
+    <!--StatusBarLayout-->
+    <string name="StatusBarLayout">Durum Çubuğu Düzeni</string>
+    <string name="statusbar_layout_mode">Durum Çubuğu Düzen Modu</string>
+    <string name="statusbar_layout_clock_center_align">Saati Ortaya Hizala</string>
+    <string name="statusbar_layout_compatible_mode">Ekran uyumluluk modu</string>
+    <string name="statusbar_layout_left_margin">Durum çubuğu sol kenar boşluğu (margin)</string>
+    <string name="statusbar_layout_right_margin">Durum çubuğu sağ kenar boşluğu (margin)</string>
+    <string name="statusbar_layout_margin_tip">0 ise değer değiştirilmez</string>
+    
+    <!--StatusBarBattery-->
+    <string name="StatusBarBattery">Durum Çubuğu Pili</string>
+    <string name="remove_statusbar_battery_percent">Durum çubuğundaki pil yüzdesini kaldır</string>
+    <string name="statusbar_power_font_size">Durum çubuğu pil yüzdesi yazı tipi boyutu</string>
+    <string name="statusbar_power_apply_to_battery_icon">Pil simgesine uygula</string>
+    
+    <!--StatusBarBatteryNotify-->
+    <string name="StatusBarBatteryNotify">Durum Çubuğu Pil Bildirimleri</string>
+    <string name="battery_information_notify_permanent_display">Sürekli göster</string>
+    <string name="battery_information_notify_only_charging">Sadece şarj olurken göster</string>
+    <string name="battery_information_display_mode">Pil bilgisi görüntüleme modu</string>
+    <string name="battery_information_display_mode_summary">Durum çubuğunda pil voltajını ve diğer bilgileri göster</string>
+    <string name="battery_information_show_charge">Şarj bilgilerini göster</string>
+    <string name="battery_information_show_charge_summary">Şarj edilirken, şarj cihazının voltajı ve teorik şarj gücü durum çubuğunda gösterilir</string>
+    <string name="battery_information_voltage_display_mode">Voltaj görüntüleme modu</string>
+    <string name="battery_information_show_voltage">Voltajı göster</string>
+    <string name="battery_information_show_dual_voltage">Çift voltajı göster</string>
+    <string name="battery_information_show_battery_health">Pil sağlığını göster</string>
+    <string name="battery_information_always_show_positive_current">Her zaman pozitif akım gösterilsin</string>
+    <string name="battery_information_show_simple_mode">Basit görüntüleme modu</string>
+    <string name="battery_information_show_update_time">Güncelleme saatini göster</string>
+    <string name="battery_information_show_update_time_summary">Kullanılan verinin güncellenme saatini durum çubuğunda gösterir</string>
+    <string name="battery_information_custom_font_size">Özel bildirim yazı tipi boyutu</string>
+    
+    <string name="battery_status_unknown">Bilinmiyor</string>
+    <string name="battery_status_charging">Şarj oluyor</string>
+    <string name="battery_status_discharging">Deşarj oluyor</string>
+    <string name="battery_status_not_charging">Şarj Olmuyor</string>
+    <string name="battery_status_full">Dolu</string>
+    <string name="battery_temperature">Sıcaklık (Temp)</string>
+    <string name="battery_voltage">Voltaj (Vol)</string>
+    <string name="battery_electric_current">Akım (Cur)</string>
+    <string name="battery_health">Sağlık (Hlt)</string>
+    <string name="battery_charger_voltage">Şarj Cih. Vol.</string>
+    <string name="battery_charger_type">Tür</string>
+    <string name="battery_power">Güç (Pwr)</string>
+    <string name="battery_technology">Teknoloji</string>
+    <string name="battery_update_time">Güncellenme</string>
+    
+    <!--Aod-->
+    <string name="AodRelated">Aod (Her Zaman Açık Ekran) İle İlgili</string>
+    <string name="remove_aod_music_whitelist">Aod müzik beyaz listesini kaldır</string>
+    <string name="remove_aod_notification_icon_whitelist">Aod bildirim simgesi beyaz listesini kaldır</string>
+    <string name="restore_aod_notification_icon_color">Aod bildirim simgesi rengini geri yükle</string>
+    <string name="set_aod_notification_icon_style">Aod bildirim simgesi stilini ayarla</string>
+    <string name="force_enable_screen_off_music_support">Ekran kapalı müzik desteğini zorla etkinleştir</string>
+    <string name="force_enable_screen_off_music_support_summary">Yalnızca ekran kapalı müziği desteklemeyen modellerde geçerlidir</string>
+    
+    <string name="AodRandomText">Aod Rastgele Metin</string>
+    <string name="set_random_text_display_mode">Rastgele metin görüntüleme modunu ayarlayın</string>
+    <string name="set_random_text_display_mode_tips1">Aod kişiselleştirilmiş metninin etkinleştirilmesi gerekiyor</string>
+    <string name="set_random_text_display_mode_tips2">Aod donmalarına ve diğer sorunlara neden olabilir</string>
+    <string name="set_random_text_display_mode_local_file">Yerel Dosya (Local File)</string>
+    <string name="set_random_text_display_mode_remote_api">Uzak Api (Remote Api)</string>
+    <string name="custom_random_text_file">Özel rastgele metin dosyası</string>
+    <string name="custom_random_text_api">Özel rastgele metin apisi</string>
+    
+    <string name="AodTypface">Aod Yazı Tipi (Typeface)</string>
+    <string name="set_aod_typeface_mode">Aod yazı tipi modunu ayarlayın</string>
+    <string name="apply_aod_clock_typeface">Aod saatine yazı tipini uygulayın</string>
+    
+    <!--LockScreen-->
+    <string name="LockScreen">Kilit Ekranı İle İlgili</string>
+    
+    <string name="LockScreenClockComponent">Kilit Ekranı Saat Bileşeni</string>
+    <string name="remove_lock_screen_clock_component">Kilit ekranı saat bileşenini kaldır</string>
+    <string name="lock_screen_clock_redone_mode">Kilit ekranı saatindeki kırmızı 1 rakamı modu</string>
+    <string name="apply_lock_screen_dual_clock_redone">Kırmızı 1 modunu kilit ekranı çift saatine uygula</string>
+    <string name="lock_screen_custom_clock_component_style">Kilit ekranı saat bileşeni stilini özelleştir</string>
+    <string name="force_display_clock_style_options">Saat stili seçeneklerini zorla görüntüle</string>
+    <string name="force_display_clock_style_options_summary">\"Ayarlar - Masaüstü ve Kilit Ekranı\" kısmında saat stili seçeneğini zorla gösterir, sadece OPPO/Realme stillerinde etkilidir</string>
+    <string name="set_lock_screen_centered">Kilit ekranı saat bileşenini ortala</string>
+    <string name="set_lock_screen_centered_summary">Yalnızca ayarlarda kilit ekranı ortalanamayan sistemler için</string>
+    <string name="lock_screen_clock_use_user_typeface">Kilit ekranı saat bileşenlerinde kullanıcı yazı tiplerini kullan</string>
+    
+    <string name="LockScreenChargingComponent">Kilit Ekranı Şarj Bileşeni</string>
+    <string name="set_lock_screen_warp_charging_style">Warp şarj stilini ayarla</string>
+    <string name="set_lock_screen_charging_text_logo_style">Şarj metin logo stilini ayarla</string>
+    <string name="lock_screen_show_real_charging_technology">Şarj bileşenlerinde gerçek şarj teknolojisini göster</string>
+    <string name="replace_charging_technology_drawing_style">Şarj teknolojisi çizim stilini değiştir</string>
+    <string name="force_lock_screen_charging_show_wattage">Şarj bileşenlerinde watt değerini (W) zorla göster</string>
+    <string name="lock_screen_charging_use_user_typeface">Şarj bileşenlerinde kullanıcı yazı tiplerini kullan</string>
+    <string name="set_full_screen_charging_animation_mode">Tam ekran şarj animasyonu modu</string>
+    
+    <string name="LockScreenStatusBar">Kilit Ekranı Durum Çubuğu</string>
+    <string name="hide_lock_screen_status_bar_display">Kilit ekranı durum çubuğunu gizle</string>
+    <string name="remove_statusbar_carriers">Durum çubuğu operatörlerini (carriers) kaldır</string>
+    <string name="statusbar_custom_carrier_display_text">Özel durum çubuğu operatör metni</string>
+    <string name="statusbar_carriers_use_user_typeface">Durum Çubuğu Operatörleri kullanıcı yazı tiplerini kullanır</string>
+    
+    <string name="LockScreenButton">Kilit Ekranı Düğmeleri (Buton)</string>
+    <string name="remove_top_lock_screen_icon">Üst kilit ekranı simgelerini kaldır</string>
+    <string name="remove_lock_screen_bottom_left_button">Kilit ekranı sol alt düğmesini kaldır</string>
+    <string name="lock_screen_bottom_left_button_replace_with_flashlight">Kilit ekranının sol alt köşesindeki düğmeyi el feneri ile değiştir</string>
+    <string name="lock_screen_switch_flashlight_auto_close_screen">El fenerini açmak/kapatmak ekranı otomatik olarak kapatır</string>
+    <string name="remove_lock_screen_bottom_right_camera">Kilit ekranı sağ alt kamerasını kaldır</string>
+    <string name="remove_lock_screen_close_notification_button">Kilit ekranı bildirimi kapatma düğmesini kaldır</string>
+    <string name="remove_lock_screen_bottom_sos_button">Acil arama (SOS) düğmesini kaldır</string>
+    <string name="remove_lock_screen_bottom_sos_button_summary">Kilit açma sayfasının altındaki acil arama (SOS) düğmesini kaldırdı</string>
+    
+    <string name="LockScreenEvent">Kilit Ekranı Olayları</string>
+    <string name="auto_wake_up_face_unlock_notification">Bildirimler otomatik olarak yüz kilidini uyandırır</string>
+    <string name="remove_72hour_password_verification">72 saatlik şifre doğrulamasını kaldır</string>
+    <string name="remove_72hour_password_verification_summary">Cihaz yeniden başladıktan veya 72 saat geçtikten sonra parolasız kilit açamama güvenlik kısıtlamasını kaldırır, Sistem yeniden başlatıldıktan sonra etkili olur</string>
+    
+    <!--AlarmClock-->
+    <string name="alarmclock_widget_redone_mode">Saat widgeti kırmızı 1 modu</string>
+    <string name="remove_alarmclock_widget_redone">Masaüstü saat bileşeni kırmızı 1\'i kaldır</string>
+    <string name="remove_alarmclock_widget_redone_pro">Masaüstü saat bileşeni Gelişmiş Kırmızı 1\'i kaldır</string>
+    <string name="remove_alarmclock_widget_redone_pro_summary">Yalnızca normal sürüm etki etmediğinde kullanılabilir, aksi takdirde kaçınılmaz bir hataya yol açar</string>
+    
+    <!--Launcher-->
+    <string name="Desktop">Masaüstü İle İlgili (Launcher)</string>
+    
+    <string name="WidgetRelated">Widget (Araçlar) İle İlgili</string>
+    <string name="remove_launcher_card_name">Masaüstü kart adını kaldır</string>
+    <string name="remove_widgets_add_request_whitelist">Widget ekleme isteği beyaz listesini kaldır</string>
+    
+    <string name="AppIcon">Uygulama İkonu</string>
+    <string name="allow_app_names_display_multiple_lines">Masaüstü uygulama adlarının birden çok satırda görüntülenmesine izin ver</string>
+    <string name="custom_app_icon_name_line_height">Özel uygulama simgesi adı satır yüksekliği</string>
+    <string name="custom_launcher_app_icon_size">Özel masaüstü uygulama simgesi boyutu</string>
+    <string name="disable_long_press_app_icon_secondary_menu">Özel uygulama simgesi ikincil menüsüne uzun basmayı devre dışı bırak</string>
+    
+    <string name="AppBadgeRelated">Uygulama rozetleri ile ilgili</string>
+    <string name="enable_display_app_update_dot">Uygulama güncellendi noktasını (dot) göster anahtarını etkinleştir</string>
+    <string name="enable_display_app_update_dot_summary">İşlev konumu: Ayarlar - Masaüstü ve Kilit ekranı</string>
+    <string name="set_app_update_dot_display_mode">Uygulama simgesi güncelleme noktası görüntüleme modunu ayarla</string>
+    <string name="remove_app_shortcut_badge">Uygulama kısayol rozetini kaldır</string>
+    <string name="remove_app_work_badge">Uygulama iş profil rozetini kaldır</string>
+    <string name="remove_app_clone_badge">Uygulama klon rozetini kaldır</string>
+    <string name="remove_app_update_green_dot">Uygulama güncellemesinden sonraki yeşil noktayı kaldır</string>
+    
+    <string name="FolderLayoutRelated">Klasör Düzeniyle İlgili</string>
+    <string name="remove_folder_name_input_limit">Klasör adı girişi sınırını kaldır</string>
+    <string name="enable_auto_close_folder">Klasörlerin otomatik kapanmasını etkinleştir</string>
+    <string name="remove_folder_preview_background">Klasör önizleme arka planını kaldır</string>
+    <string name="enable_folder_layout_adjustment">Klasör düzeni ayarlamalarını etkinleştir</string>
+    <string name="set_icon_rows_in_folder">Klasördeki simge satırlarının sayısını ayarla</string>
+    <string name="set_icon_columns_in_folder">Klasördeki simgesi sütunlarının sayısını ayarla</string>
+    <string name="sync_folder_icon_column_number_preview">Klasör simgesi sütun sayısını önizlemeye eşitle</string>
+    
+    <string name="PaginationComponentRelated">Sayfalandırma Bileşeni (Pagination) İle İlgili</string>
+    <string name="remove_pagination_component">Sayfalandırma bileşenini kaldır</string>
+    <string name="remove_folder_pagination_component">Klasördeki sayfalandırma bileşenini kaldır</string>
+    <string name="disable_pagination_component_sliding">Sayfalandırma bileşenini kaydırmayı devre dışı bırak</string>
+    
+    <string name="RecentTaskListRelated">Son Görevler Listesiyle İlgili</string>
+    <string name="enable_recent_task_pin_capsule">Son görevlerin kapsüle sabitlenmesini etkinleştir</string>
+    <string name="force_enable_recent_task_memory_display">Son görev ram kullanımını göstermeyi zorla etkinleştir</string>
+    <string name="disable_auto_switch_last_task">Son göreve otomatik geçişi devre dışı bırak</string>
+    <string name="enable_stacked_task_layout">Yığılmış (stacked) görev düzenini etkinleştir</string>
+    <string name="set_task_stacking_level">Görev yığınlama seviyesini ayarla</string>
+    <string name="fix_current_task_to_the_top">Mevcut görevi en üste sabitle</string>
+    <string name="long_press_app_icon_open_app_details">Uygulama ayrıntılarını açmak için uygulama simgesine uzun bas</string>
+    <string name="remove_bottom_app_icon_of_recent_task_list">Geniş son görev listesindeki en alt APP simgesini kaldır</string>
+    <string name="remove_recent_task_list_clear_button">Son görevler listesi temizleme düğmesini kaldır</string>
+    <string name="unlock_task_locks">Arka plan uygulamalarının asma kilit sayısını serbest bırak (Kilisiz yap)</string>
+    <string name="allow_locking_unlocking_of_excluded_activity">Gizlenen ya da hariç tutulan görev kilitlerinin açılmasına/kapatılmasına izin ver</string>
+    <string name="custom_app_floating_window_display_mode">Kayan pencere görüntüleme modunu özelleştir</string>
+    <string name="custom_app_floating_window_display_mode_disable_float_window">Kayan pencereyi devre dışı bırak</string>
+    <string name="custom_app_floating_window_display_mode_remove_whitelist">Beyaz listeyi kaldır</string>
+    <string name="custom_app_floating_window_display_mode_custom_whitelist">Özel beyaz liste</string>
+    <string name="zoom_window_support_list">Özel Yakınlaştırma (Kayan) Pencere Destek Listesi</string>
+    <string name="force_enable_multi_window_mode">Çoklu kayan pencere modunu zorla etkinleştir</string>
+    <string name="custom_multi_window_display_upper_limit">Çoklu pencere görüntüleme üst limitini özelleştir</string>
+    <string name="zoom_window_support_list_summary">İhtiyaçlarınıza göre etkinleştirin, aksi takdirde onarılamaz sorunlar çıkabilir</string>
+    <string name="force_all_apps_support_split_screen">Tüm uygulamaları bölünmüş ekrana zorla</string>
+    
+    <string name="launcher_drawer_layout_related">Uygulama Çekmecesi (Drawer) Düzeni İle İlgili</string>
+    <string name="enable_drawer_layout_double_line_names">Çekmece düzeninde çift satırlı uygulama adlarını etkinleştir</string>
+    <string name="enable_drawer_layout_adjustment">Çekmece düzeni ayarlamalarını etkinleştir</string>
+    <string name="set_icon_columns_in_drawer">Uygulama Çekmecesindeki (Drawer) simge sütunlarının sayısını ayarla</string>
+    
+    <string name="launcher_layout_related">Masaüstü Düzeniyle İlgili</string>
+    <string name="enable_launcher_indicator_entry">Masaüstünün altındaki buton seçimlerini etkinleştir</string>
+    <string name="custom_desktop_default_home_page">Masaüstü varsayılan ana sayfasını özelleştir</string>
+    <string name="enable_docker_background">Dock arka planını etkinleştir</string>
+    <string name="force_enable_docker_background_blur">Docker arka plan bulanıklığını zorla etkinleştir</string>
+    <string name="remove_docker_max_number_limit">Dock max uygulama sınırını kaldır</string>
+    <string name="remove_docker_max_number_limit_summary">Masaüstü ile aynı sütun sayısını kullanır</string>
+    <string name="launcher_layout_row_colume">Masaüstü düzeninin desteklediği maksimum satır ve sütun sayısını ayarlar</string>
+    <string name="launcher_layout_enable">Masaüstü simge düzeni genel anahtarı</string>
+    <string name="launcher_layout_max_rows">Masaüstü düzenindeki maksimum satır sayısı</string>
+    <string name="launcher_layout_max_columns">Maksimum Masaüstü Düzeni Sütunları</string>
+    <string name="launcher_layout_max_columns_summary">Sütunların sayısı 6\'dan büyük veya eşitken simge batırma (icon sinking) işlevinin kullanılması masaüstü çökmesine (crash) neden olabilir</string>
+    
+    <string name="launcher_events">Masaüstü (Launcher) Olayları</string>
+    
+    <!--Application-->
+    <string name="Application">Uygulama İle İlgili</string>
+    
+    <!--AppStartupRelated-->
+    <string name="AppStartupRelated">Uygulama başlatma ile ilgili</string>
+    <string name="disable_splash_screen">Uygulama açılış ekranını (splash) devre dışı bırak</string>
+    <string name="disable_splash_screen_summary">Açılış ekranı animasyonları kaldırıldığından, APP başlatılırken 1-2 saniyelik bir boşluk dönemi olacaktır. Eğer bu durumu istemiyorsanız, lütfen bu işlevi etkinleştirmeyin.</string>
+    <string name="disable_preload_splash">Tüm uygulamalarda açılış ekranını (splash) etkinleştir</string>
+    
+    <!--APPRelatedList-->
+    <string name="APPRelatedList">Uygulama İlgili Liste</string>
+    <string name="set_multi_app_support_mode">Çoklu uygulama (Multi app/App clone) destek modunu ayarla</string>
+    <string name="set_multi_app_support_mode_all_apps">Tüm Uygulamalar</string>
+    <string name="set_multi_app_support_mode_tips">Bazı modellerde tüm uygulama listeleme klonu engellenmiş olabilir, bu tarz özel modeller için uygulama klonlama APP\'si (app clone) kurmanız gerekebilir.</string>
+    <string name="remove_multi_app_blacklist">Çoklu uygulama (klonlama) kara listesini kaldır</string>
+    <string name="remove_multi_app_created_num_limit">Klon (çoklu uygulama) oluşturma sınırını kaldır</string>
+    <string name="set_wlan_sla_whitelist_mode">WLAN çift kanal ivmesi beyaz liste (whitelist) modunu ayarla</string>
+    <string name="remove_wlan_sla_blacklist">WLAN çift kanal ivmesi kara listesini kaldır</string>
+    <string name="custom_wlan_sla_whitelist">Özelleştirilmiş WLAN çift kanal ivmesi beyaz listesi</string>
+    <string name="custom_wlan_sla_game_whitelist">Özelleştirilmiş WLAN çift kanal ivmesi oyun beyaz listesi</string>
+    
+    <string name="multi_app_enable">Değiştirilmiş listeyi etkinleştir</string>
+    <string name="multi_app_custom_list">Klonlanan (Çoklu) Uygulama Destek Listesini Değiştir</string>
+    <string name="multi_app_custom_list_summary">İşlev açıldıktan sonra orijinal klonlama (çoklu uygulama) listesi bu liste ile yer değiştirecektir; çok fazla uygulama eklemek gecikmelere (lag) neden olabilir.</string>
+    <string name="dark_mode_support_list">Özel karanlık mod destek listesi</string>
+    <string name="enable_dark_mode_list">Özelleştirilmiş listeleri etkinleştir</string>
+    <string name="cur_type_none" translatable="false">Yok</string>
+    
+    <!--AppInstallationRelated-->
+    <string name="AppInstallationRelated">Uygulama Yüklemeyle İlgili</string>
+    <string name="PackageInstaller_summary">Çekirdek Yaması (Core Patch) ile kullanılmalıdır</string>
+    <string name="force_enable_32_bit_support">32-bit desteğini zorla etkinleştir</string>
+    <string name="fix_install_button_display_exception">Yükleme düğmesi görünümü hatasını düzelt</string>
+    <string name="fix_install_button_display_exception_summary">Esas olarak yükleme sırasında düğmelerin düzgün görünmemesi ve çökmelerle ilgili sorunları çözer.</string>
+    <string name="dsiable_start_app_detail">Uygulama detayları ekranını devre dışı bırak</string>
+    <string name="dsiable_start_app_detail_summary">Uygulama taramasını ve detaylarını atla</string>
+    <string name="skip_apk_scan">APk virüs taramasını atla</string>
+    <string name="skip_apk_scan_summary">APk virüs taramasıyla ilgili işlemi atlar</string>
+    <string name="allow_downgrade_install">Eski sürüm (downgrade) yüklemeye izin ver</string>
+    <string name="allow_downgrade_install_summary">Daha düşük veya eşdeğer sürüm uyarılarını vs. kaldırır.</string>
+    <string name="disable_apk_signature_verification">APK imza doğrulamasını devre dışı bırak</string>
+    <string name="disable_apk_signature_verification_summary">Farklı olarak imzalanmış uygulamaların yüklenmesini sağlar (Core patch kullanın)</string>
+    <string name="remove_install_ads">Kurulum tamamlandığında çıkan reklamları kaldır</string>
+    <string name="remove_install_ads_summary">Ayarlar -> Güvenlik Uygulaması Önerileri kısmını kapatır</string>
+    <string name="auto_click_install_button">Kur (Yükle) düğmesine otomatik tıkla</string>
+    <string name="auto_click_uninstall_button">Kaldır düğmesine otomatik tıkla</string>
+    <string name="replase_aosp_installer">AOSP Paket Yükleyicisi (Installer) ile değiştir</string>
+    <string name="replase_aosp_installer_summary">ColorOS yükleyicisi yerine Google Orijinal (Native) Paket Yükleyicisi ile değiştirir</string>
+    <string name="show_more_apk_package_information">Daha fazla APK paket bilgisi göster</string>
+    <string name="show_more_apk_package_information_summary">Paket adını, sürüm kodunu vb. yükleme sayfasının en üstünde görüntüler</string>
+    <string name="show_more_apk_package_information_current_version">Mevcut Sürüm</string>
+    <string name="show_more_apk_package_information_iterative_version">Yenilenen Sürüm</string>
+    
+    <!--ApplyOtherRestrictions-->
+    <string name="ApplyOtherRestrictions">Diğer Sınırlar (Limitler)</string>
+    <string name="remove_adb_install_confirm">ADB ile yükleme onayını kaldır</string>
+    <string name="remove_adb_install_confirm_summary">Uygulamaları onay gerekmeden (tıklamadan) ADB ile yükler</string>
+    <string name="unlock_startup_limit">Kendi Kendine Başlama Limitini (Self-Startup) Kaldır</string>
+    <string name="unlock_startup_limit_summary">Uygulama otomatik başlatma ve kendi kendine başlatma sınırlarını kaldırır</string>
+    
+    <!--AppDetailsRelated-->
+    <string name="AppDetailsRelated">Uygulama Ayrıntıları İlgili</string>
+    <string name="show_package_name_in_app_details">Uygulama ayrıntılarında paket adını göster</string>
+    <string name="show_sdk_in_app_details">Uygulama ayrıntılarında SDK sürümünü göster</string>
+    <string name="show_first_install_time_in_app_details">Uygulama ayrıntılarında ilk yüklenme zamanını göster</string>
+    <string name="show_last_update_time_in_app_details">Uygulama ayrıntılarında son güncellenme zamanını göster</string>
+    <string name="show_install_source_in_app_details">Uygulama ayrıntılarında yükleme kaynağını göster</string>
+    <string name="install_source">Yükleme Kaynağı</string>
+    <string name="enable_long_press_to_copy_in_app_details">Uygulama ayrıntılarında kopyalamak için uzun basmayı etkinleştir</string>
+    <string name="enable_quick_open_market_page">Marketi hızlı aç (Jump Market) etkiinleştir</string>
+    <string name="open_market">Marketi Aç</string>
+    <string name="enable_app_clone_quick_jump">Uygulama klonlamaya (app clone) hızlı geçişi etkinleştir</string>
+    <string name="allow_disabling_system_apps">Sistem uygulamalarını devre dışı bırakmaya izin ver</string>
+    <string name="allow_disabling_system_apps_summary">Eğer kullanıcı müdahalesi nedeniyle sistem uygulaması geri yüklenemez duruma gelirse bu modül sorumlu tutulamaz.</string>
+    <string name="remove_app_uninstall_button_blacklist">Uygulama kaldırma düğmesi kara listesini kaldır</string>
+    <string name="enable_custom_app_language">Özel uygulama dilini etkinleştir</string>
+    
+    <!--FloatingWindowDialogRelated-->
+    <string name="FloatingWindowDialogRelated">Kayan Pencere / İletişim Kutusu (Dialog) İle İlgili</string>
+    <string name="disable_duplicate_floating_window">Çift Kayan Pencereyi Devre Dışı Bırak</string>
+    <string name="disable_duplicate_floating_window_summary">Metin kopyalarken bildirimleri (heads up) tekrar gösterme</string>
+    <string name="disable_headphone_high_volume_warning">Kulaklık yüksek ses uyarısını devre dışı bırak</string>
+    <string name="disable_headphone_high_volume_warning_summary">Kulaklığı bağladıktan sonra sesi açarken beliren uyarı iletişim kutusunu devre dışı bırakır</string>
+    <string name="remove_low_battery_dialog_warning">Düşük pil uyarı iletişim kutusunu kaldır</string>
+    <string name="remove_low_battery_dialog_warning_summary">Güç tasarrufu ve süper güç tasarrufu için uyarı iletişim kutularını kaldırır</string>
+    <string name="remove_warning_dialog_that_app_runs_on_desktop">Uygulamanın masaüstünde (arka planda) çalıştığına dair uyarıyı kaldır</string>
+    <string name="remove_warning_dialog_that_app_runs_on_desktop_summary">Bir uygulamanın sistem masaüstü üzerinden diğer uyglamaların üzerine çıktığı uyarı kutusunu kaldırır</string>
+    <string name="remove_usb_connect_dialog">USB bağlantı iletişim kutusunu kaldır</string>
+    <string name="remove_usb_connect_dialog_summary">USB bağlandıktan sonra varsayılan olarak dosya aktarım modu seçilir</string>
+    
+    
+    <string name="remove_access_device_log_dialog">Cihaz günlüğüne (log) erişim iletişim kutusunu kaldır</string>
+    <string name="run_floating_window_tasks_in_foreground">Kayan pencere görevlerini ön planda çalıştır</string>
+    <string name="custom_volume_dialog_background_transparency">Özel ses paneli arka plan şeffaflığı</string>
+    <string name="reduce_power_menu_display_delay">Güç menüsü görüntüleme gecikmesini azalt</string>
+    <string name="auto_tap_start_recording_or_casting_dialog">Kaydı başlat ve ekran yansıtma izinlerine otomatik tıkla</string>
+    
+    <!--PhoneManager-->
+    <string name="remove_virus_risk_notification_in_phone_manager">Telefon Yöneticisindeki virüs riski bildirimini kaldır</string>
+    <string name="remove_secure_pay_found_virus_dialog">Güvenli ödeme virüs bulundu iletişim kutusunu kaldır</string>
+    <string name="remove_countdown_add_virus_app_whitelist">Kötü amaçlı uygulamayı beyaz listeye eklerken çıkan geri sayımı kaldır</string>
+    
+    <!--FingerPrintRelated-->
+    <string name="FingerPrintRelated">Parmak İzi İle İlgili</string>
+    <string name="remove_fingerprint_icon_mode">Parmak izi simgesini kaldırma modu</string>
+    <string name="remove_fingerprint_icon">Parmak izi simgesini kaldır</string>
+    <string name="remove_fingerprint_press_animation">Parmak izi basma animasyonunu kaldır</string>
+    <string name="remove_fingerprint_icon_and_press_animation">Parmak izi simgesini ve basma animasyonunu kaldır</string>
+    <string name="replace_fingerprint_icon_switch">Parmak izi simgesini değiştir</string>
+    <string name="replace_fingerprint_icon_switch_summary">Önerilen görüntü çözünürlüğü yaklaşık 216 x 216\'dır</string>
+    <string name="replace_fingerprint_icon_path">Parmak izi simgesi yolu</string>
+    
+    <!--SoundRelated-->
+    <string name="SoundRelated">Ses İle İlgili</string>
+    <string name="media_volume_level">Medya ses düzeyi (oran kademesi)</string>
+    <string name="media_volume_level_summary">Bu işlevi devre dışı bırakmak için 0\'a ayarlayın, geçerli olması için cihazı yeniden başlatın</string>
+    <string name="enable_super_volume_mode">Süper ses modunu etkinleştir</string>
+    <string name="enable_super_volume_mode_for_calls">Aramalar için süper ses modunu etkinleştir</string>
+    <string name="minimum_volume_level_can_be_zero">Minimum ses seviyesi sıfır olabilir</string>
+    <string name="enable_app_specific_media_volume">Uygulamaya özel medya sesini etkinleştir</string>
+    <string name="enable_app_specific_media_volume_summary">Bu işlevin geçerli olması için sistemde desteklenmesi gerekir</string>
+    <string name="enable_app_specific_media_volume_tips">Bazı modellerde, eksik sistem kodu nedeniyle sistem kullanıcı arayüzü çökebilir. Lütfen koruyucu önlemler alın</string>
+    
+    <!--Miscellaneous-->
+    <string name="Miscellaneous">Çeşitli</string>
+    <string name="Miscellaneous_summary">Zorluk derecesi olan kategoriler buraya yerleştirilecektir</string>
+    <string name="show_charging_ripple">Şarj olurken şarj animasyon doku dalgalarını göster</string>
+    <string name="show_charging_ripple_summary">Sadece şarj aleti bağlıyken geçerlidir</string>
+    <string name="disable_otg_auto_off">OTG Otomatik Kapanmasını Devre Dışı Bırak</string>
+    <string name="disable_otg_auto_off_summary">On dakikadan uzun süre kullanılmadığında OTG\'nin otomatik kapanmasını engeller</string>
+    <string name="remove_storage_limit">Depolama (erişim) sınırını kaldır</string>
+    <string name="remove_storage_limit_summary">Data, obb gibi klasörlerin kullanılamaması kısıtlamasını kaldırır (Android 13/14+ veri izni)</string>
+    
+    <string name="open_screen_power_save">Ekran güç tasarrufu menüsünü aç</string>
+    <string name="open_screen_power_save_summary">Ayarlar - Pil - Daha fazla ayar - Ekran Güç Tasarrufu</string>
+    <string name="open_battery_health">Pil sağlığı menüsünü aç</string>
+    <string name="open_battery_health_summary">Ayarlar - Pil - Pil Sağlığı</string>
+    <string name="set_volume_bar_display_position">Ses çubuğu gösterim konumunu ayarla</string>
+    <string name="force_enable_systemui_blur_feature">Systemui bulanıklık (blur) özelliğini zorla etkinleştir</string>
+    <string name="force_enable_systemui_blur_feature_tips">Ön koşullar: “SystemUI bulanıklık (blur) özelliğini zorla etkinleştir” seçeneğini açmanız gerekir\nİşlev konumu: Çeşitli</string>
+    <string name="force_enable_systemui_blur_feature_tips_2">Not: Parlaklık çubuğunu kaydırdığınızda, bildirim alanında bulanık bir bölge belirecektir. Bu durum beklenen bir davranıştır ve geri bildirim gerektirmez.</string>
+    <string name="show_manual_lock_button_power_menu">Güç menüsünde manuel kilitleme düğmesini göster</string>
+    <string name="remove_power_menu_sos_button">Güç menüsündeki acil durum (SOS) düğmesini kaldır</string>
+    
+    <!--Battery-->
+    <string name="customize_battery_health_data_percentage">Pil sağlığı verisi yüzdesini özelleştir</string>
+    <string name="display_module_calculates_battery_health_data">Ekranda modülün hesapladığı pil sağlığı verisini göster</string>
+    <string name="display_module_calculates_battery_health_data_summary">Açıldığında, modül tarafından hesaplanan sağlık verileri sistem verilerinin altında gösterilecektir.</string>
+    <string name="display_module_calculates_battery_health_data_tips">Hesaplanan Maksimum Kapasite</string>
+    <string name="enable_stop_charging_at_80">%%80\'de şarjı durdurmayı etkinleştir</string>
+    <string name="show_phone_usage_screen_time">Telefonda son kullanıldığı zamanı göster</string>
+    <string name="remove_battery_temperature_control">Pil sıcaklık kontrolü sınırını kaldır</string>
+    <string name="remove_battery_temperature_control_summary">Kamera, el feneri, erişim noktası (hotspot), ekran okuma motoru vb. çeşitli işlevlerin kullanılamamasına neden olan kısıtlamaları kaldırır.</string>
+    
+    <string name="BatteryOptimization">Pil Optimizasyonu</string>
+    <string name="remove_battery_restrict_plugin">Pil kısıtlama (restrict) eklentisini kaldır</string>
+    <string name="restore_default_battery_optimization_whitelist">Varsayılan pil optimizasyon beyaz listesini (whitelist) geri yükle</string>
+    <string name="disable_customize_battery_optimization_whiteList">Özel pil optimizasyonu beyaz listesini devre dışı bırak</string>
+    <string name="disable_customize_battery_optimization_whiteList_summary">Kullanıcı tarafından uygulamaya `pil optimizasyonunu yoksay` izni manuel olarak verilmişse, bu işlev etkinleştirildikten sonra APP, pil optimizasyon beyaz listesine otomatik olarak eklenmez</string>
+    
+    <!--Settings-->
+    <string name="settings_connection_sharing">Bağlantı ve paylaşım</string>
+    <string name="force_display_multi_screen_connect">Çoklu ekran bağlantısını (multi-screen connect) zorla görüntüle</string>
+    
+    <string name="settings_status_bar">Durum Çubuğu</string>
+    <string name="enable_statusbar_clock_format">Durum çubuğu saat biçimi değişimini etkinleştir</string>
+    <string name="enable_statusbar_clock_format_summary">Durum çubuğu saat formatını değiştirme seçeneğini desteklemeyen bazı sistemler de bu ayarı etkinleştirir</string>
+    
+    <string name="settings_lock_screen">Kilit Ekranı</string>
+    <string name="enable_show_never_timeout">Ekran zaman aşımında asla kapanmamasını etkinleştir</string>
+    <string name="enable_show_never_timeout_summary">Etkinleştirildikten sonra ayarlarda görebilirsiniz</string>
+    
+    <string name="settings_display">Ekran ve Parlaklık</string>
+    <string name="enable_extra_brightness">Ekstra parlaklığı etkinleştir</string>
+    <string name="enable_lowest_allowed_brightness">İzin verilen en düşük parlaklık ayarını etkinleştir</string>
+    <string name="force_display_dc_backlight_mode">Göz koruması (düşük parlaklık ve DC Titreme korumasi) modunu zorla görüntüle</string>
+    <string name="force_display_dc_backlight_mode_summary">Çalışacağı garanti edilmez, sadece işlevi açma seçeneğini göstermek için kullanılır</string>
+    <string name="enable_video_memc_frame_insertion">Dinamik video kare eklemeyi (MEMC) etkinleştir</string>
+    <string name="enable_video_memc_frame_insertion_summary">Not: Cihazda ayrılmış bir grafik yongası yoksa veya Memc\'i desteklemiyorsa bu işlevi kullanmayın</string>
+    <string name="custom_video_dynamic_frame_insertion_configuration">Özel video dinamik kare (MEMC) ekleme yapılandırması</string>
+    <string name="restore_frame_insertion_configuration_data">Varsayılan video dinamik kare ekleme (MEMC) yapılandırmasını geri yüklemeyi onaylayın!</string>
+    <string name="confirm_to_delete_this_configuration">Bu yapılandırmanın silineceğini onaylıyor musunuz?\n%1$s</string>
+    <string name="edit_memc_configuration_tips">Daha fazla parametre için lütfen sorgulayın\n%1$s</string>
+    <string name="no_memc_data">Memc Verisi Yok</string>
+    
+    <string name="video_frame_insertion_support_2K120">Video kare (Memc) ekleme 2K 120Hz destekler</string>
+    <string name="video_frame_insertion_support_2K120_summary">Cihazınız MEMC özelliğini desteklemiyorsa bu işlevi kullanmayın</string>
+    <string name="enable_screen_color_temperature_rgb_ball">Ekran RGB renk sıcaklığı topunu etkinleştir</string>
+    <string name="enable_screen_color_temperature_rgb_space">Ekran renk sıcaklığı rgb uzayını etkinleştir</string>
+    <string name="enable_screen_color_temperature_rgb_palette_summary">DC (titreme önleme) işlevi tarafından geçersiz kılınabilir</string>
+    <string name="enable_smart_switching_screen_resolutions">Ekran çözünürlüklerinin akıllı (otomatik) değişimini etkinleştir</string>
+    <string name="force_enable_reduce_white_point_value">Beyaz nokta değerini düşürmeyi zorla etkinleştir (Ekranı sarartma)</string>
+    <string name="force_enable_motion_sickness_anti_dizzy">Hareket ipuçları, araç tutması, baş dönmesi, yorgunluk hissi özelliklerini zorla etkinleştir</string>
+    
+    <string name="settings_application">Uygulamalar</string>
+    <string name="unlock_default_desktop_limit">Varsayılan masaüstü (Launcher) kısıtlamalarını kaldır</string>
+    <string name="force_display_process_management">Süreç yönetimini (process management) zorla görüntüle</string>
+    <string name="force_display_disabled_apps_manager">Devre dışı bırakılan uygulamalar yöneticisini zorla görüntüle</string>
+    <string name="auto_unlock_restricted_settings">Kısıtlanmış ayarlara otomatik izin ver</string>
+    <string name="auto_unlock_restricted_settings_summary">Gri (kilitli) ayarlara tıklandığında otomatik olarak kısıtlama kaldırılır</string>
+    <string name="enable_dedicated_ram_for_games">Oyunlar için ayrılmış (dedicated) RAM\'i etkinleştir</string>
+    
+    <string name="settings_sound">Ses ve Titreşim</string>
+    <string name="enable_clear_voice">Net Sesi (Clear Voice) etkinleştir</string>
+    <string name="enable_clear_voice_tips">Ön koşul: Telefon Yöneticisine (Güvenlik uygulamasına) izin verilmiş olması gerekir.</string>
+    <string name="enable_holographic_audio">Holografik sesi etkinleştir</string>
+    
+    <string name="settings_password_and_security">Şifreler ve güvenlik</string>
+    <string name="enable_google_auto_fill">Google Otomatik Doldurmayı etkinleştir</string>
+    <string name="restore_password_management_settings">Şifre yönetimi ayarlarını zorla görüntüle</string>
+    <string name="disable_device_admin_verification_dialog">Cihaz Yöneticisi kontrol (verify) iletişim kutusunu devre dışı bırak</string>
+    
+    <string name="settings_authority_and_privacy">İzinler ve gizlilik</string>
+    <string name="enable_vip_mode">VIP modunu etkinleştir</string>
+    
+    <string name="settings_other_advanced_settings">Ek Ayarlar</string>
+    <string name="enable_swipe_up_navigation_gesture">Yukarı kaydırma el hareketini (gesture) etkinleştir</string>
+    <string name="enable_touch_membrane_protector_mode">Dokunmatik ekran koruma modunu etkinleştir</string>
+    <string name="enable_game_acceleration">Oyun hızlandırmayı etkinleştir</string>
+    <string name="force_display_content_recommend" translatable="false">İçerik önerilerini zorla görüntüle</string>
+    
+    <string name="settings_about_device">Cihaz Hakkında</string>
+    <string name="remove_device_name_change_limit">Cihaz adı değiştirme sınırını kaldır</string>
+    <string name="set_processor_click_page">İşlemciye tıklandığında atlanacak sayfayı ayarla</string>
+    <string name="custom_processor_image_path_switch">Özel işlemci logosu yolu</string>
+    <string name="custom_processor_introduction_text">Özel işlemci tanıtım metni</string>
+    <string name="custom_processor_introduction_text_summary">Metin önbelleğini silmek için metne uzun basın</string>
+    <string name="enable_mariana_npu_introduction_page">Mariana NPU tanıtım sayfasını etkinleştir</string>
+    <string name="enable_hasselblad_camera_introduction_page">Hasselblad kamera tanıtım sayfasını etkinleştir</string>
+    <string name="enable_game_architecture_display">Oyun mimarisi gösterimini etkinleştir</string>
+    <string name="screen_physics_size_shown_cm">Ekran fiziksel boyutlarını santimetre (cm) cinsinden göster</string>
+    <string name="customize_device_sharing_page_parameters">Cihazı paylaşım sayfası parametrelerini özelleştir</string>
+    <string name="customize_device_ota_card_background">Cihaz güncelleme (OTA) kartı arka planını özelleştir</string>
+    <string name="customize_device_ota_card_background_summary">Önerilen boyut: 328x124 pikselin katları</string>
+    <string name="customize_device_ota_card_background_path">Arka plan resmi yolu</string>
+    <string name="hide_ota_card_top_text">OTA Kart üst metnini gizle</string>
+    <string name="apply_device_parameter_sharing_page">Cihaz paylaşım parametreleri sayfasına uygula</string>
+    <string name="settings_developer_preference">Geliştirici Seçenekleri</string>
+    <string name="remove_dpi_restart_recovery">DPI değiştirilince yeniden başlama zorunluluğunu kaldır</string>
+    <string name="remove_dpi_restart_recovery_summary">Özelliği etkinleştirdikten sonra, geliştirici seçenekleri sayfasını açın ve minimum genişliği (DPI) ayarlayın</string>
+    
+    <string name="settings_other_preference">Diğer Tercihler</string>
+    <string name="remove_top_account_display">Üstteki hesap gösterimini kaldır</string>
+    <string name="disable_cn_special_edition_setting" translatable="false">CN (Çin) özel sürüm ayarlarını devre dışı bırak</string>
+    <string name="fix_default_app_jump_problem" translatable="false">Varsayılan uygulama geçiş sorununu düzelt</string>
+    <string name="fix_default_app_jump_problem_summary" translatable="false">Düzeltmeden sonra varsayılan uygulama izinleri sayfasına geçilebilir.</string>
+    <string name="force_display_auto_launch_jump_option" translatable="false">Otomatik başlatma geçiş seçeneğini zorla göster</string>
+    
+    <string name="remove_settings_bottom_laboratory">Ayarların altındaki laboratuvarı (realme lab vb.) kaldır</string>
+    <string name="force_display_bottom_google_settings">Ayarların altında Google\'ı zorla göster</string>
+    
+    <!--WirelessSettings-->
+    <string name="enable_wifi_details_display_gateway">Wifi ayrıntılarında ağ geçidini görüntülemeyi etkinleştir</string>
+    
+    <!--Camera-->
+    <string name="enable_camera_debug_ui_option">DebugUI seçeneğini etkinleştir</string>
+    <string name="enable_camera_debug_ui_option_summary">Kapatma yöntemi:\n1. Kamera DEBUGUI\'deki tek tıkla sıfırlama düğmesine tıklayın\n2. Modüldeki DEBUGUI işlevini kapatın\n3. Kapsamı (Scope) veya sistemi yeniden başlatın\n4. /data/vendor/camera/ klasörünü silin (isteğe bağlı)</string>
+    <string name="custom_camera_open_gallery_by_default">Varsayılan galeri uygulamasını özelleştir</string>
+    <string name="custom_camera_open_gallery_by_default_tips">Yalnıza bir galeri uygulaması seçimine izin verilir!</string>
+    <string name="enable_camera_night_zoom_30x">Gece çekimleri için 30x yakınlaştırmayı (zoom) etkinleştir</string>
+    <string name="enable_video_capture_roulette_zoom">Video çekiminde rulet (roulette) yakınlaştırmasını etkinleştir</string>
+    <string name="remove_camera_flash_limit">Flaş kullanım kısıtlamalarını kaldır</string>
+    
+    <string name="CameraWaterMark">Filigran (Kamera Markası)</string>
+    <string name="remove_watermark_word_limit">Özel filigranlardaki karakter sınırını kaldır</string>
+    <string name="enable_frame_watermark_style">Çerçeve Filigran (Frame Watermark) Stilini Etkinleştir</string>
+    <string name="enable_hasselblad_watermark_style">Hasselblad Filigran (Watermark) Stilini Etkinleştir</string>
+    <string name="custom_model_watermark">Özel model filigranı</string>
+    <string name="enable_ai_master_watermark">Yapay Zeka (AI) ustası filigranını etkinleştir</string>
+    <string name="enable_hassel_watermark">Hasselblad filigranını etkinleştir</string>
+    <string name="enable_privacy_watermark">Gizlilik filigranını etkinleştir</string>
+    <string name="enable_spring_festival_watermark" translatable="false">Bahar Şenliği filigranını etkinleştir</string>
+    <string name="enable_spring_festival_watermark_summary" translatable="false">Önkoşul: Galeri uygulamasının Bahar Şenliği filigranını desteklemesi gerekir.</string>
+    <string name="enable_national_day_watermark" translatable="false">Ulusal Gün filigranını etkinleştir</string>
+    <string name="enable_national_day_watermark_summary" translatable="false">Önkoşul: Galeri uygulamasının Ulusal Gün filigranını desteklemesi gerekir.</string>
+    
+    <string name="CameraFilter">Filtre (Kamera)</string>
+    <string name="remove_filter_model_limit">Filtre model sınırlandırmalarını kaldır</string>
+    <string name="camera_universal_filter_settings">Evrensel filtre ayarları</string>
+    <string name="camera_filter_master">Usta filtresi</string>
+    <string name="camera_filter_jiangwen">Jiang Wen filtresi</string>
+    <string name="camera_filter_grand_tour">GrandTour filtresi</string>
+    <string name="camera_filter_vignette_grain">Film filtresi (Vintage Karıncalanmış)</string>
+    <string name="camera_filter_desert">Çöl Efsanesi (DesertLegend) filtresi</string>
+    <string name="camera_filter_tol">LuChuan Film filtresi</string>
+    <string name="camera_filter_zhi_gan">ZhiGan OS15 filtresi</string>
+    <string name="camera_filter_jzk">Jia Zhangke filtresi</string>
+    <string name="camera_portrait_filter_settings">Portre filtre ayarları</string>
+    <string name="camera_video_filter_settings">Video filtre ayarları</string>
+    <string name="camera_filter_color_extraction">Kızıl / Orman Yeşili / Gök mavisi</string>
+    <string name="camera_filter_retention">AI Renk Portresi</string>
+    <string name="camera_filter_bokeh_flare_portrait">Bokeh Flare (Parıltılı) Portre</string>
+    
+    <string name="enable_10_bit_image_support">10-bit Görüntü (Fotoğraf) Desteğini Etkinleştir</string>
+    <string name="enable_10_bit_image_support_summary">Bu özelliğin bazı modellerde etkinleştirilmesi, fotoğrafın yeşil renkte çıkmasına neden olabilir.</string>
+    
+    <!--Gallery-->
+    <string name="GalleryWaterMark">Filigran (Kamera Markası)</string>
+    <string name="enable_watermark_editing">Filigran düzenlemeyi etkinleştir</string>
+    <string name="replace_oneplus_model_watermark">OnePlus model filigranını değiştir</string>
+    <string name="replace_oneplus_model_watermark_summary">Filigranı düzenlerken [OnePlus İle Çekildi] yerine özelleştirilmiş model adı yazılır</string>
+    
+    <string name="GalleryView">Görünüm (Galeri)</string>
+    <string name="enable_photo_listview_senior_picked">Kıdemli seçim (senior picked) fotoğraf görünümünü etkinleştir</string>
+    <string name="set_photo_view_thumb_line_display_mode">Fotoğraf görünümü önizleme çizgisi (thumb line) görüntüleme modunu ayarla</string>
+    
+    <string name="GalleryEditor">Düzenleyici (Galeri)</string>
+    <string name="enable_photo_editor_gif_synthesis">GIF oluşturmayı etkinleştir</string>
+    <string name="enable_lns_cut_photo">Bir fotoğrafın bir bölümünü kesmeyi (lns cut) etkinleştir</string>
+    <string name="remove_aigc_elimination_limit">AIGC (Objeleri Silme) kısıtlamalarını kaldır</string>
+    <string name="remove_aigc_elimination_limit_summary">Esas olarak resim ihlalleri nedeniyle ortadan kaldırılamayan (kaldırılmasına izin vermeyen) durumu çözer</string>
+    
+    <!--OplusGames-->
+    <string name="OplusGamesLayout">Oyunlar - Düzen</string>
+    <string name="remove_startup_animation">Açılış (Başlangıç) animasyonunu kaldır</string>
+    <string name="remove_welfare_page">Ödüller (Welfare) sayfasını kaldır</string>
+    <string name="remove_tool_recommendation_card">Araç öneri kartını kaldır</string>
+    
+    <string name="OplusGamesTool">Oyunlar - Araçlar</string>
+    <string name="remove_root_check">Oyun Filtresi Kısıtlamasını Kaldır</string>
+    <string name="remove_root_check_summary">Oyun filtrelerindeki root kontrolü (tespiti) sınırını kaldırır</string>
+    <string name="remove_some_vip_limit">Bazı VIP kısıtlamalarını kaldır</string>
+    <string name="remove_some_vip_limit_summary">Ağ hızlandırma, oyun filtreleri vb. kısıtlamaları açar\nLütfen özellikleri tek tek kendiniz test edin</string>
+    <string name="enable_developer_page">Geliştirici sayfasını etkinleştir</string>
+    <string name="enable_eva_theme">EVA temasını etkinleştir</string>
+    <string name="enable_developer_page_summary">Bu işlevi etkinleştirdikten ve uygulamayı (veya modülü) yeniden başlattıktan sonra,\n oyun alanından kısa yolla geçiş yapılabilir</string>
+    <string name="enable_adreno_gpu_controller">Adreno GPU Kontrolcüsünü etkinleştir</string>
+    <string name="enable_support_competition_mode">Mücadele (E-spor/Competiton) Modu Desteğini Etkinleştir</string>
+    <string name="remove_competition_mode_sound">E-spor modu açılma/kapanma seslerini kaldır</string>
+    <string name="enable_increase_fps_limit_feature">FPS limitini yükseltme desteğini etkinleştir</string>
+    <string name="enable_increase_fps_feature">FPS yükseltme işlevini etkinleştir</string>
+    <string name="enable_optimise_power_feature">Güç optimizasyonunu etkinleştir</string>
+    <string name="enable_gt_mode_feature">GT Modunu etkinleştir</string>
+    <string name="enable_x_mode_feature">X Modunu etkinleştir</string>
+    <string name="enable_super_resolution_feature">Süper çözünürlüğü etkinleştir</string>
+    <string name="enable_one_plus_characteristic">OnePlus (O-Haptics) Karakteristiğini Etkinleştir</string>
+    <string name="custom_media_player_support">Özel medya oynatıcı desteği</string>
+    <string name="custom_media_player_support_message">Eklenecek medya oynatıcının paket (package) adını doldurun,\nHer satıra yalnızca bir APP eklenebilir</string>
+    <string name="remove_danmaku_notification_whitelist">Danmaku (ayan bildirimleri) bildirim beyaz listesini kaldır</string>
+    <string name="enable_game_bypass_charging_support">Bypass (baypas) şarj desteğini etkinleştir</string>
+    <string name="remove_game_voice_changer_whitelist">Oyunlarda ses değiştirici (voice changer) beyaz listesini kaldır</string>
+    <string name="remove_game_assistant_temperature_detection">Oyun asistanı sıcaklık tespitini kaldır</string>
+    <string name="remove_game_assistant_temperature_detection_summary">Özellikle X modundaki aşırı sıcaklık nedeniyle olan sınırlamaları ortadan kaldırır</string>
+    <string name="custom_barrage_notification_whitelist">Özel kayan bildirim (barrage) beyaz listesi</string>
+    <string name="custom_barrage_notification_whitelist_message">Orijinal beyaz listeye göre uygulamalar ekleyin</string>
+    
+    <!--CloudService-->
+    <string name="remove_network_limit">Veri Ağı (Mobil Veri) Sınırlarını Kaldır</string>
+    <string name="remove_network_limit_summary">Mobil veri kullanılırken devreye giren yedekleme/geri yükleme sınırlamalarını kaldırır</string>
+    <string name="disable_forced_backup_app_list">Uygulama listesinin zorunlu (forced) yedeklenmesini devre dışı bırak</string>
+    
+    <!--ThemeStore-->
+    <string name="unlock_themestore_vip">Tema mağazasındaki bazı VIP özelliklerinin kilidini aç</string>
+    <string name="unlock_themestore_vip_summary">Bazı özelliklerin kilidini açar, çalışıp çalışmadığını kendiniz test edin</string>
+    
+    <!--Screenshot-->
+    <string name="Screenshot">Ekran Görüntüsü</string>
+    <string name="remove_system_screenshot_delay">Sistem ekran görüntüsü gecikmesini kaldır</string>
+    <string name="remove_system_screenshot_delay_summary">İlk ekran görüntüsünde etki etmeyebilir</string>
+    <string name="remove_screenshot_privacy_limit">Ekran görüntüsü gizlilik limitini kaldır</string>
+    <string name="remove_screenshot_privacy_limit_summary">Ekran görüntüsü alınamayan yerlerdeki (banka uygulamaları vs.) gizlilik kısıtlamalarını kaldırır. Etki etmezse \'FLAG_SECURE Devre Dışı Bırak\' seçeneğini deneyin</string>
+    <string name="disable_flag_secure">FLAG SECURE\'u Devre Dışı Bırak</string>
+    <string name="disable_flag_secure_summary">Çoğu uygulamanın ekranı kaydetme, ekran/görüntü paylaşma sınırlarını çözer\nLSPosed 1.8.6+ gerektirir</string>
+    <string name="remove_page_limit_for_long_screenshots">Uzun ekran görüntüleri için sayfa sınırını (20 sayfa sınırı) kaldır</string>
+    <string name="remove_page_limit_for_long_screenshots_summary">Yalnızca bazı senaryolarda desteklenir, lütfen özel durumu kendiniz test edin</string>
+    <string name="enable_png_save_format">PNG kaydetme biçimini etkinleştir</string>
+    
+    <!--OplusOta-->
+    <string name="remove_ota_notify_install_success">OTA (Güncelleme) kurulumu başarı bildirimini kaldır</string>
+    <string name="remove_ota_auto_download_dialog">OTA (Güncelleme) otomatik indirme iletişim kutusunu kaldır</string>
+    
+    <!--OplusOta-->
+    <string name="get_ota_verify_result">Değiştirilmiş bölüm (partition)</string>
+    <string name="get_ota_verify_result_summary">Kademeli (Incremental) güncellemeleri gerçekleştirmek için (Güncelleme yüklerken Root silinmemesi için), aşağıdaki bölümleri orijinal imajına (boot, init_boot) geri yükleyin\n[%1$s]</string>
+    <string name="unlock_local_upgrade">Yerel (Yerel Dosyadan) Güncellemeyi Aç</string>
+    <string name="unlock_local_upgrade_summary">Tıkladıktan sonra ilgili işlemler otomatik olarak gerçekleştirilecektir, lütfen birkaç saniye sabırla bekleyiniz.</string>
+    <string name="remove_ota_local_update_verity">OTA (Güncelleme) dosyadan yerel güncelleme doğrulamasını kaldır</string>
+    <string name="enable_opex_local_install">Opex yerel kurulumunu etkinleştir</string>
+    <string name="disable_dm_verity_verification">dm-verity doğrulamasını devre dışı bırak</string>
+    <string name="restore_ota_update_verity">OTA (Güncelleme) güncellemesi verity doğrulamasını devam ettir</string>
+    <string name="restore_ota_update_verity_summary">Geçerli Durum: [%1$s]\nEğer OTA (Güncelleme) doğrulaması başarısız uyarısı veya dm-verity uyarısı veriyorsa bu işlevi kullanmayı deneyin\nÖzelliğin sistemde varsayılan olarak zaten devrede olduğunu unutmayın ve neden gri durduğunu (seçilemediğini) sormayın\nDoğrulama kapalıyken güncelleme (OTA) başarısız olduğundan, bu işlev tekrar açılarak bu özellik kilitlenir.</string>
+    
+    <!--Extract OTA-->
+    <string name="extract_ota_information">OTA (Güncelleme) bağlantısını (URL) çıkart</string>
+    <string name="extract_ota_information_summary">Yeni güncelleme geldiğinde, OTA adres bilgilerini (indirme linki vs.) çıkartmak için tıklayabilirsiniz</string>
+    <string name="no_ota_data">OTA Güncelleme (Bağlantısı) Verisi Yok</string>
+    <string name="extract_ota_source">Bağlantıyı Çıkar</string>
+    
+    <!--Pictorial-->
+    <string name="remove_image_save_watermark">Resim kaydetme filigranını kaldır (Kilit ekranı magazini / Pictorial)</string>
+    <string name="remove_video_save_watermark">Video kaydetme filigranını kaldır</string>
+    
+    <!--OplusLinker-->
+    <string name="force_display_communication_sharing">İletişim paylaşımını (communication sharing) zorla göster</string>
+    
+    <!--OplusGesture-->
+    <string name="AonGesture">Aon Hareketleri (AonGesture)</string>
+    <string name="force_enable_aon_gestures">Aon hareketlerini zorla etkinleştir</string>
+    <string name="force_enable_aon_gestures_summary">Not: AONService (com.aiunit.aon) uygulamasını (yapay zeka el hareketleri paketi) yüklenmeli ve kamera izni verilmiş olmalıdır!</string>
+    <string name="custom_aon_gesture_scroll_page_whitelist">Özel kaydırma (scroll) sayfası beyaz listesi</string>
+    <string name="custom_aon_gesture_video_whitelist">Özel video el hareketleri (gesture) beyaz listesi</string>
+    <string name="custom_aon_gesture_whitelist_tips">Beyaz listeye eklenmesi gereken uygulamanın paket adını (package name) doldurun</string>
+    <string name="enable_volume_key_control_flashlight">Ses tuşlarının el fenerini kontrol etmesini etkinleştir</string>
+    <string name="enable_volume_key_control_flashlight_summary">Güç düğmesiyle de el feneri kapatmayı destekler (Ekran kapalıyken güç tuşana basmak)</string>
+    
+    <!--FullScreenGestureRelated-->
+    <string name="FullScreenGestureRelated">Tam ekran el hareketleriyle (gestures) ilgili</string>
+    <string name="remove_side_slider">Geri kaydırma (side slide) animasyon okunu kaldır</string>
+    <string name="remove_side_slider_black_background">Yan Geri kaydırma kaydırıcısının siyah arka planını (side slide blur effecti) kaldır</string>
+    <string name="remove_rotate_screen_button">Ekranı döndürme düğmesini kaldır</string>
+    <string name="remove_back_gesture_confirmation_limit">Tam ekran el hareketlerinde geri dönme/çıkma onayı sınırını kaldır</string>
+    
+    <string name="CustomSideSliderIcon">Özel geri kaydırma oku/simgesi</string>
+    <string name="replace_side_slider_icon_switch">Geri kaydırma kaydırıcısı simgesini (oku) değiştir</string>
+    <string name="replace_side_slider_icon_switch_summary">Simge/Ok genişliğinin yaklaşık 100px olması önerilir</string>
+    <string name="replace_side_slider_icon_on_left">Sol taraftaki geri kaydırma okunu/yan kaydırma simgesini değiştir</string>
+    <string name="replace_side_slider_icon_on_right">Sağ taraftaki geri kaydırma okunu/yan kaydırma simgesini değiştir</string>
+    
+    <!--OplusMMS-->
+    <string name="remove_verification_code_floating_window">Doğrulama kodu (OTP) kayan penceresini kaldır</string>
+    <string name="remove_mms_bottom_input_box_menu">Alt giriş/metin kutusu menüsünü kaldır</string>
+    <string name="remove_mms_card_marketing_button">Mesaj (SMS) kartının altındaki pazarlama düğmesini kaldır</string>
+    
+    <!--OplusPhone-->
+    <string name="force_display_five_g_switch">5G (Şebeke) anahtarını zorla göster</string>
+    <string name="force_display_preferred_network_type">Tercih edilen ağ (şebeke) türünü zorla göster</string>
+    <string name="force_display_volte_calls">VoLTE (4G Arama) çağrılarını zorla göster</string>
+    <string name="enable_sound_sealed_call">Mühürlü - Ses Sızdırmaz aramayı (Sound-Sealed Call) etkinleştir</string>
+    
+    <!--OplusBrowser-->
+    <string name="remove_ads_from_weather_page">Hava durumu bölümü altındaki bilgilendirici reklamları kaldır</string>
+    <string name="remove_ads_from_weather_page_summary">Reklamları engelleme etkisini elde etmek için m.weathercn.com sayfasına javascript (JS) enjekte edildi. Hava durumu uygulaması aracılığıyla otomatik geçen 15 günlük hava durumu gibi tarayıcı gerektiren bölümler için uygundur</string>
+    <string name="remove_ads_from_download_dialog">İndirme iletişim kutusundaki (Dialog) reklamları kaldır</string>
+    <string name="remove_ads_at_download_page_bottom">İndirme sayfasının altındaki reklamları kaldır</string>
+    <string name="remove_browser_window_limit_number">Tarayıcıdaki (Oplus Browser) maksimum sekme (sayfa) sınırı limitini kaldır</string>
+    <string name="remove_browser_search_bar_app_promotion">Tarayıcıdaki (Oplus Browser) arama çubuğundaki (search bar) uygulama tanıtımlarını kaldır</string>
+    
+    <!--OplusBreeno-->
+    <string name="force_enable_ai_speechassist_call">Yapay zeka (AI) ses asistanını (Xiaobu) aramayı zorla etkinleştir</string>
+    <string name="remove_app_recommend_card">Breeno/Global arama içindeki Uygulama öneri kartını kaldır</string>
+    <string name="remove_searchbox_uninstalled_app_suggestions">Yüklenmemiş uygulama önerilerini kaldır</string>
+    <string name="searchbox_default_search_local_tab">Breeno\'da varsayılan olarak (Web araması yerine) \"Yerel arama / Cihaz içi arama\" (Local Tab) yapılsın</string>
+    
+    <!--OplusMarket-->
+    <string name="remove_market_splash_page_app_recommend">Mağaza (Market) açılış sayfasındaki uygulama önerilerini (splash page) kaldır</string>
+    <string name="remove_market_update_download_page_app_recommend">Uygulama güncelleme/indirme sayfasındaki uygulama önerilerini kaldır</string>
+    <string name="remove_market_mine_page_app_recommend">Mağazada Profilim hesap  \(Benim) sayfasındaki uygulama önerilerini kaldır</string>
+    
+    <!--OplusWeather-->
+    <string name="disable_weather_jump_browser">Hava durumu uygulamasındaki bazı bölümlerin Tarayıcıya yönlendirmesini devre dışı bırak</string>
+    <string name="remove_weather_some_page_bottom_ads">Hava durumu bölümü sayfasının altındaki reklamları kaldır</string>
+    <string name="enable_15_day_weather_expand_list">15 günlük hava durumu listesini doğrudan genişletilir hale getir</string>
+    <string name="restore_rainfall_cloud_map_page">Bulut (Yağmur Bulutları vb.) haritası sayfasını geri yükle</string>
+    
+    <!--OplusCalendar-->
+    <string name="remove_holiday_page_information_flow">Tatil sayfasındaki bilgi akışı haberlerini/reklamlarını (inf. flow) kaldır</string>
+    <string name="remove_almanac_page_information_flow">Eskitme takvim (Almanac) sayfasındaki bilgi akışhaberlerini/reklamlarını kaldır</string>
+    <string name="remove_horoscope_page_information_flow">Burç sayfasındaki bilgi haberlerini/reklamlarını akışını (inf flow) kaldır</string>
+    
+    <!--OplusSmartSidebar-->
+    <string name="force_enable_buoy_automatically_hides">Tam ekrandayken (Videolarda vb.) akıllı kenar çubuğunun kenardaki ince saydam şeridin (tutma butonunun) otomatik gizlenmesini zorla etkinleştir</string>
+    <string name="unlock_transfer_dock">Aktarım tabanının - (Görsel sürüklediğiniz transfer dock file) kilidini aç</string>
+    <string name="unlock_recent_files">Son dosyaların kilidini aç</string>
+    <string name="unlock_fluid_cloud">Fluid (akıcı) bulut kilidini aç</string>
+    <string name="enable_run_in_background">Kenar çubuğuna Arka Planda Çalıştır düğmesini ekle</string>
+    <string name="enable_run_in_background_summary">Akıllı kenar çubuğunun daha eski bir sürümünü yüklemeniz gerekebilir</string>
+    <string name="enable_game_ai_play">AI Oyun Asistanını/Yapay Zeka Oynar asistanını (AI Play) etkinleştir</string>
+    
+    <!--OplusSoundRecorder-->
+    <string name="enable_record_calls_on_third_party_apps">Üçüncü taraf (WhatsApp vs.) uygulamalardaki aramaların kaydedilmesini etkinleştir</string>
+    <string name="enable_record_calls_on_third_party_apps_tips">Ön koşul: \"Üçüncü taraf uygulama arama kaydı (com.oplus.audiomonitor)\" yüklenmiş olmalı, mikrofon izinleri ve arka plan davranış izinleri etkinleştirilmiş olmalıdır</string>
+    <string name="enable_record_calls_on_third_party_apps_tips_2">\"Üçüncü Taraf Uygulama Arama Kaydı\" (com.oplus.audiomonitor) uygulamasına Root izni de verilmelidir</string>
+    <string name="expand_voip_recorder_whitelist">Genişletilmiş internet araması (VOİP/WhatsApp vs.) çağrı kaydı beyaz listesi</string>
+    
+    <!--OplusEyeProtect-->
+    <string name="enable_eyeprotect_paper_texture_support">Göz koruması için kağıt (paper) dokusu desteğini etkinleştir</string>
+    
+    <!--OplusBeaconLink-->
+    <string name="remove_beacon_link_time_limit">Beaconlink zaman (süre) kısıtlamasını kaldır</string>
+    
+    <!--OplusHealth-->
+    <string name="remove_health_root_check_dialog">Sağlık (Oplus Health) uygulamasındaki Root tespiti iletişim kutusunu kaldır</string>
+    
+    <!--OplusNfc-->
+    <string name="scan_nfc_tag_auto_click">NFC etiketini tarayıp düğmeye otomatik tıklamayı etkinleştir</string>
+    
+    <!--OplusOShare-->
+    <string name="remove_oshare_close_countdown">Oppo Paylaşımı (OShare) kapanma geri sayımını kaldır</string>
+    
+    <!--OplusPermissionController-->
+    <string name="remove_storage_permission_exception_dialog">Google Android 13/14 sürümüyle gelen klasörlerin gizliliği Depolama (Storage) izni uzantısı iletişim kutusunu (hata uyarısını) kaldır</string>
+    
+    <!--OplusSecuritypPermission-->
+    <string name="app_start_dialog_use_old_version">Uygulama başlatma paneli izin kontrolündeeski sürümü kullanın</string>
+    <string name="enable_always_allow_app_start_dialog">İzin kutularında her zaman (Otomatik olarak sürekli) uygulamayı başlatmaya izin verme (Her zaman izin ver) seçeneğini etkinleştir</string>
+    <string name="remove_always_allow_app_start_list">Her zaman başlatılmasına izin verilen uygulamalar listesini kaldır</string>
+    <string name="auto_unlock_app_ecm_permission_restrict">Uygulama İzin yönetimi/yetkilendirme kısıtlamalarının (Sistemdeki 3. Taraf APK kısıtlı ayarlar hatası) kilidini otomatik aç</string>
+    
+    <!--OplusLinker-->
+    <string name="force_enable_iphone_shared_support">Apple (iPhone - İos) Cihazlar ile O-Share dosya Paylaşımı desteğini zorla etkinleştir</string>
+    
+    <!--OplusFileManager-->
+    <string name="remove_word_limit_for_saving_files">Dosyaları kaydederken karakter/sınır (Word) limitini kaldır</string>
+    <string name="remove_word_limit_for_compress_files">Sıkıştırılmış (ZİP vb.) dosyalar için kelime (isim uzunluğu) sınırını kaldır</string>
+    <string name="remove_word_limit_for_label_name_files">Yeniden adlandırılan dosyalar için kelime/karakter sınırını kaldır</string>
+
+    <!--Everyimage-->
+    <string name="skip_startup_page">Uygulama (Her Resim / Galeriden vs.) Açılış sayfasını atla</string>
+    <string name="vip_download">Orijinali indir</string>
+    <!--AlphaBackupPro-->
+    <string name="remove_pro_license">Lisans algılamayı/tespitini kaldır (Crack işlemi yapar AlphaBackupPro\'da)</string>
+    <!--ADM-->
+    <string name="adm_unlock_pro">Pro (ADM Uygulaması için) sürümünü kilidini aç</string>
+    <string name="adm_unlock_more_threads">Daha fazla indirme iş parçacığı kilidini (daha fazla hız limitini) aç</string>
+    
+    <!--Home-->
+    <string name="fps_title">Ekran Tarama / Yenileme hızını zorla</string>
+    <string name="fps_summary">“dpfs” (Uygulamalara göre Hz değişen sistem yazılımı) gibi diğer dinamik yenileme hızı süreçleriyle çakışabilir</string>
+    <string name="brand">Marka (Brand)</string>
+    <string name="model">Model</string>
+    <string name="product">Cihaz Kodu</string>
+    <string name="market_name">Pazar Adı (Market Name)</string>
+    <string name="flash">Kayıt Türü</string>
+    <string name="build_version">Sistem Derleme / Derleme (Build) No</string>
+    <string name="device">Cihaz / GPU Kodu</string>
+    <string name="system">Sistem (OS)</string>
+    <string name="fps_mode_title">Seçenek</string>
+    <string name="fps_tips">Kendiliğinden başlatma işlevi ekran kilidi açıldıktan 1 saniye sonra tetiklenir</string>
+    <string name="restore_default_refresh_rate">Varsayılan ekran yenileme hızına dön</string>
+    <string name="module_isactivated">Modül etkinleştirildi (Etkin)</string>
+    <string name="module_notactive">Modül etkinleştirilmedi ! (Pasif)</string>
+    <string name="module_has_updated">Modül güncellenmiş (Xposed Üzerinden Onay Vermeniz veya Re-boot Etmeniz Gerekebilir).</string>
+    <string name="module_is_disabled">Modül devredışı bırakıldı</string>
+    <string name="module_version">Modül sürümü:</string>
+    <string name="root_source">Root kaynağı:</string>
+    <string name="framework_version">Framework (Lsposed/Kernel Sü v.) sürümü:</string>
+    <string name="enable_module">Modülü Etkinleştir</string>
+    <string name="version_name">Sürüm Adı</string>
+    <string name="download_count">İndirme Sayısı</string>
+    <string name="file_size">Dosya Boyutu</string>
+    <string name="update_time">Güncelleme Tarihi</string>
+    <string name="first_install_time">İlk kurulum Tarihi</string>
+    <string name="last_update_time">Son Güncellenme Tarihi</string>
+    <string name="select_download_source">İndirme kaynağını seç</string>
+    <string name="update_logs">Güncelleme Günlükleri / Değişiklikleri - (Logs)</string>
+    <string name="check_update_hint">Yeni bir sürüm tespit edildi!</string>
+    <string name="check_update_error">Güncelleştirmeler kontrol edilemedi (hatası), lütfen ağı veya diğer sorunları kontrol edin!</string>
+    <string name="go_download_page">İndirme sayfasına git</string>
+    <string name="copy_download_link">İndirmeyi bağlantısını (link) kopyala</string>
+    <string name="direct_update">Doğrudan Cihaz İçinden (Uygulama İçinden) güncelle</string>
+    <string name="install_apk_toast">Lütfen bilinmeyen uygulama yükleme iznini (Güvenlik Ayarlarındaki) etkinleştirin!</string>
+    <string name="downloading">İndiriliyor</string>
+    <string name="download_progress">İndirme Durumu / İlerlenen Kısım</string>
+    <string name="download_speed">İndirme Hızı</string>
+    <string name="remain_size">Kalan Boyut / Boyut</string>
+    <string name="downloaded">İndirildi</string>
+    <string name="used_time">Geçen Süre</string>
+    <string name="remain_time">Kalan Süre</string>
+    <string name="install_button">Şimdi Yükle - Kur (İnstall)</string>
+    <string name="cancel_button">İndirmeyi iptal et</string>
+    <string name="fps_autostart">Otomatik Başlatma</string>
+    <string name="fps_no_data">FPS verisi yok, lütfen Root iznini verip vermediğinizi kontrol edin</string>
+    <string name="device_guid">Cihaz GUID  (Id - Cihaz Kimliğiniz - Geliştiriciye Hata Raporları Göndermek Vs İçin Lazım Olabilir)</string>
+    <string name="oplusota_copy_tip">Ayrı ayrı kopmyalamak için giriş kutusuna basıp tutun</string>
+    <string name="oplusota_copyall">Hepsini Kopyala</string>
+    <string name="authorized" translatable="false">Geliştiricinin Notu : Ücretli, Paylaşım, Yönlendirme Vb Şeyler Yasaktır - Lütfen Bunu Kendi Çıkarınız İçin Kullanmayın : (Bu Satırı Görmeyeceksiniz Türkçe Çeviri By İlker)</string>
+    
+    <!--Donate-->
+    <string name="donate_tv_title">Geliştiriciyi Destekleyin</string>
+    <string name="donate_tv__summary">Gelecekteki güncellemeleri veya bu işlerin devamını desteklemek istiyorsanız geliştiriciye bağış yapabilmek için tıklayın veya uzunca basın</string>
+    <string name="donate_data_decode_error">Bağış vb bilgileri çözümlenemedi (Büyük ihitmalle çin menşeili olduğu için we chat kullanıcısı vs istiyor). Lütfen Bir Daha Denemeyiniz Yada Daha Sonra Deneyin.</string>
+    <string name="donate_detailed_data">Ayrıntılı (Detaylı) veriler</string>
+    <string name="donate_other_currency">Diğer para birimleri (Çin dışı ödemeler)</string>
+    <string name="donate_info_time">Tarih - Zaman (Time)</string>
+    <string name="donate_info_money">Para / Tutar (Money)</string>
+    <string name="donate_info_order">Sipariş Sayısı / No\'su vs. (Order)</string>
+    
+    <!-- Other -->
+    <string name="quick_entry">Sistem Hızlı Girişi (Kısayollar / Anahtarlar)</string>
+    <string name="quick_entry_summary">ör. System UI uyumlaştırma - (çakışma - çözücü) araçları, süreç yönetimi, mühendislik modu (engineering mode) vb.</string>
+    <string name="tile_list">Modül içine  (Lucky Tool\'a ait hızlı ayarlar eklemek için) yerleşik hızlı ayarlar listesi</string>
+    <string name="tile_list_summary">Kontrol merkezine hızlıca özel kutucuk (tile) ekleyin</string>
+    <string name="tile_list_click_tips">Kontrol merkezine eklemek için tıklayın</string>
+    
+    <string name="SystemDebuggingRelated">Sistem Hata Ayıklama İle İlgili (System Debugging)</string>
+    <string name="engineering_mode">Mühendislik (Kapsamlı Test/Donanım Testi - Engineering) Modu</string>
+    <string name="charging_test">Şarj/Hücre vs. (Devre vb akım) Testi</string>
+    <string name="developer_option">Geliştirici (Dev.) Seçenekleri</string>
+    <string name="system_interface_adjustment">SystemUI (Sistem Arayüzü) ayarı / yeniden yapılandırıcı</string>
+    <string name="AOSPSettingsPage">AOSP yerel ayarlar sayfası (Saf Google ayarlar arayüzüne gider)</string>
+    
+    <string name="HidePageRelated">Gizli sayfalarla ilgili (Gizli Menüler)</string>
+    <string name="process_manager">Süreç (Sistem Arkada Çalışan Uygulamalar vs / Process ) yöntemi - yöneticisi</string>
+    <string name="very_dark_mode">Çok karanlık/Süper Karartma mod (Very Dark Mode)</string>
+    <string name="battery_health_page">Pil Sağlığı Sayfası (Kayıp Kısım vs.)</string>
+    <string name="battery_optimization">Pil Optimizasyonu Sayfası</string>
+    <string name="camera_algo_page">Kamera Algoritmaları Sayfası</string>
+    <string name="browser_concise_mode">Tarayıcı Açık / Kısa-Öz - (Tarayıcı Sade/Yalın Geliştirici Modu)</string>
+    
+    <string name="GameAssistantRelated">Oyun Asistanı ile İlgili</string>
+    <string name="game_assistant_page">Oyun Asistanı Sayfası</string>
+    <string name="game_space_page">Oyun Alanı / Boşluğu (Game Space) Sayfası</string>
+    <string name="game_assistant_develop_page">Oyun Asistanı Geliştirici Sayfası / Ayarları</string>
+    
+    <!--Shortcut-->
+    <string name="set_module_shortcuts">Modül kısa yollarını ayarla</string>
+    <string name="set_module_shortcuts_summary">Etkin kısa yolları görmek (uygulama simgesine uzun basılı tutuunca çıkan pencerede) içi modül simgesinin üzerine uzun basın.</string>
+    
+    <!--TouchPanel-->
+    <string name="set_touch_sampling_rate_tile_level">Dokunmatik / Ekran Yenileme (Örnekleme vs hz.) hızlı ayarlarının ayarlarını belirleyin</string>
+    <string name="set_touch_sampling_rate_tile_level_summary">Her vitesin (ayar seçeneğinin hz hızı vb.) normal olarak tetiklenip tetiklenemediğini (çalışıp çalışmadığını) tek tek kendiniz test ediniz.\nOyunu açmak için oyun asistanınızı kullanırken buradaki değerlerin üzerine yazılabilir ve etki göstermeyebilir. Not : Ekranınızın HZ hızına vb. bakmaksızın olan panel hassasiyetleri dokunma tepki hızlarını ayarlamaktır.</string>
+    
+    <!-- ADB相关 -->
+    <string name="remote_adb_debug_title">Uzaktan (Wifi-Kablosuz-Wireless vs.) ADB hata ayıklama - bağlantısı</string>
+    <string name="remote_adb_debug_summary">Özelliği Kullanmadığınız Süreç İçerisinde Lütfen kapalı Tutun.</string>
+    <string name="adb_port">ADB Bağlantı Noktası (Portu)</string>
+    <string name="enable_remote_adb_debugging">Uzaktan (Kablosuz-Remote vb.)  hata ayıklamayı / bağlantıyı etkinleştir</string>
+    <string name="adb_debug_port_cannot_null">Port (Bağlantı Noktası) Boş Bırakılamaz , Geçersiz Sayılmaz !...</string>
+    <string name="adb_tv_tip">Kopyalamak için Uzun Basın.</string>
+    
+    <!--LOG Fragment-->
+    <string name="log_save_success">Sistem / Modül kayıt Verisi (Günlük Verileri - LOG) Başarıyla Kaydedildi / Alındı. !</string>
+    <string name="log_save_failed">Kayıt Alma Olayı Başarısız Oldu ! (Daha Sonra Tekrar Deneyin).</string>
+    <string name="log_data_is_empty">Herhangi Bir Kayıt (Anomali vs. Log) Oluşmamış Log Verisi Boş veya Temiz.!</string>
+    <string name="log_no_data">Herhangi bir Sistem / Modül anomali - hatası - bug vs. bulunamadı - Yok.</string>
+    <string name="log_filter_title">Neyin Filitreleneceğini / Sorgulanarak Ayrışturılacağını Girin.</string>
+    <string name="log_filter_layout_hint">Örneğin, paket adı (uygulamanın gerçek core-paket adı), içerik (metin bazlı içerir vs.) gibi.</string>
+    
+    <!--Tile-->
+    <string name="touch_sampling_rate">Dokunma örnekleme hızı (Panale-Ekrana dokunma sıklığınız hassasiyeti vb.)</string>
+    <string name="high_brightness_mode">Aşırı (En Yüksek-Üstün) Parlaklık Modu</string>
+    <string name="high_performance_mode">Yüksek (Tam Gaz Sistemi Somurme ) vb Tam Performans Modu.</string>
+    <string name="global_dc">Global (Donanımsal Bazlı - Küresel) DC Titreme (Flicker) Koruması (Parlaklık göz koruma olayı)</string>
+    <string name="fiveg_mode">5G (Şebeke bağlantısı vb için anahtar ) Modu</string>
+    <string name="display_refresh_rate">Ekran (Cihazın panali üstündeki aktif vb) Yenileme Hızını Göster/Gizle</string>
+    <string name="google_service">Google Servisleri (Hizmetleri)</string>
+    <string name="bypass_power">Bypass Power / Kablodan güç alma direkt şebek üzerinden anakarta verme (Pil korumak aşındırmamak amaçlı Bypass şarj etme / Baypas güç)</string>
+    <string name="run_in_background">Arka planda (Sekme açık olmadan arkada aktif) Çalıştır.</string>
+    
+    <!--Service-->
+    <string name="auto_start_service_channel_name">Otomatik - Kendi Kendine Çalışan Hizmet / Uygulama Kısıtlamaları</string>
+    <string name="auto_start_service_channel_title">Modülün Kendi Kendie başlatma İşlevi Arka Planda Şuan Aktif Olarak Çalışıyor…</string>
+    <string name="service_auto_start_controller_not_allow_tips">Kendinden başlama - arka planda durmadan çalışma vs. hizmeti bir hata/anomali veridi - anormal çalışıyor. Modülün izinler kısmından arkaplan çalışma süreçlerini pil optimizyasonundan iptal edini/izin verin (Kusursuz Arkada Çalışacak Şekilde ). Daha sonrada kısıtlamayınız arka plan hizmetini.</string>
+    
+    <!--Typeface-->
+    <string name="use_user_typeface">Kullanıcı Tarafından Seçilen Yazı Tipini Kullan .</string>
+    <string name="use_bold_font_style">Fontu/Stili (Bold) Kalınlaştırma seçeneği Uygula / Kullan.</string>
+    
+    <!--AppInfo-->
+    <string name="appinfo_sort_and_filter">Sırala / Ayrıştır ve Filtrele</string>
+    <string name="appinfo_sort_by">Şuna Göre Sırala</string>
+    <string name="appinfo_filter">Bu Kritere Göre vs. Filitrele</string>
+    <string name="appinfo_reverse">Tersyüz (Zıt) vs Et (Reverse - Listeleme türü sanrım Z\'den A ya Vs. Eskiden Yeniye.)</string>
+    
+    <string name="appinfo_app_name">Uygulama Adı</string>
+    <string name="appinfo_package_name">Uygulamanın Core - System İçi Kimlik Paket (Package) Adı</string>
+    <string name="appinfo_app_size">Uygulama Boyutu</string>
+    <string name="appinfo_install_time">Uygulamanın Yüklenme Zamanı / Tarihi vs.</string>
+    <string name="appinfo_last_updated_time">Son Güncelleme Zamanı</string>
+    <string name="appinfo_target_sdk">Hedeflenen Cihazın Kullandığı vs SDK Api  Seviyesi .</string>
+    <string name="appinfo_system_app">Cihaza Ait Sistem Uygulamasıdır...</string>
+    
+    <!--Intent-->
+    <string name="custom_config_app_intent_list">Özel uygulamaların \"Nefen Kullanılmak İsteniyor/Amacı Niyet vs. (intent)\" konfigürasyon listesi</string>
+    <string name="select_all_share_intent">Tüm Paylaşım İsteği Seçeneklerini (intent)  Seç.</string>
+    <string name="select_all_text_intent">Tüm Uzun Metine Basılı Tutma İstek vs (intent) Seçeneklerini  seç.</string>
+    <string name="select_all_open_intent">Tüm açma işlemi/isteği mod türlerindeki intentleri vs seç .</string>
+    <string name="select_all_browser_intent">Tarayıcı Açma vb türlerindeki içerek intent vb şeylerini seç .</string>
+    
+    <!--Intent Type-->
+    <string name="intent_share">Paylaşım Hedefi / Amacı - Türü vs. (Share İntent)</string>
+    <string name="intent_text">Metin ile işlem - istek yapma vb Türler - (Text İntent)</string>
+    <string name="intent_open">Uygulama Açma Tarzındaki Hedefler Türler Vs (Open Mode İntent)</string>
+    <string name="intent_browser">Bir siteyi bir urlyi webi vs açmak için tarayıcı açma ile iglili vs (Browser İntent)</string>
+    
+    <string name="intent_single_share">Tek Bir Dosyayı / Objeyi Paylaş.</string>
+    <string name="intent_multi_share">Çoklu - Birden Fazla Nesne Vs Paylaş.</string>
+    <string name="intent_long_press_text">Metine Uzunca Basılı Tutmak - Metin Seçme İşlemi .</string>
+    <string name="intent_open_content">Herhagni Bir İçerikle Uygulama Aç / İşlem Yaptır.</string>
+    <string name="intent_open_file">Dosya İle (Dosyanın türünü vs tanıyarak uygulama üstünden direkt açma)  kutu/uygulama / pencere vb şey.</string>
+    <string name="intent_http_link">Güvenli olmayan Http isteği linki aç - yönledir vs...</string>
+    <string name="intent_https_link">Güvenli olan Güvenilir SSL Sertrifikalı  https linkine/web yönlendir... </string>
+    
+    <!--CommonWords-->
+    <string name="enable">Etkinleştir / Aç</string>
+    <string name="disable">Devredışı Bırak / Kapat / Durdur</string>
+    <string name="left">Sol</string>
+    <string name="right">Sağ</string>
+    <string name="close">Kapat</string>
+    <string name="open">Aç</string>
+    <string name="share">Paylaş</string>
+    <string name="add">Ekle</string>
+    <string name="remove">Kaldır (Sil)</string>
+    <string name="ignore">Görmezden Gel / Umursama vs.</string>
+    <string name="default_">Varsayılan Ayar (Fabrikden/Üreticiden Gelen Orijinal vb değer...)</string>
+    <string name="normal">Normal</string>
+    <string name="all">Hepsi (Tümü)</string>
+    <string name="special">Yeni - Eşşiz - Modüler Vs Özel</string>
+    <string name="preset">Taslaklar (Oluşturulup Hazır Edilmiş Olan Seçenekler...)</string>
+    <string name="single_line">Tek (Bi alt satıra geöş olmayan) Satır</string>
+    <string name="double_line">İkili (bir alt satrada giden vs) Satır/Satırlar</string>
+    <string name="customize">Özelleştir / Kendine göre bir değer/opsiyon filan girip kullan vs. ayarla.</string>
+    <string name="current_mode">Mevcut (Şu an ki ) Mod (Durum / Tür vs.)</string>
+    <string name="refresh">Olayı vb vs Şeyi Yenile</string>
+    <string name="save">Kaydet / Üstüne Yaz</string>
+    <string name="filter">Filtrele - Listede / Bir şeye vs göre türden vb vs süz... :D</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="whitelist">Beyaz Liste (İstesnalar vb / Whitelist)</string>
+    <string name="blacklist">Kara Liste (Aman Diyimi Kısıtlayacağım ve Engellyeceğim Olan Şeyler / Blacklist... )</string>
+    <string name="ads">Reklam / Tanıtım - Bilgi vb</string>
+    <string name="reset">Sıfırla ( Orijinale / En eski değere vb vs döndür...)</string>
+    <string name="import_">İçe Aktar... ( Dışarıdaki yedeği vs bir içeri vb vs al - kur...)</string>
+    <string name="not_set">Seçilmemiş - Konfiüre Edilmemiş.</string>
+    <string name="high">En Üstü / Yukarı vs vs Seviye (Yüksek)</string>
+    <string name="middle">Orta - Merkezi Kararda Orta Seviye (Middle)</string>
+    <string name="low">En Dibi - Minimum vs vb Seviye / Ayar (Düşük)</string>
+    <string name="dynamic">Dinamik (Kendine Değişen / Çalışan vs. bir işlev vs )</string>
+    <string name="bold">Fontu / Yazılanı Vs Kalın Yapan (Bold)</string>
+    <string name="expand">Bi Satırı / Listeyi VS Vb Aşağı / Geniştererek Aç vb vs...</string>
+    <string name="replace">Eski Şey ile yenisinin / Üstüne Yaz (Yer değiştir vs vb).</string>
+    <string name="recommended_size">Önerilen - Üreticinin/Geliştiricinin Uygun Gördüğü Max/Optimum vb Boyutlar...</string>
+    <string name="add_success">Başarıyla / Sorunsuz Olarak Eklendi.</string>
+    <string name="add_fail">Ekleme  - Yerine / Üstüne vb Vs Yazma İşlemi Başarısız Oldu...!</string>
+    <string name="add_repeat">Aynı İşlem Zaten Daha Önceden Defalaraca Vs Yapıldı - Eklenmiş - Sürekli Yapmayın / Tekrarlanmış Ekleme / İşlem</string>
+    <string name="install">Kur - Yükle.</string>
+    <string name="uninstall">Mevcut olanı Cihazdan Sök/Kaldır.</string>
+    <string name="download_again">Bağlantı vs hatası, baştan tekrar bir daha vb . İndir.</string>
+    
+    <!--Permission-->
+    <string name="send_notification_permission">Bidirim vs bildirmek için vb vs Gönderme  İzni (Send notification permission)</string>
+    <string name="all_files_access_permission">Tüm dosyalara (Dahili hafı vs Data , Ob gibi yerlere vb erişim olanağı - Tüm Dosya Erişim İzni - Android 12 Vs Üstü İster.)</string>
+    <string name="installed_apps_permission">Uygulama - cihaz içi bilgi , paket vs vs okuma - vb izni (Read your app list permission)</string>
+    <string name="install_app_permission">Yeni bi uygulama vb dış kaynaktan modül üzerinden vb vs kurulum vb olanağı için Kurulum / Yükleme izni .(Install app permissions)</string>
+    
+    <string name="permission_denied_toast">Bunun için vs Yetkiniz / İzninin YOK - Reddedildi vs, Lütfen Manuel - cihazınız içi sistem vs izinler/uyg vb yerinde elinizle  İzin (Verin) - Tanımlayın: %1$s</string>
+    <string name="permission_error_toast">Sizden Bu izni alamadım - erişimim yok (%1$s) vs İzni Elde Ederken Hata vs. Oluştu.!: %1$s</string>
+    
+    <!--Net 网络请求异常-->
+    <string name="net_connect_error">Ağa / İnternete vs / Site sunucusuna vb  Bağlanılamadı.!</string>
+    <string name="net_networking_error">Kullandığınız / Mevcut ağınız  Yok Veya Kapalı / Kullanılamıyor !.</string>
+    <string name="net_url_error">Gittiğiniz - İstek yaptınız Url vb Kaynak / İstek  Adresi Hatalı - vs Arızalı .</string>
+    <string name="net_host_error">Belirtilen - aradığınız  Sunucu Ana makinesi vs Bağlantınız Bulunamadı !</string>
+    <string name="net_connect_timeout_error">Sunucuya bağlanmaya çalıştım Fakat Çok Uzun - Gecikme Sürdü , Sunucu zaman aşımına vs vb uğradı.!, %s</string>
+    <string name="net_download_error">Veri inerken vs İndirme işlemi sırasınd vs a Bir Hata Oluştu / Patladı - Tükendi . vb vs.!.</string>
+    <string name="net_no_cache_error">Mevcuttaki vb Önbellekten okuma - verş yazma vs işleme verileri okunamadı - alamadım.!.</string>
+    <string name="net_parse_error">Gelen vs. Veriler ayrıştırılırken vb. okunduğu vb durumlarda , esnada vb işlemlerde   bir istisna - anomali / error oluştu.!...</string>
+    <string name="request_failure">Gittiği vs. İstek , Bağlantı Vb  başarısız oldu/gerçekleşmedi.!!!</string>
+    <string name="net_request_error">İstenen  değerler / Parametre Vb Verilen Girilen istek - parametre vb hatası var !.</string>
+    <string name="net_server_error">Gidilen vs Servisten vb Gelen Yanıt / Response VS Sunucu Tepkilerinde hata var !.</string>
+    <string name="net_null_error">İçinde  Hiçbişey vb olmayan boş İstisna vb hata (null) oluştu !.</string>
+    <string name="net_error">Bilinmeyen / Çözülemeyen vb Türden  Ağ Vb Şebeke Hatası !.</string>
+    <string name="net_other_error">Bilinmeyen Türden  Hata !.</string>
+    <string name="no_error_message">Belirti / İşaret vb Olan Hiçbir vs Hata mesajı Yok ! (Sıfır Sorun)...</string>
+
+</resources>
