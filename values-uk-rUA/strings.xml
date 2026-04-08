@@ -556,7 +556,6 @@
     <string name="run_floating_window_tasks_in_foreground">Run floating window tasks in the foreground</string>
     <string name="custom_volume_dialog_background_transparency">Custom volume dialog background transparency</string>
     <string name="reduce_power_menu_display_delay">Reduce power menu display delay</string>
-    <string name="auto_tap_start_recording_or_casting_dialog">Automatically tap the start recording or casting dialog</string>
     <!--PhoneManager-->
     <string name="remove_virus_risk_notification_in_phone_manager">Видалити сповіщення про ризик виникнення вірусу в менеджері телефону</string>
     <string name="remove_secure_pay_found_virus_dialog">Видалено діалогове вікно з виявленим вірусом безпечної оплати</string>

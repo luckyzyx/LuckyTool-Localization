@@ -556,7 +556,6 @@
     <string name="run_floating_window_tasks_in_foreground">フローティングウィンドウタスクをフォアグラウンドで実行</string>
     <string name="custom_volume_dialog_background_transparency">カスタム音量ダイアログの背景の透明度</string>
     <string name="reduce_power_menu_display_delay">電源メニューの表示遅延を減らす</string>
-    <string name="auto_tap_start_recording_or_casting_dialog">録音またはキャスト開始のダイアログを自動でタップする</string>
     <!--PhoneManager-->
     <string name="remove_virus_risk_notification_in_phone_manager">フォンマネージャーのウイルスリスク通知を削除</string>
     <string name="remove_secure_pay_found_virus_dialog">安全な支払いでウイルスが見つかった時のダイアログを削除</string>

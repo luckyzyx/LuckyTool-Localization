@@ -556,7 +556,6 @@
     <string name="run_floating_window_tasks_in_foreground">Esegui le attività della finestra fluttuante in primo piano</string>
     <string name="custom_volume_dialog_background_transparency">Trasparenza sfondo notifica personalizzata</string>
     <string name="reduce_power_menu_display_delay">Riduci ritardo visualizzazione menù di spegnimento</string>
-    <string name="auto_tap_start_recording_or_casting_dialog">Tocca automaticamente la finestra di dialogo per avviare la registrazione o la trasmissione</string>
     <!--PhoneManager-->
     <string name="remove_virus_risk_notification_in_phone_manager">Rimuovi la notifica di rischio virus in Gestione Telefono</string>
     <string name="remove_secure_pay_found_virus_dialog">Rimuovi la finestra di dialogo del virus trovato per il \"Pagamento Sicuro\"</string>

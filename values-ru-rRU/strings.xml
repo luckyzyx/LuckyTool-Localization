@@ -556,7 +556,6 @@
     <string name="run_floating_window_tasks_in_foreground">Запускать всплывающие окна на переднем плане</string>
     <string name="custom_volume_dialog_background_transparency">Прозрачность фона панели громкости</string>
     <string name="reduce_power_menu_display_delay">Уменьшить задержку отображения меню питания</string>
-    <string name="auto_tap_start_recording_or_casting_dialog">Автоматически нажимать на диалоговое окно начала записи или трансляции</string>
     <!--PhoneManager-->
     <string name="remove_virus_risk_notification_in_phone_manager">Удалить уведомление об угрозе вирусов в диспетчере телефона</string>
     <string name="remove_secure_pay_found_virus_dialog">Удалить диалоговое окно с обнаруженным вирусом безопасной оплаты</string>

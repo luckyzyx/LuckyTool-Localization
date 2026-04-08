@@ -575,8 +575,9 @@
     <string name="run_floating_window_tasks_in_foreground">浮窗贴边任务前台运行</string>
     <string name="custom_volume_dialog_background_transparency">自定义音量对话框背景透明度</string>
     <string name="reduce_power_menu_display_delay">减少电源菜单显示延迟</string>
-    <string name="auto_tap_start_recording_or_casting_dialog">自动点击开始录制或投射对话框</string>
     <!--PhoneManager-->
+    <string name="remove_start_recording_or_casting_dialog">移除开始录制或投射对话框</string>
+    <string name="force_show_toast_icon">强制显示Toast提示图标</string>
     <string name="remove_virus_risk_notification_in_phone_manager">移除手机管家发现病毒风险通知</string>
     <string name="remove_secure_pay_found_virus_dialog">移除支付保护发现病毒对话框</string>
     <string name="remove_countdown_add_virus_app_whitelist">移除添加病毒应用白名单的倒计时</string>
@@ -612,6 +613,7 @@
     <string name="open_screen_power_save_summary">设置-电池-更多设置-屏幕省电</string>
     <string name="open_battery_health">打开电池健康入口</string>
     <string name="open_battery_health_summary">设置-电池-电池健康</string>
+    <string name="disable_volume_bar_thickness_effect">禁用音量条粗细效果</string>
     <string name="set_volume_bar_display_position">设置音量条显示位置</string>
     <string name="force_enable_systemui_blur_feature">强制启用系统界面模糊特性</string>
     <string name="force_enable_systemui_blur_feature_tips">前提条件：需要开启选项“强制启用系统模糊特性”\n功能位置：杂项</string>
@@ -660,12 +662,12 @@
     <string name="enable_screen_color_temperature_rgb_palette_summary">可能会被DC功能覆盖</string>
     <string name="enable_smart_switching_screen_resolutions">启用智能切换屏幕分辨率</string>
     <string name="force_enable_reduce_white_point_value">强制启用降低白点值</string>
-    <string name="force_enable_motion_sickness_anti_dizzy">强制启用晕动舒缓显示</string>
     <string name="settings_application">应用</string>
     <string name="unlock_default_desktop_limit">解锁默认桌面限制</string>
     <string name="force_display_process_management">强制显示进程管理</string>
     <string name="force_display_disabled_apps_manager">强制显示已停用应用管理器</string>
     <string name="auto_unlock_restricted_settings">自动解锁受限制的设置</string>
+    <string name="auto_jump_accessibility_settings">自动跳转无障碍设置</string>
     <string name="auto_unlock_restricted_settings_summary">点击灰色选项时自动解锁此限制</string>
     <string name="enable_dedicated_ram_for_games">启用游戏专属内存</string>
     <string name="settings_sound">声音</string>
@@ -805,6 +807,7 @@
     <string name="remove_page_limit_for_long_screenshots_summary">仅支持部分场景，具体情况请自行测试</string>
     <string name="enable_png_save_format">启用 PNG 保存格式</string>
     <!--OplusOta-->
+    <string name="disable_screenshot_packagename_md5_encrypt">禁用截图包名MD5加密</string>
     <string name="remove_ota_notify_install_success">移除OTA安装成功通知</string>
     <string name="remove_ota_auto_download_dialog">移除OTA自动下载对话框</string>
     <!--OplusOta-->
@@ -910,6 +913,7 @@
     <string name="remove_always_allow_app_start_list">移除始终允许启动应用列表</string>
     <string name="auto_unlock_app_ecm_permission_restrict">自动解锁应用权限管理授权限制</string>
     <string name="force_enable_iphone_shared_support">强制启用iPhone互联</string>
+    <string name="unlock_some_hidden_options">解锁部分隐藏选项</string>
     <string name="remove_word_limit_for_saving_files">移除文件保存字数限制</string>
     <string name="remove_word_limit_for_label_name_files">移除重命名文件字数限制</string>
     <string name="skip_startup_page">跳过启动页</string>

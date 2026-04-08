@@ -655,7 +655,8 @@
     <string name="run_floating_window_tasks_in_foreground">Run floating window tasks in the foreground</string>
     <string name="custom_volume_dialog_background_transparency">Custom volume dialog background transparency</string>
     <string name="reduce_power_menu_display_delay">Reduce power menu display delay</string>
-    <string name="auto_tap_start_recording_or_casting_dialog">Automatically tap the start recording or casting dialog</string>
+    <string name="remove_start_recording_or_casting_dialog">remove start recording or casting dialog</string>
+    <string name="force_show_toast_icon">Force display of toast prompt icon</string>
     
     <!--PhoneManager-->
     <string name="remove_virus_risk_notification_in_phone_manager">Remove the virus risk notification in Phone Manager</string>
@@ -697,6 +698,7 @@
     <string name="open_screen_power_save_summary">Settings - Battery - More settings - Screen Power Saving</string>
     <string name="open_battery_health">Open battery health entrance</string>
     <string name="open_battery_health_summary">Settings - Battery - Battery Health</string>
+    <string name="disable_volume_bar_thickness_effect">Disable volume bar thickness effect</string>
     <string name="set_volume_bar_display_position">Set the volume bar display position</string>
     <string name="force_enable_systemui_blur_feature">Force enable the systemui blur feature</string>
     <string name="force_enable_systemui_blur_feature_tips">Preconditions: You need to turn on the option to “force enable the blur feature of the systemui”\nFunctional location: Miscellaneous</string>
@@ -752,13 +754,13 @@
     <string name="enable_screen_color_temperature_rgb_palette_summary">May be overridden by DC function</string>
     <string name="enable_smart_switching_screen_resolutions">Enable smart switching of screen resolutions</string>
     <string name="force_enable_reduce_white_point_value">Forced to enable reduce white point value</string>
-    <string name="force_enable_motion_sickness_anti_dizzy">Force enable vehicle motion cues,motion cues,motion sickness,car sickness,dizziness,nausea,vomiting</string>
     
     <string name="settings_application">Application</string>
     <string name="unlock_default_desktop_limit">Unlock default desktop restrictions</string>
     <string name="force_display_process_management">Force display of process management</string>
     <string name="force_display_disabled_apps_manager">Force display of disabled apps manager</string>
     <string name="auto_unlock_restricted_settings">Auto unlock restricted settings</string>
+    <string name="auto_jump_accessibility_settings">Auto jump to accessibility settings</string>
     <string name="auto_unlock_restricted_settings_summary">This restriction is automatically lifted when clicking on the gray option</string>
     <string name="enable_dedicated_ram_for_games">Enable dedicated RAM for games</string>
     
@@ -927,6 +929,7 @@
     <string name="remove_page_limit_for_long_screenshots">Remove the page limit for long screenshots</string>
     <string name="remove_page_limit_for_long_screenshots_summary">Only some scenarios are supported, please test the specific situation by yourself</string>
     <string name="enable_png_save_format">Enable PNG save format</string>
+    <string name="disable_screenshot_packagename_md5_encrypt">Disable MD5 encryption of screenshot package name</string>
     
     <!--OplusOta-->
     <string name="remove_ota_notify_install_success">Remove the OTA installation success notification</string>
@@ -1061,6 +1064,9 @@
     
     <!--OplusLinker-->
     <string name="force_enable_iphone_shared_support">Force enable iPhone shared support</string>
+    
+    <!--OplusEngineerMode-->
+    <string name="unlock_some_hidden_options">Unlock some hidden options</string>
     
     <!--OplusFileManager-->
     <string name="remove_word_limit_for_saving_files">Remove the word limit for saving files</string>
