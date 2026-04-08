@@ -556,7 +556,6 @@
     <string name="run_floating_window_tasks_in_foreground">Spustit úkoly plovoucího okna v popředí</string>
     <string name="custom_volume_dialog_background_transparency">Vlastní průhlednost pozadí panelu hlasitosti</string>
     <string name="reduce_power_menu_display_delay">Snížit zpoždění nabídky tlačítka napájení</string>
-    <string name="auto_tap_start_recording_or_casting_dialog">Automaticky klikněte na dialogové okno zahájení nahrávání nebo vysílání</string>
     <!--PhoneManager-->
     <string name="remove_virus_risk_notification_in_phone_manager">Odstranit upozornění na riziko virů ve Správci telefonu</string>
     <string name="remove_secure_pay_found_virus_dialog">Odstranit dialog o kontrole virů u zabezpečených plateb</string>
