@@ -62,10 +62,10 @@
     <string name="donation_list">Список пожертвований</string>
     <string name="feedback_download">Отзыв и загрузка</string>
     <string name="feedback_download_summary">Telegram каналы, группы, репозитории и т.д.</string>
-    <string name="coolmarket">CoolMarket</string>
+    <string name="coolmarket">Главная страница Cool</string>
     <string name="module_doc">Документация модуля</string>
     <string name="qq_chat_group">Группа в QQ</string>
-    <string name="qq_channel">QQ канал</string>
+    <string name="qq_channel">Канал в QQ</string>
     <string name="telegram_channel">Канал Telegram</string>
     <string name="telegram_group">Группа Telegram</string>
     <string name="lsposed_repo">Репозиторий LSPposed</string>
@@ -108,8 +108,11 @@
     <string name="app_label">Имя приложения</string>
     <string name="package_name">Имя пакета</string>
     <string name="version">Версия</string>
+    
     <!--Android-->
     <string name="remove_gms_usage_restrictions">Удалить ограничения на использование GMS</string>
+    <string name="custom_remote_provisioning_hostname">Пользовательское имя хоста для удаленного предоставления ресурсов</string>
+    <string name="custom_remote_provisioning_hostname_summary">Укажите прокси-сервер, используемый для получения сертификатов подтверждения</string>
     <string name="replace_system_root_state_detection">Заменить определение состояния root системы</string>
     <string name="allow_untrusted_touch">Разрешить нежелательные касания</string>
     <string name="allow_untrusted_touch_summary">Решите проблему, связанную с тем, что некоторые окна или страницы заблокированы и их нельзя коснуться</string>
@@ -119,6 +122,7 @@
     <string name="enable_full_brightness_refresh_rate_minimum_one">Включить минимальную частоту кадров 1 при максимальной яркости дисплея</string>
     <string name="enable_full_brightness_refresh_rate_minimum_one_summary">Некоторые модели могут конфликтовать с \"Игровой помощник\", вызывая мерцание экрана</string>
     <string name="disable_long_press_home_key_start_speech_asssist">Отключить долгое нажатие клавиши \"Домой\" для запуска голосового помощника</string>
+    
     <!-- CorePatch -->
     <string name="ColorOSCorePatchTip">Официальному установщику Color OS необходимо включить другие функции для использования\nСписок функций-Приложения-Установка приложений</string>
     <string name="corepatch">Патчи ядра</string>
@@ -129,13 +133,18 @@
     <string name="authcreak_summary">Отключить проверку подписи при установке приложений, вы можете устанавливать поддельные приложения</string>
     <string name="digestCreak">Отключить проверку подписи APK</string>
     <string name="digestCreak_summary">Разрешить прямое переопределение для установки приложений с разными подписями для одного и того же имени пакета</string>
+    <string name="exactSigCheck">Отключить точное совпадение подписи</string>
+    <string name="exactSigCheck_summary">Отключает точное совпадение подписей между APK-файлами, позволяя устанавливать приложения с разными подписями для каждого разделенного APK-файла. Включайте только при необходимости.</string>
     <string name="UsePreSig">Всегда использовать подпись установленного приложения при установке</string>
     <string name="UsePreSig_summary">Опасно! Включать только в случае крайней необходимости</string>
     <string name="usepresig_warn">!!!Все установщики могут перезаписывать установленные приложения!!! Будьте осторожны при установке приложений из неизвестных источников</string>
+    <string name="bypassBlock">Блок обхода</string>
+    <string name="bypassBlock_summary">Обход черного списка на некоторых устройствах, таких как Nothing Phone.</string>
     <string name="shared_user_title">Обход проверки общего пользователя</string>
     <string name="shared_user_summary">Разрешить установку приложения, подпись которого отличается от общего пользователя (<b>также необходимо включить \"Отключить сравнение подписей\"</b>)</string>
     <string name="disable_verification_agent_title">Отключить сервис проверки пакетов</string>
     <string name="disable_verification_agent_summary">Например Google Play Protection</string>
+    
     <!--Status Bar-->
     <string name="StatusBar">Статусбар и шторка</string>
     <string name="StatusbarEvents">События статусбара и шторки</string>
@@ -143,6 +152,7 @@
     <string name="vibrate_when_opening_the_statusbar">Вибрация при открытии шторки</string>
     <string name="set_click_statusbar_scroll_to_top_mode">Нажатие на статусбар вернёт в начало</string>
     <string name="set_click_statusbar_scroll_to_top_mode_remove_white_list">Удалить лимит белого списка</string>
+    
     <!--StatusBarClock-->
     <string name="StatusBarClock">Часы в статусбаре</string>
     <string name="statusbar_clock_mode">Режим часов в статусбаре</string>
@@ -164,7 +174,13 @@
     <string name="statusbar_clock_custom_format">Формат часов</string>
     <string name="statusbar_clock_custom_fontsize">Размер шрифта часов</string>
     <string name="statusbar_clock_custom_minimum_width">Минимальная ширина часов</string>
+    <string name="statusbar_clock_custom_padding">Пользовательская подложка для часов</string>
+    <string name="statusbar_clock_custom_top_padding">Верхняя часть часов</string>
+    <string name="statusbar_clock_custom_bottom_padding">Нижняя часть часов</string>
+    <string name="statusbar_clock_custom_left_padding">Отступ слева от часов</string>
+    <string name="statusbar_clock_custom_right_padding">Отступ справа от часов</string>
     <string name="statusbar_clock_if_zero_summary">Если 0, эта опция не будет изменена</string>
+    
     <!-- StatusBarNetWorkSpeed -->
     <string name="StatusBarNetWorkSpeed">Скорость сети в статусбаре</string>
     <string name="set_network_speed">Установить частоту обновления скорости сети в статусбаре на 1 секунду</string>
@@ -176,6 +192,7 @@
     <string name="statusbar_network_no_unit">Удалить единицу измерения скорости сети</string>
     <string name="statusbar_network_no_space">Удалить пробел из скорости сети</string>
     <string name="set_network_speed_double_row_spacing">Установить интервал между строками скорости сети</string>
+    
     <!--StatusBarNotify-->
     <string name="StatusBarNotice">Уведомления в статусбаре и шторке</string>
     <string name="StatusBarNotice_summary">Уведомление в статусбаре</string>
@@ -196,12 +213,14 @@
     <string name="remove_smart_rapid_charging_notification">Удалить уведомление \"Умная быстрая зарядка\"</string>
     <string name="remove_notifications_for_mute_notifications">Удалить уведомления для отключенных уведомлений</string>
     <string name="remove_gt_mode_notification">Удалить уведомление о режиме производительности</string>
+    
     <string name="allow_long_press_notification_modifiable">Разрешить изменять уведомления по долгому нажатию</string>
     <string name="remove_notification_manager_limit">Удалить лимит диспетчера уведомлений</string>
     <string name="disable_high_volume_warning_notifications">Отключить уведомления о высокой громкости</string>
     <string name="remove_notification_pin_number_limit">Удалить ограничение на количество закрепленных уведомлений</string>
     <string name="enable_keep_notification_when_app_stop">Включить сохранение уведомлений при остановке приложения</string>
     <string name="enable_global_notification_simple_banner_mode">Включить глобальные уведомления в режиме простого баннера</string>
+    
     <string name="remove_small_window_reply_whitelist">Удалить белый список ответов в маленьком окне</string>
     <string name="set_small_window_reply_blacklist">Установить черный список ответов в маленьком окне</string>
     <string name="set_small_window_reply_blacklist_message">Введите название пакета, который необходимо добавить в черный список</string>
@@ -210,12 +229,14 @@
     <string name="set_custom_music_fluid_cloud_whitelist">Настроить белый список fluid cloud</string>
     <string name="disable_media_music_fluid_cloud_blacklist">Отключить черный список музыки fluid cloud</string>
     <string name="force_enable_media_music_fluid_cloud_ripple">Принудительно включить отображение fluid cloud музыки</string>
+    
     <!--StatusBarIcon-->
     <string name="StatusBarIcon">Иконки в статусбаре</string>
     <string name="StatusBarIcon_summary">Иконки в стоке состояния</string>
     <string name="StatusBarWIFIIcon">Иконка Wi-Fi</string>
     <string name="remove_wifi_data_inout">Удалить стрелки активности Wi-Fi</string>
     <string name="force_display_wifi_standard">Принудительное отображение стандартов сигнала Wi-Fi</string>
+    
     <string name="StatusBarMobileDataIcon">Иконка мобильных данных</string>
     <string name="remove_mobile_data_icon">Удалить иконку мобильных данных</string>
     <string name="remove_mobile_data_inout">Удалить стрелки активности мобильных данных</string>
@@ -223,8 +244,10 @@
     <string name="hide_non_network_card_icon">Скрыть иконки SIM-карт без сети</string>
     <string name="hide_inactive_signal_labels_gen2x2">Скрыть метки неактивных сигналов Gen2x2</string>
     <string name="hide_nosim_noservice">Скрыть иконки SIM-карт без службы</string>
+    
     <string name="StatusBarBluetoothIcon">Иконка Bluetooth</string>
     <string name="hide_icon_when_bluetooth_not_connected">Скрыть иконку при отсутствии подключения к Bluetooth</string>
+    
     <string name="StatusBarOtherIcon">Другие иконки</string>
     <string name="remove_high_performance_mode_icon">Удалить иконку режима высокой производительности</string>
     <string name="remove_statusbar_securepayment_icon">Удалить иконку защиты платежа в статусбаре</string>
@@ -232,11 +255,15 @@
     <string name="remove_system_prompt_icon">Удалить иконку системных подсказок</string>
     <string name="remove_system_prompt_icon_summary">Удалить иконки подсказок в режиме вызова, телетрансляции, записи и точки доступа</string>
     <string name="custom_fluid_cloud_icon_background_transparency">Пользовательская прозрачность фона иконки fluid облака</string>
+    
     <string name="StatusBarSmallIconStatus">Статус маленькой иконки в статусбаре</string>
     <string name="status_bar_icon_vertical_center">Иконка в статусбаре по вертикали по центру</string>
+    
     <!--StatusBarControlCenter-->
     <string name="StatusBarControlCenter">Управление шторкой</string>
+    
     <string name="ControlCenter_Clock_Related">Управление часами</string>
+    <string name="remove_control_center_clock_view">Удалить часы с панели управления</string>
     <string name="control_center_clock_show_second">Часы в шторке показывают секунды</string>
     <string name="statusbar_control_center_clock_colon_style">Стиль двоеточия часов в шторке</string>
     <string name="fix_clock_colon_style">Исправить стиль двоеточия часов</string>
@@ -246,14 +273,17 @@
     <string name="remove_control_center_date_comma">Удалить запятую из даты в шторке</string>
     <string name="fix_control_center_date_display">Исправить отображение даты в шторке</string>
     <string name="fix_control_center_date_display_suammry">Устранить проблему, из-за которой дата может отображаться не полностью</string>
+    
     <string name="ControlCenterNotificationCenter">Уведомления в шторке</string>
     <string name="enable_notification_align_both_sides">Включить выравнивание уведомлений по обе стороны</string>
     <string name="remove_notification_cleanup_button">Удалить кнопку очистки уведомлений</string>
     <string name="enable_notification_importance_classification">Включить классификацию важности уведомлений</string>
     <string name="custom_notification_background_transparency">Прозрачность фона уведомлений</string>
     <string name="enable_notification_background_blur_effect">Включить эффект размытия фона уведомления</string>
+    
     <string name="ControlCenter_Silder_Related">Ползунок центра управления</string>
     <string name="custom_control_center_silder_transparency">Настройка прозрачности ползунка центра управления</string>
+    
     <string name="ControlCenter_UI_Related">Пользовательский интерфейс шторки</string>
     <string name="set_media_player_display_mode">Установить режим отображения медиаплеера</string>
     <string name="set_media_player_display_mode_hide_when_no_meida_player">Скрывать, когда нет воспроизведения</string>
@@ -272,11 +302,14 @@
     <string name="remove_control_center_networkwarn_dialog_and_text">Удалить предупреждение системы безопасности и диалоги</string>
     <string name="remove_control_center_networkwarn_summary">После подключения к VPN в нижней части шторки появится сообщение\nПосле установки сертификата CA сеть можно будет мониторить</string>
     <string name="custom_control_center_background_transparency">Прозрачность фона шторки</string>
+    
     <!--StatusBar Tiles-->
     <string name="StatusBarTiles">Плитки быстрых настроек</string>
     <string name="enable_nfc_delay_shutdown">Включить задержку выключения NFC</string>
     <string name="custom_nfc_delay_shutdown_time">Настроить задержку выключения NFC</string>
     <string name="force_display_of_ringing_status_toggle_tiles">Принудительное отображение плитки переключения статуса звонка</string>
+    <string name="force_display_of_device_controls_tiles">Принудительное отображение плитки контроллера устройства</string>
+    
     <string name="SpecialTiles">Специальные плитки</string>
     <string name="classic_control_center_mode_only">Только классический режим \"Центра управления\"</string>
     <string name="separate_control_center_mode_only">Только отдельный режим \"Центра управления\"</string>
@@ -289,6 +322,7 @@
     <string name="control_center_special_tile_top_gap">Установить верхний разрыв для специальных плиток</string>
     <string name="control_center_special_tile_bottom_gap">Установить верхний разрыв для специальных плиток</string>
     <string name="decrease_horizontal_brightness_bar_top_gap">Уменьшить верхний зазор горизонтальной панели яркости</string>
+    
     <string name="TileLongClickEvent">Долгое нажатие на плитку</string>
     <string name="restore_some_tile_long_press_event">Восстановить некоторые события долгого нажатия на плитки</string>
     <string name="restore_some_tile_long_press_event_summary">Восстановите Wi-Fi, Bluetooth, личную точку доступа и другие события долгого нажатия на плитки, для открытия соответствующих меню</string>
@@ -298,8 +332,10 @@
     <string name="long_press_bluetooth_tile_open_the_page">Долгое нажатие на плитку Bluetooth вызывает меню</string>
     <string name="long_press_screenshot_tile_open_the_page">Долгое нажатие на плитку скриншота вызывает меню</string>
     <string name="long_press_dnd_tile_open_the_page">Долгое нажатие на плитку \"Не беспокоить\" вызывает меню</string>
+    
     <string name="TileStyleRelated">Стиль плиток</string>
     <string name="custom_tile_background_transparency">Настройка прозрачности фона плитки</string>
+    
     <string name="TileLayoutRelated">Разметка быстрых настроек</string>
     <string name="fix_tile_align_both_sides">Исправить выравнивание плиток с обеих сторон</string>
     <string name="fix_tile_align_both_sides_summary">Исправить переполнение макета с обеих сторон, когда шторка настроек не развернута</string>
@@ -310,6 +346,7 @@
     <string name="tile_expanded_columns_horizontal">Развернутые столбцы плиток (горизонтально)</string>
     <string name="tile_expanded_rows_vertical">Развернуть ряды плиток (по вертикали)</string>
     <string name="tile_columns_horizontal_c13">Столбцы плиток (горизонтально)</string>
+    
     <!--StatusBarLayout-->
     <string name="StatusBarLayout">Сетка статусбара</string>
     <string name="statusbar_layout_mode">Режим сетки статусбара</string>
@@ -318,11 +355,13 @@
     <string name="statusbar_layout_left_margin">Отступ в статусбаре слева</string>
     <string name="statusbar_layout_right_margin">Отступ в статусбаре справа</string>
     <string name="statusbar_layout_margin_tip">Если он равен 0, размер отступа не будет изменен</string>
+    
     <!--StatusBarBattery-->
     <string name="StatusBarBattery">Индикатор батареи</string>
     <string name="remove_statusbar_battery_percent">Удалить текст процента заряда батареи из статусбара</string>
     <string name="statusbar_power_font_size">Размер шрифта заряда батареи</string>
     <string name="statusbar_power_apply_to_battery_icon">Применить к иконке батареи</string>
+    
     <!--StatusBarBatteryNotify-->
     <string name="StatusBarBatteryNotify">Уведомление о батарее в шторке</string>
     <string name="battery_information_notify_permanent_display">Постоянное отображение</string>
@@ -340,6 +379,7 @@
     <string name="battery_information_show_update_time">Частота обновления информации о батарее</string>
     <string name="battery_information_show_update_time_summary">Изменить частоту обновления информации о батарее в шторке</string>
     <string name="battery_information_custom_font_size">Размер шрифта информации о батарее</string>
+    
     <string name="battery_status_unknown">Неизвестно</string>
     <string name="battery_status_charging">Зарядка</string>
     <string name="battery_status_discharging">Разрядка</string>
@@ -354,6 +394,7 @@
     <string name="battery_power">Мощность</string>
     <string name="battery_technology">Технология зарядки</string>
     <string name="battery_update_time">Время обновления</string>
+    
     <!--Aod-->
     <string name="AodRelated">AOD</string>
     <string name="remove_aod_music_whitelist">Удалить ограничение виджетов музыки на AOD</string>
@@ -362,6 +403,7 @@
     <string name="set_aod_notification_icon_style">Установить стиль иконки уведомления AOD</string>
     <string name="force_enable_screen_off_music_support">Включить поддержку музыки при отключенном экране</string>
     <string name="force_enable_screen_off_music_support_summary">Применимо только к моделям, которые не поддерживают музыку при отключенном экране</string>
+    
     <string name="AodRandomText">Случайный текст на AOD</string>
     <string name="set_random_text_display_mode">Установить режим случайного отображения текста</string>
     <string name="set_random_text_display_mode_tips1">Необходимо включить персонализированный текст AOD</string>
@@ -370,11 +412,14 @@
     <string name="set_random_text_display_mode_remote_api">Удаленный Api</string>
     <string name="custom_random_text_file">Пользовательский случайный текстовый файл</string>
     <string name="custom_random_text_api">Пользовательский случайный текстовый API</string>
+    
     <string name="AodTypface">Шрифт AOD</string>
     <string name="set_aod_typeface_mode">Установить режим шрифта AOD</string>
     <string name="apply_aod_clock_typeface">Применить шрифт к часам AOD</string>
+    
     <!--LockScreen-->
     <string name="LockScreen">Экран блокировки</string>
+    
     <string name="LockScreenClockComponent">Часы на экране блокировки</string>
     <string name="remove_lock_screen_clock_component">Удалить компонент часов с экрана блокировки</string>
     <string name="lock_screen_clock_redone_mode">Красная цифра 1 в часах на экране блокировки</string>
@@ -385,6 +430,7 @@
     <string name="set_lock_screen_centered">Часы экрана блокировки по центру</string>
     <string name="set_lock_screen_centered_summary">Только для систем, в которых экран блокировки нельзя отцентрировать в настройках</string>
     <string name="lock_screen_clock_use_user_typeface">Часы на экране блокировки используют пользовательские шрифты</string>
+    
     <string name="LockScreenChargingComponent">Информация о зарядке на экране блокировки</string>
     <string name="set_lock_screen_warp_charging_style">Установить стиль зарядки warp</string>
     <string name="set_lock_screen_charging_text_logo_style">Установить стиль текстового логотипа зарядки</string>
@@ -393,11 +439,13 @@
     <string name="force_lock_screen_charging_show_wattage">Принудительно отображать мощность зарядки</string>
     <string name="lock_screen_charging_use_user_typeface">Компоненты зарядки используют пользовательские шрифты</string>
     <string name="set_full_screen_charging_animation_mode">Анимация во весь экран при зарядке</string>
+    
     <string name="LockScreenStatusBar">Статусбар на экране блокировки</string>
     <string name="hide_lock_screen_status_bar_display">Скрыть отображение статусбара на экране блокировки</string>
     <string name="remove_statusbar_carriers">Удалить оператора связи в статусбаре</string>
     <string name="statusbar_custom_carrier_display_text">Текст отображения оператора в статусбаре</string>
     <string name="statusbar_carriers_use_user_typeface">Операторы связи в статусбаре используют пользовательские шрифты</string>
+    
     <string name="LockScreenButton">Кнопки экрана блокировки</string>
     <string name="remove_top_lock_screen_icon">Удалить иконку замка на экране блокировки</string>
     <string name="remove_lock_screen_bottom_left_button">Удалить нижнюю левую кнопку на экране блокировки</string>
@@ -407,21 +455,31 @@
     <string name="remove_lock_screen_close_notification_button">Удалить кнопку закрытия уведомлений на экране блокировки</string>
     <string name="remove_lock_screen_bottom_sos_button">Удалить кнопку экстренного контакта SOS</string>
     <string name="remove_lock_screen_bottom_sos_button_summary">Кнопка экстренного контакта SOS внизу экрана блокировки будет удалена</string>
+    
     <string name="LockScreenEvent">События экрана блокировки</string>
     <string name="auto_wake_up_face_unlock_notification">Уведомления автоматически активируют функцию разблокировки по лицу</string>
     <string name="remove_72hour_password_verification">Удаление аутентификации по паролю через 72 часа</string>
     <string name="remove_72hour_password_verification_summary">Удалить ограничение безопасности, запрещающее использовать отпечаток пальца или разблокировку по лицу, после 72 часов работы смартфона. Вступит в силу после перезагрузки системы</string>
+    
     <!--AlarmClock-->
     <string name="alarmclock_widget_redone_mode">Красная цифра 1 в виджете часов</string>
     <string name="remove_alarmclock_widget_redone">Удалить красную цифру 1 в виджете часов на рабочем столе</string>
     <string name="remove_alarmclock_widget_redone_pro">Удалить красную цифру 1 в виджете часов на рабочем столе</string>
     <string name="remove_alarmclock_widget_redone_pro_summary">Доступно только тогда, когда обычная версия не помогает, иначе это вызовет неизбежную ошибку</string>
+    
     <!--Launcher-->
     <string name="Desktop">Рабочий стол</string>
+    
     <string name="WidgetRelated">Виджеты</string>
+    <string name="remove_launcher_card_name">Удалить название виджета с рабочего стола</string>
     <string name="remove_widgets_add_request_whitelist">Удалить виджеты, чтобы добавить запрос в белый список</string>
+    
     <string name="AppIcon">Иконка приложения</string>
     <string name="allow_app_names_display_multiple_lines">Разрешить отображать названия приложений в несколько строк</string>
+    <string name="custom_app_icon_name_line_height">Высота строки для имени иконки приложения (настраиваемая)</string>
+    <string name="custom_launcher_app_icon_size">Настраиваемый размер иконки приложения для рабочего стола</string>
+    <string name="disable_long_press_app_icon_secondary_menu">Отключить длительное нажатие на иконку приложения во вторичном меню</string>
+    
     <string name="AppBadgeRelated">Иконка приложения</string>
     <string name="enable_display_app_update_dot">Показывать точку над иконкой приложения после обновления</string>
     <string name="enable_display_app_update_dot_summary">Расположение функции: Настройки - Рабочий стол и экран блокировки</string>
@@ -430,6 +488,7 @@
     <string name="remove_app_work_badge">Удалить метку рабочего профиля у приложений</string>
     <string name="remove_app_clone_badge">Удалить метку клонированного приложения</string>
     <string name="remove_app_update_green_dot">Удалить зеленую точку после обновления приложения</string>
+    
     <string name="FolderLayoutRelated">Разметка папки</string>
     <string name="remove_folder_name_input_limit">Убрать ограничение на ввод имени папки</string>
     <string name="enable_auto_close_folder">Включить автоматическое закрытие папок</string>
@@ -438,11 +497,14 @@
     <string name="set_icon_rows_in_folder">Установить количество строк иконок в папке</string>
     <string name="set_icon_columns_in_folder">Задать количество столбцов иконок в папке</string>
     <string name="sync_folder_icon_column_number_preview">Синхронизировать иконку папки с номером столбца для предпросмотра</string>
+    
     <string name="PaginationComponentRelated">Компоненты страницы</string>
     <string name="remove_pagination_component">Удалить компонент разбивки на страницы</string>
     <string name="remove_folder_pagination_component">Удалить компонент разбивки на папки</string>
     <string name="disable_pagination_component_sliding">Отключить свайп компонентов разбивки</string>
+    
     <string name="RecentTaskListRelated">Список недавних задач</string>
+    <string name="enable_recent_task_pin_capsule">Разрешить закрепление последних задач в капсуле</string>
     <string name="force_enable_recent_task_memory_display">Принудительно включить отображение памяти в меню недавних задач</string>
     <string name="disable_auto_switch_last_task">Отключить автоматическое переключение на последнюю задачу</string>
     <string name="enable_stacked_task_layout">Включить раскладку задач</string>
@@ -462,25 +524,36 @@
     <string name="custom_multi_window_display_upper_limit">Верхний предел пользовательского многооконного отображения</string>
     <string name="zoom_window_support_list_summary">Включать при необходимости, в противном случае возникнут непоправимые проблемы</string>
     <string name="force_all_apps_support_split_screen">Разрешить всем приложениям использовать раздельный экран</string>
+    
     <string name="launcher_drawer_layout_related">Разметка папки</string>
     <string name="enable_drawer_layout_double_line_names">Включить двухстрочные имена папок</string>
     <string name="enable_drawer_layout_adjustment">Включить корректировку разметки меню приложений</string>
     <string name="set_icon_columns_in_drawer">Задать кол-во столбцов в меню</string>
+    
     <string name="launcher_layout_related">Сетка рабочего стола</string>
+    <string name="enable_launcher_indicator_entry">Включить выбор кнопок под рабочим столом</string>
+    <string name="custom_desktop_default_home_page">Настраиваемая домашняя страница по умолчанию для рабочего стола</string>
+    <string name="enable_docker_background">Включить отображение фона док-бара</string>
+    <string name="force_enable_docker_background_blur">Принудительное включение размытия фона док-бара</string>
     <string name="remove_docker_max_number_limit">Убрать ограничение на максимальное количество для док-бара</string>
+    <string name="remove_docker_max_number_limit_summary">Количество столбцов такое же, как и в сетке для настольных компьютеров</string>
     <string name="launcher_layout_row_colume">Установите количество строк сетки рабочего стола</string>
     <string name="launcher_layout_enable">Включить/отключить сетку иконок на рабочем столе</string>
     <string name="launcher_layout_max_rows">Количество строк для сетки рабочего стола</string>
     <string name="launcher_layout_max_columns">Количество столбцов для сетки рабочего стола</string>
     <string name="launcher_layout_max_columns_summary">Использование функции опускания иконки, когда количество столбцов больше или равно 6, может привести к сбою рабочего стола.</string>
+    
     <string name="launcher_events">События лаунчера</string>
+    
     <!--Application-->
     <string name="Application">Приложения</string>
+    
     <!--AppStartupRelated-->
     <string name="AppStartupRelated">Запуск приложения</string>
     <string name="disable_splash_screen">Отключить заставку</string>
     <string name="disable_splash_screen_summary">Поскольку анимация заставки была удалена, при запуске приложения будет пауза в 1–2 секунды. Рекомендуется не включать</string>
     <string name="disable_preload_splash">Включить заставку для всех приложений</string>
+    
     <!--APPRelatedList-->
     <string name="APPRelatedList">Список приложений</string>
     <string name="set_multi_app_support_mode">Режим клонирования приложений</string>
@@ -492,16 +565,21 @@
     <string name="remove_wlan_sla_blacklist">Удалить черный список двухканального ускорения Wi-Fi</string>
     <string name="custom_wlan_sla_whitelist">Настраиваемый белый список двухканального ускорения Wi-Fi</string>
     <string name="custom_wlan_sla_game_whitelist">Настраиваемый белый список игр с двухканальным ускорением Wi-Fi</string>
+    
     <string name="multi_app_enable">Включить список замены</string>
     <string name="multi_app_custom_list">Настроить список клонирования приложений</string>
     <string name="multi_app_custom_list_summary">После включения функции исходный список клонов приложений будет заменен этим списком, слишком большое количество приведет к задержкам</string>
     <string name="dark_mode_support_list">Темный режим для приложений</string>
     <string name="enable_dark_mode_list">Включить пользовательские списки</string>
+    
     <!--AppInstallationRelated-->
     <string name="AppInstallationRelated">Установка приложения</string>
     <string name="PackageInstaller_summary">Необходимо использовать с патчем ядра</string>
     <string name="force_enable_32_bit_support">Принудительно включить поддержку 32-бит</string>
     <string name="fix_install_button_display_exception">Исправить ненормальное отображение кнопки установки</string>
+    <string name="fix_install_button_display_exception_summary">В основном решаются такие проблемы, как некорректное отображение кнопок установки и сбои во время установки.</string>
+    <string name="dsiable_start_app_detail">Отключить запуск подробной информации о приложении</string>
+    <string name="dsiable_start_app_detail_summary">Пропустить сканирование сведений о приложении</string>
     <string name="skip_apk_scan">Пропустить сканирование APK</string>
     <string name="skip_apk_scan_summary">Сканирование APK на наличие вирусов</string>
     <string name="allow_downgrade_install">Разрешить установку более ранней версии</string>
@@ -518,12 +596,14 @@
     <string name="show_more_apk_package_information_summary">Отображение имени пакета и кода версии в верхней части страницы установки и т.д.</string>
     <string name="show_more_apk_package_information_current_version">Текущая версия</string>
     <string name="show_more_apk_package_information_iterative_version">Итеративная версия</string>
+    
     <!--ApplyOtherRestrictions-->
     <string name="ApplyOtherRestrictions">Прочие ограничения</string>
     <string name="remove_adb_install_confirm">Удалить подтверждение установки ADB</string>
     <string name="remove_adb_install_confirm_summary">Устанавливать приложения напрямую с помощью ADB</string>
     <string name="unlock_startup_limit">Разблокировать ограничения на автозапуск приложений</string>
     <string name="unlock_startup_limit_summary">Разблокировать ограничения на количество автозапусков приложений</string>
+    
     <!--AppDetailsRelated-->
     <string name="AppDetailsRelated">Сведения о приложении</string>
     <string name="show_package_name_in_app_details">Показывать имя пакета в подробностях приложения</string>
@@ -540,6 +620,7 @@
     <string name="allow_disabling_system_apps_summary">Этот модуль не несет ответственности, если системное приложение не может быть восстановлено из-за действий пользователя</string>
     <string name="remove_app_uninstall_button_blacklist">Удалить черный список кнопки удаления приложения</string>
     <string name="enable_custom_app_language">Включить пользовательский язык приложения</string>
+    
     <!--FloatingWindowDialogRelated-->
     <string name="FloatingWindowDialogRelated">Плавающее окно/Диалоговое окно</string>
     <string name="disable_duplicate_floating_window">Отключить дублирование плавающего окна</string>
@@ -552,15 +633,19 @@
     <string name="remove_warning_dialog_that_app_runs_on_desktop_summary">Диалоговое окно с предупреждением обнаружило, что приложение отображается на рабочем столе системы</string>
     <string name="remove_usb_connect_dialog">Удалить диалоговое окно USB-подключения</string>
     <string name="remove_usb_connect_dialog_summary">Режим передачи файлов по умолчанию при подключении USB</string>
+    
+    
     <string name="remove_access_device_log_dialog">Удалить диалог журнала доступа устройства</string>
     <string name="run_floating_window_tasks_in_foreground">Запускать всплывающие окна на переднем плане</string>
     <string name="custom_volume_dialog_background_transparency">Прозрачность фона панели громкости</string>
     <string name="reduce_power_menu_display_delay">Уменьшить задержку отображения меню питания</string>
     <string name="auto_tap_start_recording_or_casting_dialog">Автоматически нажимать на диалоговое окно начала записи или трансляции</string>
+    
     <!--PhoneManager-->
     <string name="remove_virus_risk_notification_in_phone_manager">Удалить уведомление об угрозе вирусов в диспетчере телефона</string>
     <string name="remove_secure_pay_found_virus_dialog">Удалить диалоговое окно с обнаруженным вирусом безопасной оплаты</string>
     <string name="remove_countdown_add_virus_app_whitelist">Убрать обратный отсчет для добавления в белый список антивирусных приложений</string>
+    
     <!--FingerPrintRelated-->
     <string name="FingerPrintRelated">Отпечаток пальца</string>
     <string name="remove_fingerprint_icon_mode">Удалить иконку отпечатка</string>
@@ -570,6 +655,7 @@
     <string name="replace_fingerprint_icon_switch">Заменить иконку отпечатка пальца</string>
     <string name="replace_fingerprint_icon_switch_summary">Рекомендуемое разрешение изображения около 216 x 216</string>
     <string name="replace_fingerprint_icon_path">Путь к иконке отпечатка пальца</string>
+    
     <!--SoundRelated-->
     <string name="SoundRelated">Звук</string>
     <string name="media_volume_level">Уровень громкости мультимедиа</string>
@@ -580,6 +666,7 @@
     <string name="enable_app_specific_media_volume">Включить громкость мультимедиа для конкретных приложений</string>
     <string name="enable_app_specific_media_volume_summary">Эта функция требует системной поддержки</string>
     <string name="enable_app_specific_media_volume_tips">На некоторых моделях может вызывать сбой пользовательского интерфейса системы из-за неполного системного кода. Пожалуйста, примите меры предосторожности</string>
+    
     <!--Miscellaneous-->
     <string name="Miscellaneous">Разное</string>
     <string name="Miscellaneous_summary">Функции, которые сложно классифицировать, будут размещены здесь</string>
@@ -589,6 +676,7 @@
     <string name="disable_otg_auto_off_summary">Отключить автоматическое отключение OTG через 10 минут</string>
     <string name="remove_storage_limit">Удалить ограничения хранилища</string>
     <string name="remove_storage_limit_summary">Снять ограничение на использование хранилища (папка Android)</string>
+    
     <string name="open_screen_power_save">Открыть режим энергосбережения</string>
     <string name="open_screen_power_save_summary">Настройки - Батарея - Дополнительные настройки - Энергосбережение экрана</string>
     <string name="open_battery_health">Открыть состояние батареи</string>
@@ -599,6 +687,7 @@
     <string name="force_enable_systemui_blur_feature_tips_2">Примечание. При перемещении ползунка яркости в месте уведомления появится размытая область. Это ожидаемое поведение и не требует обратной связи.</string>
     <string name="show_manual_lock_button_power_menu">Показывать кнопку блокировки экрана в меню питания</string>
     <string name="remove_power_menu_sos_button">Удалить кнопку SOS в меню питания</string>
+    
     <!--Battery-->
     <string name="customize_battery_health_data_percentage">Настройте отображение процента состояния батареи</string>
     <string name="display_module_calculates_battery_health_data">Модуль вычисляет данные о состоянии батареи</string>
@@ -608,19 +697,25 @@
     <string name="show_phone_usage_screen_time">Показать время последнего использования экрана</string>
     <string name="remove_battery_temperature_control">Убрать управление температурой батареи</string>
     <string name="remove_battery_temperature_control_summary">Удалить ограничение, которое ограничивает некоторые функции например: камеру, фонарик, точку доступа, механизм отображения экрана и т.д. при перегреве</string>
+    
     <string name="BatteryOptimization">Оптимизация батареи</string>
+    <string name="remove_battery_restrict_plugin">Удалить плагин ограничения зарядки батареи</string>
     <string name="restore_default_battery_optimization_whitelist">Восстановить белый список оптимизации батареи по умолчанию</string>
     <string name="disable_customize_battery_optimization_whiteList">Отключить белый список оптимизации батареи</string>
     <string name="disable_customize_battery_optimization_whiteList_summary">Если приложению вручную предоставлено разрешение \"Игнорировать оптимизацию батареи\", после включения этой функции приложение не будет автоматически добавлено в белый список оптимизации батареи</string>
+    
     <!--Settings-->
     <string name="settings_connection_sharing">Подключение и общий доступ</string>
     <string name="force_display_multi_screen_connect">Принудительное отображение мультиэкранного подключения</string>
+    
     <string name="settings_status_bar">Статусбар и шторка</string>
     <string name="enable_statusbar_clock_format">Включить формат часов в статусбаре</string>
     <string name="enable_statusbar_clock_format_summary">Включить некоторые системы, которые не поддерживают возможность изменения формата часов в статусбаре</string>
+    
     <string name="settings_lock_screen">Экран блокировки</string>
     <string name="enable_show_never_timeout">Включить отображение экрана без тайм-аута</string>
     <string name="enable_show_never_timeout_summary">После включения вы можете увидеть больше опций в настройках</string>
+    
     <string name="settings_display">Экран</string>
     <string name="enable_extra_brightness">Включить повышенную яркость</string>
     <string name="enable_lowest_allowed_brightness">Включить минимально допустимую регулировку яркости</string>
@@ -633,6 +728,7 @@
     <string name="confirm_to_delete_this_configuration">Вы уверены, что хотите удалить эту конфигурацию?\n%1$s</string>
     <string name="edit_memc_configuration_tips">Для получения дополнительных параметров, пожалуйста, отправьте запрос\n%1$s</string>
     <string name="no_memc_data">Нет данных MEMC</string>
+    
     <string name="video_frame_insertion_support_2K120">Динамическая вставка кадров видео поддерживает разрешение 2К 120 Гц (MEMC)</string>
     <string name="video_frame_insertion_support_2K120_summary">Если ваше устройство не поддерживает MEMC, пожалуйста, не используйте эту функцию</string>
     <string name="enable_screen_color_temperature_rgb_ball">Включить круглую цветовую RGB регулировку температуры экрана</string>
@@ -640,6 +736,8 @@
     <string name="enable_screen_color_temperature_rgb_palette_summary">Может быть переопределено функцией DC</string>
     <string name="enable_smart_switching_screen_resolutions">Включить умное переключение разрешения экрана</string>
     <string name="force_enable_reduce_white_point_value">Принудительно включить уменьшение значения белой точки</string>
+    <string name="force_enable_motion_sickness_anti_dizzy">Принудительное включение сигналов движения в транспортном средстве, сигналы движения, укачивание, укачивание в автомобиле, головокружение, тошнота, рвота</string>
+    
     <string name="settings_application">Приложение</string>
     <string name="unlock_default_desktop_limit">Разблокировать ограничения рабочего стола</string>
     <string name="force_display_process_management">Принудительно отображать управление процессами</string>
@@ -647,20 +745,25 @@
     <string name="auto_unlock_restricted_settings">Автоматическая разблокировка ограниченных настроек</string>
     <string name="auto_unlock_restricted_settings_summary">Это ограничение автоматически снимается при нажатии на серый вариант</string>
     <string name="enable_dedicated_ram_for_games">Включить выделенную ОЗУ для игр</string>
+    
     <string name="settings_sound">Звук</string>
     <string name="enable_clear_voice">Включить очистку голоса</string>
     <string name="enable_clear_voice_tips">Требование: необходимо проверить менеджер телефона</string>
     <string name="enable_holographic_audio">Включить голографическое аудио</string>
+    
     <string name="settings_password_and_security">Пароль и безопасность</string>
     <string name="enable_google_auto_fill">Включить автозаполнение Google</string>
     <string name="restore_password_management_settings">Принудительное отображение настроек управления паролем</string>
     <string name="disable_device_admin_verification_dialog">Отключить диалоговое окно проверки администратора устройства</string>
+    
     <string name="settings_authority_and_privacy">Разрешения и конфиденциальность</string>
     <string name="enable_vip_mode">Включить VIP-режим</string>
+    
     <string name="settings_other_advanced_settings">Дополнительные настройки</string>
     <string name="enable_swipe_up_navigation_gesture">Включить жест навигации свайпом вверх</string>
     <string name="enable_touch_membrane_protector_mode">Включить адаптацию касаний</string>
     <string name="enable_game_acceleration">Включить ускорение игры</string>
+    
     <string name="settings_about_device">Об устройстве</string>
     <string name="remove_device_name_change_limit">Удалить ограничения на изменение имени устройства</string>
     <string name="set_processor_click_page">Выберите CPU, чтобы открыть меню в \"Об устройстве\"</string>
@@ -677,13 +780,17 @@
     <string name="customize_device_ota_card_background_path">Путь к фоновому изображению</string>
     <string name="hide_ota_card_top_text">Скрыть верхний текст карты</string>
     <string name="apply_device_parameter_sharing_page">Применить к странице обмена параметрами устройства</string>
+    
     <string name="settings_developer_preference">Параметры разработчика</string>
     <string name="remove_dpi_restart_recovery">Удалить восстановление DPI</string>
     <string name="remove_dpi_restart_recovery_summary">После включения функции и перезапуска области откройте страницу параметров разработчика и установите минимальную ширину</string>
+    
     <string name="settings_other_preference">Другие настройки</string>
     <string name="remove_top_account_display">Удалить отображение аккаунта в настройках</string>
+    
     <string name="remove_settings_bottom_laboratory">Удалить настройки лаборатории</string>
     <string name="force_display_bottom_google_settings">Принудительно показывать Google внизу настроек</string>
+    
     <!--WirelessSettings-->
     <string name="enable_wifi_details_display_gateway">Включить отображение деталей Wi-Fi шлюза</string>
     <!--Camera-->
@@ -694,6 +801,7 @@
     <string name="enable_camera_night_zoom_30x">Включить масштаб 30x для ночных сцен</string>
     <string name="enable_video_capture_roulette_zoom">Включить захват видео и масштабирование рулетки</string>
     <string name="remove_camera_flash_limit">Убрать ограничения на использование вспышки</string>
+    
     <string name="CameraWaterMark">Водяной знак</string>
     <string name="remove_watermark_word_limit">Удалить ограничение символов для пользовательских водяных знаков</string>
     <string name="enable_frame_watermark_style">Включить стиль рамки водяного знака</string>
@@ -702,13 +810,14 @@
     <string name="enable_ai_master_watermark">Включить водяной знак \"Мастер ИИ\"</string>
     <string name="enable_hassel_watermark">Включить водяной знак Hasselblad</string>
     <string name="enable_privacy_watermark">Включить водяной знак конфиденциальности</string>
+    
     <string name="CameraFilter">Фильтр</string>
     <string name="remove_filter_model_limit">Удалить ограничение модели фильтра</string>
     <string name="camera_universal_filter_settings">Настройки универсального фильтра</string>
-    <string name="camera_filter_master">Мастер фильтр</string>
-    <string name="camera_filter_jiangwen">Jiang Wen фильтр</string>
-    <string name="camera_filter_grand_tour">GrandTour фильтр</string>
-    <string name="camera_filter_vignette_grain">Фильтр кино</string>
+    <string name="camera_filter_master">Фильтр \"Мастер\"</string>
+    <string name="camera_filter_jiangwen">Фильтр Jiang Wen</string>
+    <string name="camera_filter_grand_tour">Фильтр GrandTour</string>
+    <string name="camera_filter_vignette_grain">Фильтр \"Кино\"</string>
     <string name="camera_filter_desert">Фильтр \"Легенда пустыни\"</string>
     <string name="camera_filter_tol">Фильтр кино LuChuan</string>
     <string name="camera_filter_zhi_gan">ZhiGan OS15</string>
@@ -717,27 +826,33 @@
     <string name="camera_video_filter_settings">Настройки фильтра видео</string>
     <string name="camera_filter_color_extraction">Багровый/Лесной зелёный/Небесный</string>
     <string name="camera_filter_retention">Цвет в портретном режиме AI</string>
-    <string name="camera_filter_bokeh_flare_portrait">Портрет Блик Боке</string>
+    <string name="camera_filter_bokeh_flare_portrait">Портрет с эффектом боке и бликами</string>
+    
     <string name="enable_10_bit_image_support">Включить поддержку 10-битных изображений</string>
     <string name="enable_10_bit_image_support_summary">Включение этой функции на некоторых моделях может привести к тому, что фото станет зеленым</string>
+    
     <!--Gallery-->
     <string name="GalleryWaterMark">Водяной знак</string>
     <string name="enable_watermark_editing">Включить изменение водяного знака</string>
     <string name="replace_oneplus_model_watermark">Заменить водяной знак модели OnePlus</string>
     <string name="replace_oneplus_model_watermark_summary">При редактировании водяного знака [Снято на OnePlus] будет заменено выбранной моделью</string>
+    
     <string name="GalleryView">Просмотр</string>
     <string name="enable_photo_listview_senior_picked">Включить просмотр списка фото</string>
     <string name="set_photo_view_thumb_line_display_mode">Установить режим отображения миниатюры изображения</string>
+    
     <string name="GalleryEditor">Редактор</string>
     <string name="enable_photo_editor_gif_synthesis">Включить синтез GIF</string>
     <string name="enable_lns_cut_photo">Вырезать часть фото</string>
     <string name="remove_aigc_elimination_limit">Снять ограничения на устранение AIGC</string>
     <string name="remove_aigc_elimination_limit_summary">В основном решает проблемы, которые невозможно устранить из-за нарушений изображения</string>
+    
     <!--OplusGames-->
     <string name="OplusGamesLayout">Разметка</string>
     <string name="remove_startup_animation">Удалить стартовую анимацию</string>
     <string name="remove_welfare_page">Удалить страницу социальных услуг</string>
     <string name="remove_tool_recommendation_card">Удалить карту рекомендации инструментов</string>
+    
     <string name="OplusGamesTool">Инструменты</string>
     <string name="remove_root_check">Удалить определение игрового фильтра</string>
     <string name="remove_root_check_summary">Удалить обнаружение рута из игровых фильтров</string>
@@ -763,15 +878,18 @@
     <string name="remove_game_voice_changer_whitelist">Удалить ограничения для смены голоса</string>
     <string name="remove_game_assistant_temperature_detection">Удалить определение температуры игрового помощника</string>
     <string name="remove_game_assistant_temperature_detection_summary">В основном решает проблему чрезмерной температуры в режиме X</string>
-    <string name="custom_barrage_notification_whitelist">Белый список настраиваемых уведомлений о заграждении</string>
+    <string name="custom_barrage_notification_whitelist">Белый список настраиваемых уведомлений о блокировке</string>
     <string name="custom_barrage_notification_whitelist_message">Добавить приложения, основанные на оригинальном белом списке</string>
+    
     <!--CloudService-->
     <string name="remove_network_limit">Удалить ограничения сети передачи данных</string>
     <string name="remove_network_limit_summary">Удалить ограничение, согласно которому резервное копирование/восстановление не может использовать мобильные данные</string>
     <string name="disable_forced_backup_app_list">Отключить принудительное резервное копирование списка приложений</string>
+    
     <!--ThemeStore-->
     <string name="unlock_themestore_vip">Разблокировать некоторые функции VIP</string>
     <string name="unlock_themestore_vip_summary">Разблокируйте некоторые функции, нажмите на странице сведений о приложении</string>
+    
     <!--Screenshot-->
     <string name="Screenshot">Скриншот экрана</string>
     <string name="remove_system_screenshot_delay">Убрать задержку скриншота системы</string>
@@ -783,28 +901,35 @@
     <string name="remove_page_limit_for_long_screenshots">Удалить ограничение на количество страниц для длинных скриншотов</string>
     <string name="remove_page_limit_for_long_screenshots_summary">Поддерживаются только некоторые сценарии, пожалуйста, проверьте конкретную ситуацию самостоятельно</string>
     <string name="enable_png_save_format">Включить формат сохранения PNG</string>
+    
     <!--OplusOta-->
     <string name="remove_ota_notify_install_success">Удалить уведомление об успешной установке OTA</string>
     <string name="remove_ota_auto_download_dialog">Удалить диалоговое окно автоматической загрузки OTA</string>
+    
     <!--OplusOta-->
-    <string name="get_ota_verify_result">Changed partition</string>
-    <string name="get_ota_verify_result_summary">To perform incremental updates, restore the following partitions to the official image\n[%1$s]</string>
+    <string name="get_ota_verify_result">Измененный раздел</string>
+    <string name="get_ota_verify_result_summary">Для выполнения инкрементных обновлений восстановите следующие разделы в первоначальное состояние\n[%1$s]</string>
     <string name="unlock_local_upgrade">Разблокировать локальное обновление</string>
     <string name="unlock_local_upgrade_summary">После нажатия соответствующие операции будут выполняться автоматически, терпеливо подождите несколько секунд</string>
     <string name="remove_ota_local_update_verity">Удалить проверку локального обновления OTA</string>
+    <string name="enable_opex_local_install">Включить локальную установку Opex</string>
     <string name="disable_dm_verity_verification">Отключение проверки dm-verity</string>
     <string name="restore_ota_update_verity">Возобновить проверку обновления OTA</string>
     <string name="restore_ota_update_verity_summary">Текущее состояние: [%1$s]\nПопробуйте использовать эту функцию, если OTA-обновление выдает ошибку проверки или запрашивает dm-verity\nНе спрашивайте, почему эта функция недоступна, поскольку в системе по умолчанию включена проверка обновлений\nКогда проверка отключена, OTA-обновление не выполняется, поэтому при включении функция блокирует эту функцию</string>
+    
     <!--Extract OTA-->
     <string name="extract_ota_information">Извлечь информацию OTA</string>
     <string name="extract_ota_information_summary">Когда будет получена новая версия, вы можете нажать, чтобы извлечь информацию об OTA</string>
     <string name="no_ota_data">Нет данных OTA</string>
     <string name="extract_ota_source">Извлечь источник</string>
+    
     <!--Pictorial-->
     <string name="remove_image_save_watermark">Удалить водяной знак сохранения изображения</string>
     <string name="remove_video_save_watermark">Удалить водяной знак на видео</string>
+    
     <!--OplusLinker-->
     <string name="force_display_communication_sharing">Принудительное отображение обмена информацией</string>
+    
     <!--OplusGesture-->
     <string name="AonGesture">Жесты AON</string>
     <string name="force_enable_aon_gestures">Принудительно включить жесты AON</string>
@@ -814,24 +939,31 @@
     <string name="custom_aon_gesture_whitelist_tips">Введите имя пакета, который необходимо добавить в белый список</string>
     <string name="enable_volume_key_control_flashlight">Включить управление фонариком кнопками громкости</string>
     <string name="enable_volume_key_control_flashlight_summary">Поддержка выключения фонарика кнопкой питания</string>
+    
     <!--FullScreenGestureRelated-->
     <string name="FullScreenGestureRelated">Полноэкранные жесты</string>
     <string name="remove_side_slider">Удалить боковую панель</string>
     <string name="remove_side_slider_black_background">Убрать черный фон боковой панели</string>
     <string name="remove_rotate_screen_button">Удалить кнопку поворота экрана</string>
     <string name="remove_back_gesture_confirmation_limit">Убрать ограничение на количество подтверждений жестом \"Назад\"</string>
+    
     <string name="CustomSideSliderIcon">Пользовательская иконка боковой панели</string>
     <string name="replace_side_slider_icon_switch">Заменить иконку боковой панели</string>
     <string name="replace_side_slider_icon_switch_summary">Ширина иконки рекомендуется около 100px</string>
     <string name="replace_side_slider_icon_on_left">Заменить иконку боковой панели слева</string>
     <string name="replace_side_slider_icon_on_right">Заменить иконку боковой панели справа</string>
+    
     <!--OplusMMS-->
     <string name="remove_verification_code_floating_window">Удалить плавающее окно с проверочным кодом</string>
+    <string name="remove_mms_bottom_input_box_menu">Удалить меню поля ввода в нижней части экрана</string>
+    <string name="remove_mms_card_marketing_button">Удалить рекламную кнопку в нижней части карточки</string>
+    
     <!--OplusPhone-->
     <string name="force_display_five_g_switch">Принудительно отображать переключатель 5G</string>
     <string name="force_display_preferred_network_type">Принудительно отображать тип сети</string>
     <string name="force_display_volte_calls">Принудительно отображать вызовы VoLTE</string>
     <string name="enable_sound_sealed_call">Включить звукоизолированный вызов</string>
+    
     <!--OplusBrowser-->
     <string name="remove_ads_from_weather_page">Удалить рекламу на странице с информацией о погоде</string>
     <string name="remove_ads_from_weather_page_summary">Внедряет JS на страницу m.weathercn.com для достижения эффекта блокировки рекламы, он подходит для функций, требующих браузера, таких как погода за последние 15 дней, к которой вы переходите через приложение погоды</string>
@@ -839,43 +971,76 @@
     <string name="remove_ads_at_download_page_bottom">Удалить рекламу в нижней части страницы загрузки</string>
     <string name="remove_browser_window_limit_number">Удалить ограничение на количество окон браузера</string>
     <string name="remove_browser_search_bar_app_promotion">Удалить рекламу в строке поиска в браузере</string>
+    
     <!--OplusBreeno-->
     <string name="force_enable_ai_speechassist_call">Принудительно включить  вызов \"Речевого помощника ИИ\"</string>
     <string name="remove_app_recommend_card">Удалить карточку с рекомендациями приложения</string>
     <string name="remove_searchbox_uninstalled_app_suggestions">Удаление предложений по удаленным приложениям</string>
+    <string name="searchbox_default_search_local_tab">Поиск по вкладке \"Локальные\" по умолчанию</string>
+    
     <!--OplusMarket-->
     <string name="remove_market_splash_page_app_recommend">Удалить рекомендации приложений с заставки в магазине</string>
     <string name="remove_market_update_download_page_app_recommend">Удалить рекомендации приложений со страницы загрузки обновлений магазина</string>
     <string name="remove_market_mine_page_app_recommend">Удалить рекомендации приложений со страницы обновления магазина</string>
+    
     <!--OplusWeather-->
     <string name="disable_weather_jump_browser">Отключить переадресацию в браузер из погоды</string>
     <string name="remove_weather_some_page_bottom_ads">Удалить рекламу в нижней части страницы погоды</string>
     <string name="enable_15_day_weather_expand_list">Включить расширенный список погоды на 15 дней</string>
     <string name="restore_rainfall_cloud_map_page">Восстановить страницу облака осадков</string>
+    
     <!--OplusCalendar-->
     <string name="remove_holiday_page_information_flow">Удалить поток информации о праздниках</string>
     <string name="remove_almanac_page_information_flow">Удалить поток информации об альманахе</string>
     <string name="remove_horoscope_page_information_flow">Удаление потока информации о гороскопе</string>
+    
     <!--OplusSmartSidebar-->
     <string name="force_enable_buoy_automatically_hides">Принудительно включить автоматическое скрытие плавающих элементов</string>
     <string name="unlock_transfer_dock">Разблокировать панель передачи файлов</string>
     <string name="unlock_recent_files">Разблокировать последние файлы</string>
     <string name="unlock_fluid_cloud">Разблокировать облако</string>
     <string name="enable_run_in_background">Включить запуск в фоновом режиме</string>
+    <string name="enable_run_in_background_summary">Возможно, вам потребуется установить более старую версию боковой умной панели.</string>
     <string name="enable_game_ai_play">Включить \"Игровой помощник ИИ\"</string>
+    
     <!--OplusSoundRecorder-->
     <string name="enable_record_calls_on_third_party_apps">Включить запись звонков в сторонних приложениях</string>
     <string name="enable_record_calls_on_third_party_apps_tips">Предварительное условие: Необходимо установить \"Запись вызовов в сторонних приложениях (com.oplus.audiomonitor)\", а также дать разрешения на микрофон и работу в фоне</string>
     <string name="enable_record_calls_on_third_party_apps_tips_2">Необходимо предоставить root-права для \"Записи вызовов сторонних приложений\"</string>
     <string name="expand_voip_recorder_whitelist">Белый список расширенных вызовов</string>
+    
     <!--OplusEyeProtect-->
     <string name="enable_eyeprotect_paper_texture_support">Включите поддержку текстуры бумаги для защиты глаз</string>
+    
     <!--OplusBeaconLink-->
     <string name="remove_beacon_link_time_limit">Удалить ограничение по времени beaconlink</string>
+    
     <!--OplusHealth-->
     <string name="remove_health_root_check_dialog">Удалить диалоговое окно обнаружения root</string>
+    
     <!--OplusNfc-->
     <string name="scan_nfc_tag_auto_click">Отсканируйте NFC-метку, чтобы автоматически нажать кнопку</string>
+    
+    <!--OplusOShare-->
+    <string name="remove_oshare_close_countdown">Удалить обратный отсчет закрытия oshare</string>
+    
+    <!--OplusPermissionController-->
+    <string name="remove_storage_permission_exception_dialog">Удалить диалоговое окно с запросом об ошибке разрешения на доступ к хранилищу</string>
+    
+    <!--OplusSecuritypPermission-->
+    <string name="app_start_dialog_use_old_version">Используйте старую версию диалогового окна запуска приложения</string>
+    <string name="enable_always_allow_app_start_dialog">Включить параметр \"Всегда разрешать диалоговое окно запуска приложения\"</string>
+    <string name="remove_always_allow_app_start_list">Удалите список приложений, запуск которых всегда разрешен.</string>
+    <string name="auto_unlock_app_ecm_permission_restrict">Автоматическая разблокировка разрешений приложения, управление авторизацией, ограничения авторизации</string>
+    
+    <!--OplusLinker-->
+    <string name="force_enable_iphone_shared_support">Принудительное включение поддержки общего доступа на iPhone</string>
+    
+    <!--OplusFileManager-->
+    <string name="remove_word_limit_for_saving_files">Снимите ограничение на количество слов при сохранении файлов</string>
+    <string name="remove_word_limit_for_compress_files">Снять ограничение на количество слов для сжатых файлов</string>
+    <string name="remove_word_limit_for_label_name_files">Снять ограничение на количество символов в переименованных файлах</string>
+
     <!--Everyimage-->
     <string name="skip_startup_page">Пропустить стартовую страницу</string>
     <string name="vip_download">Загрузить исходное изображение</string>
@@ -884,6 +1049,7 @@
     <!--ADM-->
     <string name="adm_unlock_pro">Разблокировка Pro</string>
     <string name="adm_unlock_more_threads">Разблокировать больше потоков загрузки</string>
+    
     <!--Home-->
     <string name="fps_title">Принудительная частота обновления экрана</string>
     <string name="fps_summary">Может конфликтовать с другими процессами динамической частоты обновления, такими как dfps</string>
@@ -934,6 +1100,7 @@
     <string name="device_guid">GUID устройства</string>
     <string name="oplusota_copy_tip">Нажмите и удерживайте поле ввода, чтобы скопировать его по отдельности</string>
     <string name="oplusota_copyall">Копировать все</string>
+    
     <!--Donate-->
     <string name="donate_tv_title">Поддержать разработку</string>
     <string name="donate_tv__summary">Нажмите или удерживайте, чтобы пожертвовать разработчику для поддержки будущих обновлений</string>
@@ -943,18 +1110,21 @@
     <string name="donate_info_time">Время</string>
     <string name="donate_info_money">Деньги</string>
     <string name="donate_info_order">Номер заказа</string>
+    
     <!-- Other -->
     <string name="quick_entry">Быстрый вход в систему</string>
     <string name="quick_entry_summary">Например, инструменты настройки системного интерфейса, управление процессами, режим проекта и т.д.</string>
     <string name="tile_list">Модуль встроенного списка плиток</string>
     <string name="tile_list_summary">Быстрое добавление плитки в центр управления</string>
-    <string name="tile_list_click_tips">Click add to control center</string>
+    <string name="tile_list_click_tips">Нажмите \"Добавить в центр управления\"</string>
+    
     <string name="SystemDebuggingRelated">Отладка системы</string>
     <string name="engineering_mode">Инженерный режим</string>
     <string name="charging_test">Тест зарядки</string>
     <string name="developer_option">Параметры разработчика</string>
     <string name="system_interface_adjustment">Настройки SystemUI</string>
     <string name="AOSPSettingsPage">Вид настроек как в AOSP</string>
+    
     <string name="HidePageRelated">Скрытые настройки</string>
     <string name="process_manager">Управление процессом</string>
     <string name="very_dark_mode">Очень тёмный режим</string>
@@ -962,23 +1132,28 @@
     <string name="battery_optimization">Оптимизация батареи</string>
     <string name="camera_algo_page">Страница алгоритмов камеры</string>
     <string name="browser_concise_mode">Режим настройки браузера</string>
+    
     <string name="GameAssistantRelated">Игровой помощник</string>
     <string name="game_assistant_page">Страница игрового помощника</string>
     <string name="game_space_page">Игровой помощник</string>
     <string name="game_assistant_develop_page">Меню разработчика игрового помощника</string>
+    
     <!--Shortcut-->
     <string name="set_module_shortcuts">Установить ярлыки модуля</string>
     <string name="set_module_shortcuts_summary">Нажмите и удерживайте иконку модуля, чтобы отобразить включенные ярлыки</string>
+    
     <!--TouchPanel-->
     <string name="set_touch_sampling_rate_tile_level">Установить уровень частоты дискретизации касания</string>
     <string name="set_touch_sampling_rate_tile_level_summary">Проверьте самостоятельно, можно ли нормально активировать каждый уровень\nКогда вы используете игровой помощник, чтобы открыть игру, текущая частота дискретизации будет перезаписана.</string>
-    <!-- ADB相关 -->
+    
+    <!-- ADB related -->
     <string name="remote_adb_debug_title">Удаленная отладка ADB</string>
     <string name="remote_adb_debug_summary">Пожалуйста, отключите, когда не используется</string>
     <string name="adb_port">Порт ADB</string>
     <string name="enable_remote_adb_debugging">Включить удаленную отладку ADB</string>
     <string name="adb_debug_port_cannot_null">Порт отладки ADB не может быть пустым</string>
     <string name="adb_tv_tip">Удерживайте для копирования</string>
+    
     <!--LOG Fragment-->
     <string name="log_save_success">Лог сохранен!</string>
     <string name="log_save_failed">Лог не сохранён!</string>
@@ -986,6 +1161,7 @@
     <string name="log_no_data">Нет аномальных данных</string>
     <string name="log_filter_title">Поиск по фильтру</string>
     <string name="log_filter_layout_hint">Например, имя пакета, и т.д.</string>
+    
     <!--Tile-->
     <string name="touch_sampling_rate">Частота дискретизации</string>
     <string name="high_brightness_mode">Режим высокой яркости</string>
@@ -995,18 +1171,23 @@
     <string name="display_refresh_rate">Показать/скрыть частоту обновления экрана</string>
     <string name="google_service">Сервисы Google</string>
     <string name="bypass_power">Обходная зарядка</string>
+    <string name="run_in_background">Запуск в фоновом режиме</string>
+    
     <!--Service-->
     <string name="auto_start_service_channel_name">Сервис автозапуска</string>
     <string name="auto_start_service_channel_title">Функция автозапуска запущена…</string>
     <string name="service_auto_start_controller_not_allow_tips">Служба автозапуска работает неправильно, не ограничивайте работу модуля в фоне</string>
+    
     <!--Typeface-->
     <string name="use_user_typeface">Использовать пользовательский шрифт</string>
     <string name="use_bold_font_style">Использовать жирный стиль шрифта</string>
+    
     <!--AppInfo-->
     <string name="appinfo_sort_and_filter">Сортировка и фильтр</string>
     <string name="appinfo_sort_by">Сортировать по</string>
     <string name="appinfo_filter">Фильтр</string>
     <string name="appinfo_reverse">Отменить</string>
+    
     <string name="appinfo_app_name">Имя приложения</string>
     <string name="appinfo_package_name">Имя пакета</string>
     <string name="appinfo_app_size">Размер приложения</string>
@@ -1014,17 +1195,20 @@
     <string name="appinfo_last_updated_time">Время последнего обновления</string>
     <string name="appinfo_target_sdk">Целевая версия SDK</string>
     <string name="appinfo_system_app">Системное приложение</string>
+    
     <!--Intent-->
     <string name="custom_config_app_intent_list">Список намерений приложения пользовательской конфигурации</string>
     <string name="select_all_share_intent">Выбрать все намерения поделиться</string>
     <string name="select_all_text_intent">Выбрать все намерения долгого нажатия на текст</string>
     <string name="select_all_open_intent">Выбрать все намерения открытого режима</string>
     <string name="select_all_browser_intent">Выбрать все намерения браузера</string>
+    
     <!--Intent Type-->
     <string name="intent_share">Поделиться намерением</string>
     <string name="intent_text">Текст намерения</string>
     <string name="intent_open">Намерение открытого режима</string>
     <string name="intent_browser">Намерение браузера</string>
+    
     <string name="intent_single_share">Поделиться одним</string>
     <string name="intent_multi_share">Поделиться несколькими</string>
     <string name="intent_long_press_text">Долгое нажатие на текст</string>
@@ -1032,15 +1216,62 @@
     <string name="intent_open_file">Открыть файл</string>
     <string name="intent_http_link">Ссылка HTTP</string>
     <string name="intent_https_link">Ссылка HTTPS</string>
+    
     <!--CommonWords-->
+    <string name="enable">Включить</string>
+    <string name="disable">Отключить</string>
+    <string name="left">Левая</string>
+    <string name="right">Правая</string>
+    <string name="close">Закрыть</string>
+    <string name="open">Открыть</string>
+    <string name="share">Поделиться</string>
+    <string name="add">Добавить</string>
+    <string name="remove">Удалить</string>
+    <string name="ignore">Игнорировать</string>
+    <string name="default_">По умолчанию</string>
+    <string name="normal">Нормальный</string>
+    <string name="all">Все</string>
+    <string name="special">Специальный</string>
+    <string name="preset">Предустановка</string>
+    <string name="single_line">Одна строка</string>
+    <string name="double_line">Двойная строка</string>
+    <string name="customize">Настроить</string>
+    <string name="current_mode">Текущий режим</string>
+    <string name="refresh">Обновить</string>
+    <string name="save">Сохранить</string>
+    <string name="filter">Фильтр</string>
+    <string name="loading">Загрузка</string>
+    <string name="whitelist">Белый список</string>
+    <string name="blacklist">Черный список</string>
+    <string name="ads">Реклама</string>
+    <string name="reset">Сброс</string>
+    <string name="import_">Импорт</string>
+    <string name="not_set">Не установлено</string>
+    <string name="high">Высокий</string>
+    <string name="middle">Средний</string>
+    <string name="low">Низкий</string>
+    <string name="dynamic">Динамический</string>
+    <string name="bold">Жирный</string>
+    <string name="expand">Расширить</string>
+    <string name="replace">Заменить</string>
+    <string name="recommended_size">Рекомендуемый размер</string>
+    <string name="add_success">Успешно добавлено</string>
+    <string name="add_fail">Не удалось добавить</string>
+    <string name="add_repeat">Повторное добавление</string>
+    <string name="install">Установить</string>
+    <string name="uninstall">Удалить</string>
+    <string name="download_again">Скачать снова</string>
+    
     <!--Permission-->
     <string name="send_notification_permission">Разрешение на отправку уведомлений</string>
     <string name="all_files_access_permission">Все разрешения на доступ к файлам</string>
     <string name="installed_apps_permission">Просмотр прав доступа к списку приложений</string>
     <string name="install_app_permission">Установить разрешения приложения</string>
+    
     <string name="permission_denied_toast">В доступе отказано, пожалуйста, предоставьте разрешение вручную: %1$s</string>
     <string name="permission_error_toast">Не удалось получить разрешение: %1$s</string>
-    <!--Net 网络请求异常-->
+    
+    <!--Net network request exception-->
     <string name="net_connect_error">Не удалось подключиться к сети</string>
     <string name="net_networking_error">Текущая сеть недоступна</string>
     <string name="net_url_error">Ошибка адреса запроса ресурса</string>
@@ -1056,4 +1287,5 @@
     <string name="net_error">Неизвестная сетевая ошибка</string>
     <string name="net_other_error">Неизвестная ошибка</string>
     <string name="no_error_message">Нет сообщения об ошибке</string>
+    
 </resources>
